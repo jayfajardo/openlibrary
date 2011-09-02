@@ -1,0 +1,36 @@
+== Openlibrary 
+
+
+OPENLIBRARY is a simple wrapper for the Openlibrary REST-API.
+
+For more information on the REST calls, you can view the api docuemtation at [http://openlibrary.org/developers/api].
+
+
+== Installation
+
+The gem is tested against Ruby 1.9.2 and runs smoothly with Rails 3.
+
+  gem install openlibrary 
+
+or in your Gemfile:
+
+  gem 'openlibrary'
+
+
+== Usage
+
+You can use the +instance+ method to get a proxy-object:
+
+  # just require
+  require 'openlibrary'
+  
+  # create a client
+  details = Openlibrary::Details
+  
+  # lookup an item with the ISBN-10 or ISBN-13 
+  book = details.search{"0451526538")
+  
+  # have a look at the title of the item
+  book.title
+
+

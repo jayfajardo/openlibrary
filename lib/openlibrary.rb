@@ -47,6 +47,9 @@ module Openlibrary
         book_meta.ebooks = book["ebooks"]
         book_meta.pages = book["pages"]
         book_meta.weight = book["weight"]
+        
+        #for debugging purposes
+        #puts book_meta
 
         book_meta
       else
