@@ -3,7 +3,7 @@
 
 OPENLIBRARY is a simple wrapper for the Openlibrary REST-API.
 
-For more information on the REST calls, you can view the api docuemtation at [http://openlibrary.org/developers/api].
+For more information on the REST calls, you can view the api documentation at [here](http://openlibrary.org/developers/api).
 
 
 == Installation
