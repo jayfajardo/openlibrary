@@ -27,7 +27,7 @@ module Openlibrary
       response = RestClient.get "http://openlibrary.org/api/books?bibkeys=ISBN:#{key}&format=json&jscmd=viewapi"
 
       response_data = JSON.parse(response)
-      view = response_data["ISBN:#{key}"]
+      view = response_data["#{type}:#{key}"]
       if view 
         view_meta = new  
 
