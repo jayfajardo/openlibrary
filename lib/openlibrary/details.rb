@@ -1,25 +1,15 @@
 module Openlibrary
 
-  class Details
-    attr_accessor :url
-    attr_accessor :title
-    attr_accessor :subtitle
-    attr_accessor :authors
-    attr_accessor :identifiers
-    attr_accessor :classifications
-    attr_accessor :subjects, :subject_places, :subject_people, :subject_times
-    attr_accessor :publishers, :publish_places
-    attr_accessor :date_published
-    attr_accessor :excerpts
-    attr_accessor :links
-    attr_accessor :cover
-    attr_accessor :ebooks
-    attr_accessor :pages
-    attr_accessor :weight
+  class Data 
+    attr_accessor :bib_key
+    attr_accessor :info_url
+    attr_accessor :preview
+    attr_accessor :preview_url
+    attr_accessor :thumbnail_utl
 
 
     def self.search(key)
-      response = RestClient.get "http://openlibrary.org/api/books?bibkeys=ISBN:#{key}&format=json&jscmd=data"
+      response = RestClient.get "http://openlibrary.org/api/books?bibkeys=ISBN:#{key}&format=json&jscmd=viewapi"
 
         response_data = JSON.parse(response)
         book = response_data["ISBN:#{key}"]
