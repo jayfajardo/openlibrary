@@ -7,11 +7,27 @@ module Openlibrary
     attr_accessor :preview_url
     attr_accessor :thumbnail_url
 
-    def self.search(key)
+    def self.find_by_isbn(key)
+      find("ISBN",key)
+    end
+
+    def self.find_by_lccn(key)
+      find("LCCN",key)
+    end
+
+    def self.find_by_oclc(key)
+      find("OCLC",key)
+    end
+
+    def self.find_by_goodreads(key)
+      find("GOODREADS",key)
+    end
+
+    def self.find(key)
       response = RestClient.get "http://openlibrary.org/api/books?bibkeys=ISBN:#{key}&format=json&jscmd=viewapi"
 
-        response_data = JSON.parse(response)
-        view = response_data["ISBN:#{key}"]
+      response_data = JSON.parse(response)
+      view = response_data["ISBN:#{key}"]
       if view 
         view_meta = new  
 

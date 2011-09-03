@@ -17,12 +17,27 @@ module Openlibrary
     attr_accessor :pages
     attr_accessor :weight
 
+    def self.find_by_isbn(key)
+      find("ISBN",key)
+    end
 
-    def self.search(key)
-      response = RestClient.get "http://openlibrary.org/api/books?bibkeys=ISBN:#{key}&format=json&jscmd=data"
+    def self.find_by_lccn(key)
+      find("LCCN",key)
+    end
 
-        response_data = JSON.parse(response)
-        book = response_data["ISBN:#{key}"]
+    def self.find_by_oclc(key)
+      find("OCLC",key)
+    end
+
+    def self.find_by_goodreads(key)
+      find("GOODREADS",key)
+    end
+
+    def self.find(type,key)
+      response = RestClient.get "http://openlibrary.org/api/books?bibkeys=#{type}:#{key}&format=json&jscmd=data"
+
+      response_data = JSON.parse(response)
+      book = response_data["ISBN:#{key}"]
       if book 
         book_meta = new  
 
@@ -49,7 +64,7 @@ module Openlibrary
 
         book_meta
       else
-        puts "OPENLIBRARY: #{key} was not found on Openlibrary.org"
+        puts "OPENLIBRARY: Using #{type} with #{key}, not found on Openlibrary.org"
         nil
       end    
     end
