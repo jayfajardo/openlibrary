@@ -19,8 +19,8 @@ module Openlibrary
       find("OCLC",key)
     end
 
-    def self.find_by_goodreads(key)
-      find("GOODREADS",key)
+    def self.find_by_olid(key)
+      find("OLID",key)
     end
 
     def self.find(key)
