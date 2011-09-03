@@ -30,7 +30,15 @@ Initiate your search
   view = Openlibrary::View
   
   # lookup an item with the ISBN-10 or ISBN-13 
-  book_view = view.search{"0451526538")
+  book_view = view.find_by_isbn("0451526538")
+
+or you can use the other built-in finder methods:
+
+  find_by_lccn        # Library of congress catalog number
+  find_by_oclc        # Worldcat Control Number
+  find_by_olid        # Openlibrary ID
+
+Extract the book information:
   
   # have a look at the book's info URL on Openlibrary.org
   book_view.info_url
@@ -44,7 +52,7 @@ You can also retrieve a book's full metadata details.
   details = Openlibrary::Data
   
   # lookup an item with the ISBN-10 or ISBN-13 
-  book_details = details.search{"0451526538")
+  book_details = details.find_by_isbn("0451526538")
   
   # have a look at the book's title
   book_details.title
