@@ -19,8 +19,6 @@ or in your Gemfile:
 
 == Usage
 
-You can use the +instance+ method to get a proxy-object:
-
   # just require
   require 'openlibrary'
   
