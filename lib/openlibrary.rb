@@ -4,6 +4,7 @@ require 'rest-client'
 
 module Openlibrary
 
-  autoload :Details, 'openlibrary/details'
+  autoload :Data, 'openlibrary/data'
+  autoload :View, 'openlibrary/view'
 
 end

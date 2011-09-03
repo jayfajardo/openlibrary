@@ -1,6 +1,6 @@
 module Openlibrary
 
-  class Details
+  class View 
     attr_accessor :bib_key
     attr_accessor :info_url
     attr_accessor :preview
@@ -12,14 +12,14 @@ module Openlibrary
 
         response_data = JSON.parse(response)
         view = response_data["ISBN:#{key}"]
-      if book 
+      if view 
         view_meta = new  
 
-        view_meta.bib_key = book["bib_key"] 
-        view_meta.info_url = book["info_url"]
-        view_meta.preview = book["preview"]
-        view_meta.preview_url = book["preview_url"]
-        view_meta.thumbnail_url = book["thumbnail_url"]
+        view_meta.bib_key = view["bib_key"] 
+        view_meta.info_url = view["info_url"]
+        view_meta.preview = view["preview"]
+        view_meta.preview_url = view["preview_url"]
+        view_meta.thumbnail_url = view["thumbnail_url"]
         
         #for debugging purposes
         #puts view_meta
