@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.email       = ["jmrfajardo@gmail.com"]
   s.homepage    = "http://www.proudcloud.net"
   s.summary     = %q{Ruby Interface for the Openlibrary.org API}
-  s.description = %q{Openlibrary.oeg API Interface}
+  s.description = %q{Openlibrary.org API Interface}
 
   s.rubyforge_project = "openlibrary"
 
