@@ -60,3 +60,6 @@ You can also retrieve a book's full metadata details.
   # or an array of authors 
   book_view.authors
 
+== TO DO
+
+Write Tests
