@@ -23,8 +23,8 @@ module Openlibrary
       find("OLID",key)
     end
 
-    def self.find(key)
-      response = RestClient.get "http://openlibrary.org/api/books?bibkeys=ISBN:#{key}&format=json&jscmd=viewapi"
+    def self.find(type,key)
+      response = RestClient.get "http://openlibrary.org/api/books?bibkeys=#{type}:#{key}&format=json&jscmd=viewapi"
 
       response_data = JSON.parse(response)
       view = response_data["#{type}:#{key}"]
