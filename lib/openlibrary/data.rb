@@ -56,7 +56,7 @@ module Openlibrary
         book_meta.links = book["links"]
         book_meta.cover = book["cover"]
         book_meta.ebooks = book["ebooks"]
-        book_meta.pages = book["pages"]
+        book_meta.pages = book["number_of_pages"]
         book_meta.weight = book["weight"]
         
         #for debugging purposes
