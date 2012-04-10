@@ -51,7 +51,7 @@ module Openlibrary
         book_meta.subject_people = book["subject_people"]
         book_meta.publishers = book["publishers"]
         book_meta.publish_places = book["publish_places"]
-        book_meta.date_published = book["date_published"]
+        book_meta.date_published = book["publish_date"]
         book_meta.excerpts = book["excerpts"]
         book_meta.links = book["links"]
         book_meta.cover = book["cover"]
