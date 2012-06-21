@@ -60,6 +60,13 @@ You can also retrieve a book's full metadata details.
   # or an array of authors 
   book_view.authors
 
+== CONTRIBUTORS
+
+  {Jay Fajardo}[http://github.com/jayfajardo]
+  {Robert Berry}[http://github.com/bdigital]
+  {Eric Larson}[http://github.com/ewlarson]
+  {Charles Horn}[http://github.com/hornc]
+
 == TO DO
 
 Write Tests
