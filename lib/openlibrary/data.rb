@@ -9,7 +9,7 @@ module Openlibrary
     attr_accessor :classifications
     attr_accessor :subjects, :subject_places, :subject_people, :subject_times
     attr_accessor :publishers, :publish_places
-    attr_accessor :date_published
+    attr_accessor :publish_date
     attr_accessor :excerpts
     attr_accessor :links
     attr_accessor :cover
@@ -49,9 +49,10 @@ module Openlibrary
         book_meta.subjects = book["subjects"]
         book_meta.subject_places = book["subject_places"]
         book_meta.subject_people = book["subject_people"]
+        book_meta.subject_times = book["subject_times"]
         book_meta.publishers = book["publishers"]
         book_meta.publish_places = book["publish_places"]
-        book_meta.date_published = book["publish_date"]
+        book_meta.publish_date = book["publish_date"]
         book_meta.excerpts = book["excerpts"]
         book_meta.links = book["links"]
         book_meta.cover = book["cover"]
