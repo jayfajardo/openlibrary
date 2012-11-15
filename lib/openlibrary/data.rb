@@ -34,10 +34,14 @@ module Openlibrary
     end
 
     def self.find(type,key)
-      request_url = "http://openlibrary.org/api/books?bibkeys=#{type}:#{key}&format=json&jscmd=data"
-      response = RestClient.get request_url
+      type_for_uri = URI.encode_www_form_component(type)
+      key_for_uri = URI.encode_www_form_component(key)
+
+      response = RestClient.get "http://openlibrary.org/api/books" +
+        "?bibkeys=#{type_for_uri}:#{key_for_uri}&format=json&jscmd=data"
       response_data = JSON.parse(response)
       book = response_data["#{type}:#{key}"]
+
       if book 
         book_meta = new  
 
@@ -60,12 +64,8 @@ module Openlibrary
         book_meta.pages = book["number_of_pages"]
         book_meta.weight = book["weight"]
         
-        #for debugging purposes
-        #puts book_meta
-
         book_meta
       else
-        puts "OPENLIBRARY: Using #{type} with #{key}, not found on Openlibrary.org"
         nil
       end    
     end
