@@ -41,12 +41,8 @@ module Openlibrary
         view_meta.preview_url = view["preview_url"]
         view_meta.thumbnail_url = view["thumbnail_url"]
         
-        #for debugging purposes
-        #puts view_meta
-
         view_meta
       else
-        puts "OPENLIBRARY: #{key} was not found on Openlibrary.org"
         nil
       end    
     end

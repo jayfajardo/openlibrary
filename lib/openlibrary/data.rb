@@ -64,12 +64,8 @@ module Openlibrary
         book_meta.pages = book["number_of_pages"]
         book_meta.weight = book["weight"]
         
-        #for debugging purposes
-        #puts book_meta
-
         book_meta
       else
-        puts "OPENLIBRARY: Using #{type} with #{key}, not found on Openlibrary.org"
         nil
       end    
     end
