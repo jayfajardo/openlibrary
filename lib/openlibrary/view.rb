@@ -24,10 +24,14 @@ module Openlibrary
     end
 
     def self.find(type,key)
-      response = RestClient.get "http://openlibrary.org/api/books?bibkeys=#{type}:#{key}&format=json&jscmd=viewapi"
+      type_for_uri = URI.encode_www_form_component(type)
+      key_for_uri = URI.encode_www_form_component(key)
 
+      response = RestClient.get "http://openlibrary.org/api/books" +
+        "?bibkeys=#{type_for_uri}:#{key_for_uri}&format=json&jscmd=viewapi"
       response_data = JSON.parse(response)
       view = response_data["#{type}:#{key}"]
+
       if view 
         view_meta = new  
 
@@ -37,12 +41,8 @@ module Openlibrary
         view_meta.preview_url = view["preview_url"]
         view_meta.thumbnail_url = view["thumbnail_url"]
         
-        #for debugging purposes
-        #puts view_meta
-
         view_meta
       else
-        puts "OPENLIBRARY: #{key} was not found on Openlibrary.org"
         nil
       end    
     end
