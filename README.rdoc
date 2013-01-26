@@ -58,7 +58,7 @@ You can also retrieve a book's full metadata details.
   book_details.title
 
   # or an array of authors 
-  book_view.authors
+  book_details.authors
 
 == CONTRIBUTORS
 
