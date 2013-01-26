@@ -62,11 +62,12 @@ You can also retrieve a book's full metadata details.
 
 == CONTRIBUTORS
 
-Jay Fajardo http://github.com/jayfajardo
-Robert Berry http://github.com/bdigital
-Eric Larson http://github.com/ewlarson
-Charles Horn http://github.com/hornc
+* Jay Fajardo https://github.com/jayfajardo
+* Robert Berry https://github.com/bdigital
+* Eric Larson https://github.com/ewlarson
+* Charles Horn https://github.com/hornc
+* John Shutt https://github.com/pemulis
 
 == TO DO
 
-Write Tests
+Write tests for view and data methods.
