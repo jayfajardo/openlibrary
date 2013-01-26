@@ -20,6 +20,15 @@ describe Openlibrary::View do
 	it { should respond_to(:preview) }
 	it { should respond_to(:preview_url) }
 	it { should respond_to(:thumbnail_url) }
+
+	describe "finding a book by isbn" do
+		before { @book_view.find_by_isbn('0451526538') }
+		its [:bib_key] { should == 'ISBN:0451526538' }
+		its [:info_url] { should == 'http://openlibrary.org/books/OL1017798M/The_adventures_of_Tom_Sawyer' }
+		its [:preview] { should == 'noview' }
+		its [:preview_url] { should == 'http://openlibrary.org/books/OL1017798M/The_adventures_of_Tom_Sawyer' }
+		its [:thumbnail_url] { should == 'http://covers.openlibrary.org/b/id/295577-S.jpg' }
+	end
 end
 
 describe Openlibrary::Data do

@@ -1,5 +1,6 @@
 require 'rspec'
 require 'openlibrary'
+require 'lib/openlibrary/view.rb'
 
 RSpec.configure do |config|
   config.color_enabled = true

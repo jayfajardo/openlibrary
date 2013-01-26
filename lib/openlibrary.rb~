@@ -1,5 +1,4 @@
 require 'openlibrary/version'
-require 'openlibrary/view.rb'
 require 'json'
 require 'rest-client'
 require 'uri'
