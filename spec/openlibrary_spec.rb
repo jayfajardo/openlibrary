@@ -51,14 +51,3 @@ describe Openlibrary::Data do
 	it { should respond_to(:pages) }
 	it { should respond_to(:weight) }
 end
-
-describe "Find book view by ISBN" do
-	before do
-		@view = Openlibrary::View
-		@book_view = @view.find_by_isbn("0451526538")
-	end
-	
-	subject { @book_view }
-
-	subject.bib_key { should == "ISBN:0451526538" }
-end

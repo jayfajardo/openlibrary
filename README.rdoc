@@ -66,8 +66,7 @@ You can also retrieve a book's full metadata details.
 * Robert Berry https://github.com/bdigital
 * Eric Larson https://github.com/ewlarson
 * Charles Horn https://github.com/hornc
-* John Shutt https://github.com/pemulis
 
 == TO DO
 
-Write tests for view and data methods.
+Write more tests.
