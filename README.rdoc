@@ -1,9 +1,9 @@
 == Openlibrary 
 
 
-OPENLIBRARY is a simple wrapper for the Openlibrary REST-API.
+OPENLIBRARY is a simple wrapper for the Open Library REST-API.
 
-For more information on the REST calls, you can view the api documentation at [here](http://openlibrary.org/developers/api).
+For more information on the REST calls, you can view the Open Library Books API documentation here[http://openlibrary.org/dev/docs/api/books], or visit the {Open Library Developer Center}[http://openlibrary.org/developers/api].
 
 
 == Installation
@@ -19,7 +19,7 @@ or in your Gemfile:
 
 == Usage
 
-You can retrieve a book's Openlibrary listing information.
+You can retrieve a book's Open Library listing information.
 
   # just require
   require 'openlibrary'
@@ -66,7 +66,8 @@ You can also retrieve a book's full metadata details.
 * Robert Berry https://github.com/bdigital
 * Eric Larson https://github.com/ewlarson
 * Charles Horn https://github.com/hornc
+* John Shutt https://github.com/pemulis
 
 == TO DO
 
-Write more tests.
+Write tests for the API calls themselves. 
