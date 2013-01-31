@@ -67,7 +67,4 @@ You can also retrieve a book's full metadata details.
 * Eric Larson https://github.com/ewlarson
 * Charles Horn https://github.com/hornc
 * John Shutt https://github.com/pemulis
-
-== TO DO
-
-Write tests for the API calls themselves. 
+* Alex Grant https://github.com/grantovich
