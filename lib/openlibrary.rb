@@ -1,4 +1,4 @@
-require "openlibrary/version"
+require 'openlibrary/version'
 require 'json'
 require 'rest-client'
 require 'uri'

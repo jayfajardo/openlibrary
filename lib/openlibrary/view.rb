@@ -48,6 +48,4 @@ module Openlibrary
     end
   end
 
-
 end
-
