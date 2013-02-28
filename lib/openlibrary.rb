@@ -2,8 +2,8 @@ require 'openlibrary/version'
 require 'json'
 require 'rest-client'
 require 'uri'
-autoload :Data, 'openlibrary/data'
-autoload :View, 'openlibrary/view'
+autoload :Data,   'openlibrary/data'
+autoload :View,   'openlibrary/view'
 autoload :Client, 'openlibrary/client'
 
 module Openlibrary

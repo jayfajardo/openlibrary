@@ -1,3 +1,5 @@
+autoload :Books, 'openlibrary/client/books'
+
 module Openlibrary
   class Client
     attr_reader :username, :password
