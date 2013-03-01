@@ -21,7 +21,7 @@ end
 
 def fixture_path(file=nil)
   path = File.expand_path("../fixtures", __FILE__)
-  file.nil ? path : File.join(path, file)
+  file.nil? ? path : File.join(path, file)
 end
 
 def fixture(file)
