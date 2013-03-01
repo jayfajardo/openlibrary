@@ -1,7 +1,11 @@
-autoload :Books, 'openlibrary/client/books'
+require 'openlibrary/request'
+require 'openlibrary/client/books'
 
 module Openlibrary
   class Client
+    include Openlibrary::Request
+    include Openlibrary::Books
+
     attr_reader :username, :password
 
     # Initialize an Openlibrary::Client instance
@@ -14,8 +18,8 @@ module Openlibrary
         raise ArgumentError, "Options hash required."
       end
 
-      @username = options[:username]
-      @password = options[:password]
+      @username = options[:username] || Openlibrary.configuration[:username]
+      @password = options[:password] || Openlibrary.configuration[:password]
     end
   end
 end

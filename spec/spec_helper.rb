@@ -1,5 +1,7 @@
-require 'rspec'
+$:.unshift File.expand_path("../..", __FILE__)
+
 require 'openlibrary'
+require 'rspec'
 require 'rest-client'
 require 'webmock'
 require 'webmock/rspec'

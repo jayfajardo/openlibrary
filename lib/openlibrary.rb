@@ -2,11 +2,13 @@ require 'openlibrary/version'
 require 'openlibrary/data'
 require 'openlibrary/view'
 require 'openlibrary/client'
-require 'json'
-require 'rest-client'
-require 'uri'
+require 'openlibrary/errors'
+require 'openlibrary/request'
 
 module Openlibrary
+  # Class variable to hold username and password configuration
+  #
+  @@options = {}
 
   # Create a new Openlibrary::Client instance
   # 
