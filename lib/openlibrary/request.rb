@@ -12,17 +12,16 @@ module Openlibrary
     # Perform an API request
     #
     # path   - Request path
-    # params - Parameters hash
     #
-    def request(path, params={})
-      username = username || Openlibrary.configuration[:username]
-      password = password || Openlibrary.configuration[:password]
+    def request(path)
+      # This code is for future versions that allow user login.
+      # 
+      # username = username || Openlibrary.configuration[:username]
+      # password = password || Openlibrary.configuration[:password]
 
-      params.merge!( accept: :json, username: username, password: password)
+      url = "#{API_URL}#{path}.json"
 
-      url = "#{API_URL}#{path}"
-
-      resp = RestClient.get(url, params: params) do |response, request, result, &block|
+      resp = RestClient.get(url) do |response, request, result, &block|
         case response.code
         when 200
           response.return!(request, result, &block)

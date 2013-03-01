@@ -18,8 +18,10 @@ module Openlibrary
         raise ArgumentError, "Options hash required."
       end
 
-      @username = options[:username] || Openlibrary.configuration[:username]
-      @password = options[:password] || Openlibrary.configuration[:password]
+      # For future versions that include the ability to log in
+      # 
+      #  @username = options[:username] || Openlibrary.configuration[:username]
+      #  @password = options[:password] || Openlibrary.configuration[:password]
     end
   end
 end

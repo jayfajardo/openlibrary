@@ -11,10 +11,8 @@ RSpec.configure do |config|
   config.formatter     = 'documentation'
 end
 
-def stub_get(path, params, fixture_name)
-  params[:format] = 'json'
+def stub_get(path, fixture_name)
   stub_request(:get, api_url(path)).
-    with(:query => params).
     to_return(
       :status => 200,
       :body => fixture(fixture_name)
