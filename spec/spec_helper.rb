@@ -12,10 +12,12 @@ RSpec.configure do |config|
 end
 
 def stub_get(path, fixture_name)
-  stub_request(:get, "#{api_url(path)}").
+  stub_request(:get, api_url(path)).
+    with(:headers => {'Accept'=>'application/json'}).
     to_return(
-      :status => 200,
-      :body => fixture(fixture_name)
+      :status => 200, 
+      :body => fixture(fixture_name), 
+      :headers => {}
     )
 end
 

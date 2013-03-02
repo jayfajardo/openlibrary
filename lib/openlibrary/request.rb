@@ -2,6 +2,7 @@ require 'rest-client'
 require 'active_support/core_ext'
 require 'json'
 require 'uri'
+require 'hashie'
 
 module Openlibrary
   module Request
@@ -19,9 +20,9 @@ module Openlibrary
       # username = username || Openlibrary.configuration[:username]
       # password = password || Openlibrary.configuration[:password]
 
-      url = "#{API_URL}#{path}.json"
+      url = "#{API_URL}#{path}"
 
-      resp = RestClient.get(url) do |response, request, result, &block|
+      resp = RestClient.get(url, { accept: :json }) do |response, request, result, &block|
         case response.code
         when 200
           response.return!(request, result, &block)

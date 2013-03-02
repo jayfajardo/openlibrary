@@ -18,7 +18,7 @@ describe 'Client' do
   describe '#book' do
     before do
       olid = 'OL23109860M'
-      stub_get("/book/show/#{olid}", 'book.json')
+      stub_get("/books/#{olid}", 'book.json')
     end
 
     it 'returns a book by its OLID' do
