@@ -1,16 +1,20 @@
 require 'openlibrary/version'
-require 'json'
-require 'rest-client'
-require 'uri'
+require 'openlibrary/data'
+require 'openlibrary/view'
+require 'openlibrary/client'
+require 'openlibrary/errors'
+require 'openlibrary/request'
 
 module Openlibrary
-
-  autoload :Data, 'openlibrary/data'
-  autoload :View, 'openlibrary/view'
-
-  def self.version_string
-    "Openlibrary version #{Openlibrary::VERSION}"
+  # Create a new Openlibrary::Client instance
+  # 
+  def self.new(options={})
+    Openlibrary::Client.new(options)
   end
 
-
+  # Return the openlibrary gem version
+  #
+  def self.version
+    "Openlibrary version #{Openlibrary::VERSION}"
+  end
 end

@@ -18,8 +18,11 @@ Gem::Specification.new do |s|
   s.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   s.require_paths = ["lib"]
 
-  # specify any dependencies here; for example:
-  s.add_development_dependency "rspec"
-  s.add_runtime_dependency "json"
-  s.add_runtime_dependency "rest-client"
+  s.add_development_dependency 'rspec',   '~> 2.13'
+  s.add_development_dependency 'webmock', '~> 1.6'
+
+  s.add_runtime_dependency 'json',          '~> 1.7.7'
+  s.add_runtime_dependency 'rest-client',   '~> 1.6'
+  s.add_runtime_dependency 'hashie',        '~> 1.0'
+  s.add_runtime_dependency 'activesupport', '~> 3'
 end
