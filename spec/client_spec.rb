@@ -20,16 +20,20 @@ describe 'Client' do
       olid = 'OL23109860M'
       stub_get("/books/#{olid}", 'book.json')
     end
-
-    it 'returns a book by its OLID' do
+    it 'returns book details' do
       expect { client.book('OL23109860M') }.not_to raise_error
-    end
 
-    it 'returns correct book details' do
       book = client.book('OL23109860M')
 
       book.should be_a Hashie::Mash
-      book.should respond_to :title
+      book.contributors.should be_a        Array
+      book.covers.should be_a              Array
+
+      book.title.should eq                 'The Great Gatsby'
+      book.by_statement.should eq          'F. Scott Fitzgerald.'
+      book.contributors[0].name.should eq  'Francis Cugat'
+      book.contributors[0].role.should eq  'Cover Art'
+      book.copyright_date.should eq        '1925'
     end
   end
 end
