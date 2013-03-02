@@ -1,12 +1,12 @@
 require 'spec_helper'
 
-describe Openlibrary do
+describe 'Openlibrary' do
   it 'should return correct version string' do
-    Openlibrary.version_string.should == "Openlibrary version #{Openlibrary::VERSION}"
+    Openlibrary.version.should == "Openlibrary version #{Openlibrary::VERSION}"
   end
 end
 
-describe Openlibrary::View do
+describe 'Openlibrary::View' do
 	before do
 		@book_view = Openlibrary::View.new
 	end
@@ -22,7 +22,7 @@ describe Openlibrary::View do
 	it { should respond_to(:thumbnail_url) }
 end
 
-describe Openlibrary::Data do
+describe 'Openlibrary::Data' do
 	before do
 		@book_data = Openlibrary::Data.new
 	end
