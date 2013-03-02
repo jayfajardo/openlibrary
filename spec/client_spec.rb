@@ -31,6 +31,7 @@ describe 'Client' do
 
       book.title.should eq                 'The Great Gatsby'
       book.by_statement.should eq          'F. Scott Fitzgerald.'
+      book.number_of_pages.should eq       180
       book.contributors[0].name.should eq  'Francis Cugat'
       book.contributors[0].role.should eq  'Cover Art'
       book.copyright_date.should eq        '1925'
