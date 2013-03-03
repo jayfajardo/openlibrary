@@ -59,6 +59,8 @@ describe 'Client' do
     end
     it 'returns array of books' do
       expect { client.book_by_isbn('046503912X').not_to raise_error }
+      expect { client.book_by_isbn('123').
+        to raise_error ArgumentError, "ISBN must be 10 or 13 characters." }
 
       books = client.book_by_isbn('046503912X')
 
@@ -92,7 +94,7 @@ describe 'Client' do
                'book_by_oclc.json')
     end
     it 'returns array of books' do
-      expect { client.book_by_oclc('42860053').not_to rasie_error }
+      expect { client.book_by_oclc('42860053').not_to raise_error }
 
       books = client.book_by_oclc('42860053')
 

@@ -13,6 +13,8 @@ module Openlibrary
         data = query("type=#{type}&isbn_10=#{isbn}")
       elsif isbn.length == 13
         data = query("type=#{type}&isbn_13=#{isbn}")
+      else
+        raise ArgumentError, "ISBN must be 10 or 13 characters."
       end
     end
 
