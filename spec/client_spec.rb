@@ -37,4 +37,27 @@ describe 'Client' do
       book.copyright_date.should eq        '1925'
     end
   end
+
+  describe '#author' do
+    before do
+      key = 'OL1A'
+      stub_get("/authors/#{key}", 'author.json')
+    end
+
+    it 'returns author details' do
+      expect { client.author('OL1A') }.not_to raise_error
+      
+      author = client.author('OL1A')
+
+      author.should be_a Hashie::Mash
+      author.name.should eq                'Sachi Rautroy'
+      author.personal_name.should eq       'Sachi Rautroy'
+      author.death_date.should eq          '2004'
+      author.birth_date.should eq          '1916'
+      author.last_modified.type.should eq  '/type/datetime'
+      author.last_modified.value.should eq '2008-11-16T07:25:54.131674'
+      author.id.should eq                  97
+      author.revision.should eq            6
+    end
+  end
 end

@@ -1,10 +1,12 @@
 require 'openlibrary/request'
 require 'openlibrary/client/books'
+require 'openlibrary/client/authors'
 
 module Openlibrary
   class Client
     include Openlibrary::Request
     include Openlibrary::Books
+    include Openlibrary::Authors
 
     attr_reader :username, :password
 
