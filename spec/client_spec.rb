@@ -50,6 +50,57 @@ describe 'Client' do
     end
   end
 
+  describe '#book_by_isbn' do
+    before do
+      isbn_10 = '046503912X'
+      type = '/type/edition'
+      stub_get("/query.json?type=#{type}&isbn_10=#{isbn_10}", 
+               'book_by_isbn.json')
+    end
+    it 'returns array of books' do
+      expect { client.book_by_isbn('046503912X').not_to raise_error }
+
+      books = client.book_by_isbn('046503912X')
+
+      books.should be_a Array 
+      books[0].should be_a Hash
+    end
+  end
+
+  describe '#book_by_lccn' do
+    before do
+      lccn = '00271772'
+      type = '/type/edition'
+      stub_get("/query.json?type=#{type}&lccn=#{lccn}",
+               'book_by_lccn.json')
+    end
+    it 'returns array of books' do
+      expect { client.book_by_lccn('00271772').not_to raise_error }
+
+      books = client.book_by_lccn('00271772')
+
+      books.should be_a Array
+      books[0].should be_a Hash
+    end
+  end
+
+  describe '#book_by_oclc' do
+    before do
+      oclc = '42860053'
+      type = '/type/edition'
+      stub_get("/query.json?type=#{type}&oclc_numbers=#{42860053}",
+               'book_by_oclc.json')
+    end
+    it 'returns array of books' do
+      expect { client.book_by_oclc('42860053').not_to rasie_error }
+
+      books = client.book_by_oclc('42860053')
+
+      books.should be_a Array
+      books[0].should be_a Hash
+    end
+  end
+
   describe '#author' do
     before do
       key = 'OL1A'
