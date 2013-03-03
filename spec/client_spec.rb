@@ -26,15 +26,21 @@ describe 'Client' do
       book = client.book('OL23109860M')
 
       book.should be_a Hashie::Mash
-      book.contributors.should be_a        Array
-      book.covers.should be_a              Array
+      book.contributors.should be_a Array
+      book.covers.should be_a       Array
+      book.works.should be_a        Array
 
-      book.title.should eq                 'The Great Gatsby'
-      book.by_statement.should eq          'F. Scott Fitzgerald.'
-      book.number_of_pages.should eq       180
-      book.contributors[0].name.should eq  'Francis Cugat'
-      book.contributors[0].role.should eq  'Cover Art'
-      book.copyright_date.should eq        '1925'
+      book.title.should eq                    'The Great Gatsby'
+      book.by_statement.should eq             'F. Scott Fitzgerald.'
+      book.number_of_pages.should eq          180
+      book.contributors[0].name.should eq     'Francis Cugat'
+      book.contributors[0].role.should eq     'Cover Art'
+      book.copyright_date.should eq           '1925'
+      book.isbn_10[0].should eq               '0743273567'
+      book.identifiers.goodreads[0].should eq '4671'
+      book.identifiers.google[0].should eq    'iXn5U2IzVH0C'
+      book.physical_format.should eq          'Trade Paperback'
+      book.publishers[0].should eq            'Scribner'
     end
   end
 
