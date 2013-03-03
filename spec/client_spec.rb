@@ -144,4 +144,19 @@ describe 'Client' do
       history[0].should be_a Hash
     end
   end
+
+  describe '#recent' do
+    before do
+      stub_get("/recentchanges", 'recent.json')
+    end
+
+    it 'returns recent changes to Open Library' do
+      expect { client.recent.not_to raise_error }
+
+      changes = client.recent
+
+      changes.should be_a Array
+      changes[0].should be_a Hash
+    end
+  end
 end

@@ -1,4 +1,4 @@
-== Openlibrary 
+== Openlibrary 1.0.1 
 
 
 The openlibrary gem is a simple wrapper for the Open Library REST API.
