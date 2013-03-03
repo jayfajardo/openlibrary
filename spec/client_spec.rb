@@ -41,6 +41,12 @@ describe 'Client' do
       book.identifiers.google[0].should eq    'iXn5U2IzVH0C'
       book.physical_format.should eq          'Trade Paperback'
       book.publishers[0].should eq            'Scribner'
+
+      # Because of a conflict with the internal `key?` method of 
+      # Hashie::Mash, any key actually named 'key' must be referenced 
+      # with a bang (!) to get the value.
+      book.key!.should eq                     '/books/OL23109860M'
+      book.languages[0].key!.should eq           '/languages/eng'
     end
   end
 
@@ -64,6 +70,11 @@ describe 'Client' do
       author.last_modified.value.should eq '2008-11-16T07:25:54.131674'
       author.id.should eq                  97
       author.revision.should eq            6
+
+      # Because of a conflict with the internal `key?` method of 
+      # Hashie::Mash, any key actually named 'key' must be referenced 
+      # with a bang (!) to get the value.
+      author.key!.should eq                '/authors/OL1A'
     end
   end
 end
