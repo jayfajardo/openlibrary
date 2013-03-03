@@ -128,4 +128,20 @@ describe 'Client' do
       author.key!.should eq                '/authors/OL1A'
     end
   end
+
+  describe '#rev_history' do
+    before do
+      key = '/books/OL1M'
+      stub_get("#{key}.json?m=history", 'history.json')
+    end
+
+    it 'returns the revision history of an object' do
+      expect { client.rev_history('/books/OL1M') }.not_to raise_error
+
+      history = client.rev_history('/books/OL1M')
+
+      history.should be_a Array
+      history[0].should be_a Hash
+    end
+  end
 end
