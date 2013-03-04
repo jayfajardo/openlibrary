@@ -161,4 +161,25 @@ describe 'Client' do
       changes[0].should be_a Hash
     end
   end
+
+  describe '#editions' do
+    before do
+      work = 'OL27258W'
+      stub_get("/works/#{work}/editions.json?limit=10&offset=0", 'editions.json')
+    end
+
+    it 'returns the editions of a work' do
+      expect { client.editions('OL27258W') }.not_to raise_error
+
+      editions = client.editions('OL27258W', 10, 0)
+
+      editions.should be_a Hashie::Mash
+      editions.entries.should be_a Array
+
+      editions.size!.should eq      19
+      editions.links.next.should eq '/works/OL27258W/editions.json?limit=10&offset=10'
+      editions.links.self.should eq '/works/OL27258W/editions.json?limit=10'
+      editions.links.work.should eq '/works/OL27258W'
+    end
+  end
 end
