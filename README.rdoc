@@ -1,9 +1,8 @@
 == Openlibrary 1.0.1 
 
+The openlibrary gem provides Ruby clients for the {Open Library REST API}[http://openlibrary.org/dev/docs/restful_api] and {Books API}[http://openlibrary.org/dev/docs/api/books].
 
-The openlibrary gem is a simple wrapper for the Open Library REST API.
-
-For more information about the REST calls, visit the {Open Library API documentation}[http://openlibrary.org/dev/docs/restful_api]. For information about how Openlibrary::View and Openlibrary::Data are implemented, visit the {Books API documentation}[http://openlibrary.org/dev/docs/api/books]. For information about Open Library development in general, visit the {Open Library Developer Center}[http://openlibrary.org/developers/api] and {Developer Notes}[http://openlibrary.org/dev], and subscribe to the {Open Library Tech mailing list}[http://mail.archive.org/cgi-bin/mailman/listinfo/ol-tech] for the latest updates.
+For more information about Open Library development, visit the {Open Library Developer Center}[http://openlibrary.org/developers/api] and {Developer Notes}[http://openlibrary.org/dev]. If you want to receive the latest updates and learn how to contribute, join us on the {ol-tech mailing list}[http://mail.archive.org/cgi-bin/mailman/listinfo/ol-tech]!
 
 
 == Installation
@@ -19,46 +18,75 @@ or in your Gemfile:
 
 == Usage
 
-You can retrieve a book's Open Library listing information.
+You can use the Books client to retrieve a book's Open Library listing information, and the REST client to make broader queries.
 
   # just require
   require 'openlibrary'
 
-Initiate your search 
+== REST Client 
 
-  # create a class proxy 
-  view = Openlibrary::View
-  
-  # lookup an item with the ISBN-10 or ISBN-13 
-  book_view = view.find_by_isbn("0451526538")
+Documentation coming soon!
 
-or you can use the other built-in finder methods:
+== Books Client
 
-  find_by_lccn        # Library of congress catalog number
-  find_by_oclc        # Worldcat Control Number
-  find_by_olid        # Openlibrary ID
+There are two classes to access the Books API. Openlibrary::View can be used to look up Open Library listing information. Openlibrary::Data can be used to find a book's full metadata details.
 
-Extract the book information:
-  
-  # have a look at the book's info URL on Openlibrary.org
-  book_view.info_url
+=== Openlibrary::View
 
-  # or grab the URL of the book's thumbnail as shown on Openlibrary.org
-  book_view.thumbnail_url
+Instantiating the class:
 
-You can also retrieve a book's full metadata details.
-  
-  # create a class proxy 
-  details = Openlibrary::Data
-  
-  # lookup an item with the ISBN-10 or ISBN-13 
-  book_details = details.find_by_isbn("0451526538")
-  
-  # have a look at the book's title
-  book_details.title
+```ruby
+view = Openlibrary::View
+```
 
-  # or an array of authors 
-  book_details.authors
+Look up a book by its ISBN-10 or ISBN-13:
+
+```ruby
+book = view.find_by_isbn("0451526538")
+
+book.info_url      # book's URL on Open Library
+book.preview       # book's preview state, either 'noview' or 'full'
+book.thumbnail_url # url of thumbnail cover of the book, if available
+
+book.preview_url   # Links to an archive.org page with a readable 
+                   # version of the book, if one is available. If 
+                   # not, links to the book's Open Library page.
+                   # `book.preview` should be used first to test if a 
+                   # readable preview of the book exists.
+```
+
+Other built-in finder methods:
+
+```ruby
+view.find_by_lccn   # Library of Congress catalog number
+view.find_by_oclc   # Worldcat Control Number
+view.find_by_olid   # Open Library ID
+```
+
+=== Openlibrary::Data
+
+Instantiating the class:
+
+```ruby
+data = Openlibrary::Data
+```
+
+Look up a book by its ISBN-10 or ISBN-13:
+
+```ruby
+book_details = data.find_by_isbn("0451526538")
+
+book_details.title    # book's title
+book_details.authors  # array of authors
+```
+
+Other built-in finder methods:
+
+```ruby
+view.find_by_lccn   # Library of Congress catalog number
+view.find_by_oclc   # Worldcat Control Number
+view.find_by_olid   # Open Library ID
+```
 
 == CONTRIBUTORS
 
