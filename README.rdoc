@@ -35,58 +35,47 @@ There are two classes to access the Books API. Openlibrary::View can be used to 
 
 Instantiating the class:
 
-```ruby
-view = Openlibrary::View
-```
+  view = Openlibrary::View
 
 Look up a book by its ISBN-10 or ISBN-13:
 
-```ruby
-book = view.find_by_isbn("0451526538")
+  book = view.find_by_isbn("0451526538")
 
-book.info_url      # book's URL on Open Library
-book.preview       # book's preview state, either 'noview' or 'full'
-book.thumbnail_url # url of thumbnail cover of the book, if available
-
-book.preview_url   # Links to an archive.org page with a readable 
-                   # version of the book, if one is available. If 
-                   # not, links to the book's Open Library page.
-                   # `book.preview` should be used first to test if a 
-                   # readable preview of the book exists.
-```
+  book.info_url      # book's URL on Open Library
+  book.preview       # book's preview state, either 'noview' or 'full'
+  book.thumbnail_url # url of thumbnail cover of the book, if available
+  
+  book.preview_url 
+  # Links to an archive.org page with a readable version of the book, 
+  # if one is available. If not, links to the book's Open Library 
+  # page. `book.preview should be used first to test if a readable 
+  # preview of the book exists.
 
 Other built-in finder methods:
 
-```ruby
-view.find_by_lccn   # Library of Congress catalog number
-view.find_by_oclc   # Worldcat Control Number
-view.find_by_olid   # Open Library ID
-```
+  view.find_by_lccn   # Library of Congress catalog number
+  view.find_by_oclc   # Worldcat Control Number
+  view.find_by_olid   # Open Library ID
+
 
 === Openlibrary::Data
 
 Instantiating the class:
 
-```ruby
-data = Openlibrary::Data
-```
+  data = Openlibrary::Data
 
 Look up a book by its ISBN-10 or ISBN-13:
 
-```ruby
-book_details = data.find_by_isbn("0451526538")
-
-book_details.title    # book's title
-book_details.authors  # array of authors
-```
+  book_details = data.find_by_isbn("0451526538")
+  
+  book_details.title    # book's title
+  book_details.authors  # array of authors
 
 Other built-in finder methods:
 
-```ruby
-view.find_by_lccn   # Library of Congress catalog number
-view.find_by_oclc   # Worldcat Control Number
-view.find_by_olid   # Open Library ID
-```
+  view.find_by_lccn   # Library of Congress catalog number
+  view.find_by_oclc   # Worldcat Control Number
+  view.find_by_olid   # Open Library ID
 
 == CONTRIBUTORS
 
