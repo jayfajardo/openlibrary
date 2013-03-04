@@ -3,7 +3,9 @@
 
 The openlibrary gem is a simple wrapper for the Open Library REST API.
 
-For more information on the REST calls, you can view the {Open Library API documentation}[http://openlibrary.org/dev/docs/restful_api]. For more info about Open Library development in general, visit the {Open Library Developer Center}[http://openlibrary.org/developers/api] and {Developer Notes}[http://openlibrary.org/dev].
+For more information about the REST calls, visit the {Open Library API documentation}[http://openlibrary.org/dev/docs/restful_api]. For details on how Openlibrary::View and Openlibrary::Data are implemented, visit the {Books API documentation}[http://openlibrary.org/dev/docs/api/books]. 
+
+For information about Open Library development in general, visit the {Open Library Developer Center}[http://openlibrary.org/developers/api] and {Developer Notes}[http://openlibrary.org/dev], and subscribe to the {Open Library Tech mailing list}[http://mail.archive.org/cgi-bin/mailman/listinfo/ol-tech].
 
 
 == Installation
