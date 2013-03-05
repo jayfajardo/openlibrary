@@ -39,7 +39,7 @@ Since Open Library has varying amounts of information about the books in its dat
 
 Find a book by its OLID:
 
-  client.book('olid')
+  book = client.book('olid')
   
   book.contributors     # array of book contributors
   book.covers           # array of book cover ids
@@ -55,26 +55,26 @@ Find a book by its OLID:
   book.isbn_13[0]       # book's ISBN-13 identifier
   book.goodreads[0]     # book's goodreads id
 
-Getting data on book contributors:
+Get data on book contributors:
 
   book.contributors.each do |c|
     name = c.name   # contributor's name
     role = c.role   # contributor's role (e.g., cover art)
   end
 
-Iterating through subjects of the book:
+Get the book's subjects:
 
   book.subjects.each do |s|
     subject = s
   end
 
-Open Library book keys are partial URLs, which come in format '/books/{OLID}'. To find a book's keys by its ISBN, LCCN, or OCLC use one of these methods:
+Get a book's Open Library object keys by its ISBN, LCCN, or OCLC identifier:
 
   keys = client.book_by_isbn('isbn')   # isbn must be 10 or 13 characters long
   keys = client.book_by_lccn('lccn')
   keys = client.book_by_oclc('oclc')
 
-Iterate through the keys:
+Iterate through the array of keys:
 
   keys.each do |k|
     key = k['key']  # keys are in the format '/books/{OLID}'
@@ -111,7 +111,7 @@ Get an array of recent changes to Open Library:
 
 == Books Client
 
-There are two classes to access the Books API. Openlibrary::View can be used to look up Open Library listing information. Openlibrary::Data can be used to find a book's full metadata details.
+There are two classes in the openlibrary gem you can use to access the {Books API}[http://openlibrary.org/dev/docs/api/books]. Use Openlibrary::View to look up Open Library listing information, and Openlibrary::Data to get a book's full metadata details.
 
 === Openlibrary::View
 
