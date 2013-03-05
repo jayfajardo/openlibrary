@@ -1,0 +1,12 @@
+{ "birth_date" : "1916",
+  "death_date" : "2004",
+  "id" : 97,
+  "key" : "/authors/OL1A",
+  "last_modified" : { "type" : "/type/datetime",
+      "value" : "2008-11-16T07:25:54.131674"
+    },
+  "name" : "Sachi Rautroy",
+  "personal_name" : "Sachi Rautroy",
+  "revision" : 6,
+  "type" : { "key" : "/type/author" }
+}
