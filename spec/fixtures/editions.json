@@ -347,7 +347,7 @@
       }
     ],
   "links" : { "next" : "/works/OL27258W/editions.json?limit=10&offset=10",
-      "self" : "/works/OL27258W/editions.json?limit=10",
+      "self" : "/works/OL27258W/editions.json?limit=10&offset=0",
       "work" : "/works/OL27258W"
     },
   "size" : 19

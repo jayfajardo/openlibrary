@@ -175,6 +175,7 @@ describe 'Client' do
 
       editions.should be_a Hashie::Mash
       editions.entries.should be_a Array
+      editions.entries[0].number_of_pages.should eq 322
 
       editions.size!.should eq      19
       editions.links.next.should eq '/works/OL27258W/editions.json?limit=10&offset=10'
