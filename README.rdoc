@@ -48,7 +48,7 @@ Look up a book by its ISBN-10 or ISBN-13:
   book.preview_url 
   # Links to an archive.org page with a readable version of the book, 
   # if one is available. If not, links to the book's Open Library 
-  # page. `book.preview should be used first to test if a readable 
+  # page. `book.preview` should be used first to test if a readable 
   # preview of the book exists.
 
 Other built-in finder methods:
