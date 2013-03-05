@@ -1,9 +1,8 @@
 == Openlibrary 1.0.1 
 
+The openlibrary gem provides Ruby clients for the {Open Library REST API}[http://openlibrary.org/dev/docs/restful_api] and {Books API}[http://openlibrary.org/dev/docs/api/books].
 
-The openlibrary gem is a simple wrapper for the Open Library REST API.
-
-For more information on the REST calls, you can view the {Open Library API documentation}[http://openlibrary.org/dev/docs/restful_api]. For more info about Open Library development in general, visit the {Open Library Developer Center}[http://openlibrary.org/developers/api] and {Developer Notes}[http://openlibrary.org/dev].
+For more information about Open Library development, visit the {Open Library Developer Center}[http://openlibrary.org/developers/api] and {Developer Notes}[http://openlibrary.org/dev]. If you want to receive the latest updates and learn how to contribute, join us on the {ol-tech mailing list}[http://mail.archive.org/cgi-bin/mailman/listinfo/ol-tech]!
 
 
 == Installation
@@ -19,46 +18,146 @@ or in your Gemfile:
 
 == Usage
 
-You can retrieve a book's Open Library listing information.
+You can use the Books client to retrieve a book's Open Library listing information, and the REST client to make broader queries.
 
   # just require
   require 'openlibrary'
 
-Initiate your search 
+== REST Client 
 
-  # create a class proxy 
+You can use the REST client to look up books, authors, the revision history of any Open Library object, and recent changes to Open Library.
+
+=== Getting Started
+
+Before anything else, create a new client: 
+
+  client = Openlibrary::Client.new
+
+=== Books
+
+Since Open Library has varying amounts of information about the books in its database, and returns data in a schemaless format, not every book will have the same properties. Some common properties include `title`, `works`, and `contributors`, but most books will have more.
+
+Find a book by its OLID:
+
+  book = client.book('olid')
+  
+  book.contributors     # array of book contributors
+  book.covers           # array of book cover ids
+  book.works            # array of works associated with the book
+  book.subjects         # array of subjects of the book
+
+  book.title            # book title
+  book.by_statement     # name of primary author(s) of the book
+  book.number_of_pages  # number of pages in the book
+  book.copyright_date   # book's copyright date
+  book.physical_format  # book's physical format
+  book.isbn_10[0]       # book's ISBN-10 identifier
+  book.isbn_13[0]       # book's ISBN-13 identifier
+  book.goodreads[0]     # book's goodreads id
+
+Get data on book contributors:
+
+  book.contributors.each do |c|
+    name = c.name   # contributor's name
+    role = c.role   # contributor's role (e.g., cover art)
+  end
+
+Get the book's subjects:
+
+  book.subjects.each do |s|
+    subject = s
+  end
+
+Get a book's Open Library object keys by its ISBN, LCCN, or OCLC identifier:
+
+  keys = client.book_by_isbn('isbn')   # isbn must be 10 or 13 characters long
+  keys = client.book_by_lccn('lccn')
+  keys = client.book_by_oclc('oclc')
+
+Iterate through the array of keys:
+
+  keys.each do |k|
+    key = k['key']  # keys are in the format '/books/{OLID}'
+  end
+
+Although keys are returned in an array, most arrays will only have one element.
+
+=== Authors
+
+Find an author by their OLID:
+
+  author = client.author('olid')
+
+  author.name                 # author name
+  author.birth_date           # author's birth date
+  author.death_date           # author's death date
+  author.last_modified.value  # date and time of last change to page
+  author.revision             # number of current revision
+  author.key!                 # author key, in the format '/authors/{OLID}
+
+=== Revision History
+
+Get the revision history of any Open Library object:
+
+  history = client.rev_history('key')
+
+The key should be in the format '/books/{OLID}', '/authors/{OLID}', '/works/{OLID}', etc.
+
+=== Recent Changes
+
+Get an array of recent changes to Open Library:
+
+  changes = client.recent
+
+== Books Client
+
+There are two classes in the openlibrary gem you can use to access the {Books API}[http://openlibrary.org/dev/docs/api/books]. Use Openlibrary::View to look up Open Library listing information, and Openlibrary::Data to get a book's full metadata details.
+
+=== Openlibrary::View
+
+Instantiate the class:
+
   view = Openlibrary::View
+
+Look up a book by its ISBN-10 or ISBN-13:
+
+  book = view.find_by_isbn("0451526538")
+
+  book.info_url      # book's URL on Open Library
+  book.preview       # book's preview state, either 'noview' or 'full'
+  book.thumbnail_url # url of thumbnail cover of the book, if available
   
-  # lookup an item with the ISBN-10 or ISBN-13 
-  book_view = view.find_by_isbn("0451526538")
+  book.preview_url 
+  # Links to an archive.org page with a readable version of the book, 
+  # if one is available. If not, links to the book's Open Library 
+  # page. `book.preview` should be used first to test if a readable 
+  # preview of the book exists.
 
-or you can use the other built-in finder methods:
+Other built-in finder methods:
 
-  find_by_lccn        # Library of congress catalog number
-  find_by_oclc        # Worldcat Control Number
-  find_by_olid        # Openlibrary ID
+  view.find_by_lccn   # Library of Congress catalog number
+  view.find_by_oclc   # Worldcat Control Number
+  view.find_by_olid   # Open Library ID
 
-Extract the book information:
+
+=== Openlibrary::Data
+
+Instantiate the class:
+
+  data = Openlibrary::Data
+
+Look up a book by its ISBN-10 or ISBN-13:
+
+  book_details = data.find_by_isbn("0451526538")
   
-  # have a look at the book's info URL on Openlibrary.org
-  book_view.info_url
+  book_details.title    # book's title
+  book_details.authors  # array of authors
 
-  # or grab the URL of the book's thumbnail as shown on Openlibrary.org
-  book_view.thumbnail_url
+Other built-in finder methods:
 
-You can also retrieve a book's full metadata details.
-  
-  # create a class proxy 
-  details = Openlibrary::Data
-  
-  # lookup an item with the ISBN-10 or ISBN-13 
-  book_details = details.find_by_isbn("0451526538")
-  
-  # have a look at the book's title
-  book_details.title
-
-  # or an array of authors 
-  book_details.authors
+  view.find_by_lccn   # Library of Congress catalog number
+  view.find_by_oclc   # Worldcat Control Number
+  view.find_by_olid   # Open Library ID
 
 == CONTRIBUTORS
 
