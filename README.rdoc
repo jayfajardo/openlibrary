@@ -25,7 +25,89 @@ You can use the Books client to retrieve a book's Open Library listing informati
 
 == REST Client 
 
-Documentation coming soon!
+You can use the REST client to look up books, authors, the revision history of any Open Library object, and recent changes to Open Library.
+
+=== Getting Started
+
+Before anything else, create a new client: 
+
+  client = Openlibrary::Client.new
+
+=== Books
+
+Since Open Library has varying amounts of information about the books in its database, and returns data in a schemaless format, not every book will have the same properties. Some common properties include `title`, `works`, and `contributors`, but most books will have more.
+
+Find a book by its OLID:
+
+  client.book('olid')
+  
+  book.contributors     # array of book contributors
+  book.covers           # array of book cover ids
+  book.works            # array of works associated with the book
+  book.subjects         # array of subjects of the book
+
+  book.title            # book title
+  book.by_statement     # name of primary author(s) of the book
+  book.number_of_pages  # number of pages in the book
+  book.copyright_date   # book's copyright date
+  book.physical_format  # book's physical format
+  book.isbn_10[0]       # book's ISBN-10 identifier
+  book.isbn_13[0]       # book's ISBN-13 identifier
+  book.goodreads[0]     # book's goodreads id
+
+Getting data on book contributors:
+
+  book.contributors.each do |c|
+    name = c.name   # contributor's name
+    role = c.role   # contributor's role (e.g., cover art)
+  end
+
+Iterating through subjects of the book:
+
+  book.subjects.each do |s|
+    subject = s
+  end
+
+Open Library book keys are partial URLs, which come in format '/books/{OLID}'. To find a book's keys by its ISBN, LCCN, or OCLC use one of these methods:
+
+  keys = client.book_by_isbn('isbn')   # isbn must be 10 or 13 characters long
+  keys = client.book_by_lccn('lccn')
+  keys = client.book_by_oclc('oclc')
+
+Iterate through the keys:
+
+  keys.each do |k|
+    key = k['key']  # keys are in the format '/books/{OLID}'
+  end
+
+Although keys are returned in an array, most arrays will only have one element.
+
+=== Authors
+
+Find an author by their OLID:
+
+  author = client.author('olid')
+
+  author.name                 # author name
+  author.birth_date           # author's birth date
+  author.death_date           # author's death date
+  author.last_modified.value  # date and time of last change to page
+  author.revision             # number of current revision
+  author.key!                 # author key, in the format '/authors/{OLID}
+
+=== Revision History
+
+Get the revision history of any Open Library object:
+
+  history = client.rev_history('key')
+
+The key should be in the format '/books/{OLID}', '/authors/{OLID}', '/works/{OLID}', etc.
+
+=== Recent Changes
+
+Get an array of recent changes to Open Library:
+
+  changes = client.recent
 
 == Books Client
 
@@ -33,7 +115,7 @@ There are two classes to access the Books API. Openlibrary::View can be used to 
 
 === Openlibrary::View
 
-Instantiating the class:
+Instantiate the class:
 
   view = Openlibrary::View
 
@@ -60,7 +142,7 @@ Other built-in finder methods:
 
 === Openlibrary::Data
 
-Instantiating the class:
+Instantiate the class:
 
   data = Openlibrary::Data
 
