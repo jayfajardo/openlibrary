@@ -191,4 +191,19 @@ describe 'Client' do
       # editions.entries[0].number_of_pages.should eq 322
     end
   end
+
+  describe '#login' do
+    before do
+      stub_http_request(:post, "www.openlibrary.org/account/login").
+        with( body: "{\"username\":\"username\",\"password\":\"password\"}" ).
+        to_return( status: 200, headers: {'Set-Cookie' => 'session=cookie'} )
+    end
+
+    it 'logs in to Open Library' do
+      expect { client.login('username', 'password') }.not_to raise_error
+
+      session = client.login('username', 'password')
+      session.should eq "session" => "cookie"
+    end
+  end
 end
