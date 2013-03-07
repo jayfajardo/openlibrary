@@ -109,6 +109,18 @@ Get an array of recent changes to Open Library:
 
   changes = client.recent
 
+=== Log In
+
+You can log in through the REST API with your username and password:
+
+  session = client.login('username', 'password')
+
+The session is returned as a hash, in the following format:
+
+  {"session" => "cookie"}
+
+To edit Open Library after logging in, you need to be a member of the {API Usergroup}[http://openlibrary.org/usergroup/api]. Send a message to the {ol-tech mailing list}[http://mail.archive.org/cgi-bin/mailman/listinfo/ol-tech] list for more information about how to join the group!
+
 == Books Client
 
 There are two classes in the openlibrary gem you can use to access the {Books API}[http://openlibrary.org/dev/docs/api/books]. Use Openlibrary::View to look up Open Library listing information, and Openlibrary::Data to get a book's full metadata details.
