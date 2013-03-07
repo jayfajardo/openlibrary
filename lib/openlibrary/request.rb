@@ -73,6 +73,25 @@ module Openlibrary
       parse(resp)
     end
 
+    def login(username, password, params={})
+      params.merge!(:content_type: :json, accept: :json)
+      url = "#{API_URL}/account/login"
+      login = { 'username': username, 'password': password }.to_json
+
+      resp = RestClient.post(url, login, params) do |response, request, result, &block|
+        case response.code
+        when 200
+          resp.return!(request, result, &block)
+        when 401
+          raise Openlibrary::Unauthorized
+        when 404
+          raise Openlibrary::NotFound
+        end
+        session = resp.cookies
+        session
+      end
+    end
+
     def parse(resp)
       object = JSON.parse(resp.body)
       object
