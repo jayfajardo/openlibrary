@@ -14,10 +14,11 @@ module Openlibrary
     #
     # path   - Request path
     #
-    def request(path)
+    def request(path, params={})
+      params.merge!(accept: :json)
       url = "#{API_URL}#{path}"
 
-      resp = RestClient.get(url, { accept: :json }) do |response, request, result, &block|
+      resp = RestClient.get(url, params) do |response, request, result, &block|
         case response.code
         when 200
           response.return!(request, result, &block)
@@ -34,10 +35,11 @@ module Openlibrary
     # 
     # object   - object key, e.g., '/books/OL1M'
     #
-    def history(object)
+    def history(object, params={})
+      params.merge!(accept: :json)
       url = "#{API_URL}#{object}.json?m=history"
 
-      resp = RestClient.get(url, { accept: :json }) do |response, request, result, &block|
+      resp = RestClient.get(url, params) do |response, request, result, &block|
         case response.code
         when 200
           response.return!(request, result, &block)
@@ -54,10 +56,11 @@ module Openlibrary
     #
     # path   - Request path
     #
-    def query(query)
+    def query(query, params={})
+      params.merge!(accept: :json)
       url = "#{API_URL}/query.json?#{query}"
 
-      resp = RestClient.get(url, { accept: :json }) do |response, request, result, &block|
+      resp = RestClient.get(url, params) do |response, request, result, &block|
         case response.code
         when 200
           response.return!(request, result, &block)
