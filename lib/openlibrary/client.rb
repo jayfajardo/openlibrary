@@ -22,9 +22,6 @@ module Openlibrary
       unless options.kind_of?(Hash)
         raise ArgumentError, "Options hash required."
       end
-
-      # For future versions, options may include cookie information 
-      # and alternative Accept headers (e.g., RDF instead of JSON)
     end
   end
 end

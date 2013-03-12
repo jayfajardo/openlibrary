@@ -10,7 +10,7 @@ module Openlibrary
 
     protected
 
-    # Perform an API request
+    # Perform a GET request
     #
     # path   - Request path
     #
@@ -31,9 +31,10 @@ module Openlibrary
       parse(resp)
     end
 
+
     # Get the history of an object in Open Library
     # 
-    # object   - object key, e.g., '/books/OL1M'
+    # object   - Object key, e.g., '/books/OL1M'
     #
     def history(object, params={})
       params.merge!(accept: :json)
@@ -54,7 +55,7 @@ module Openlibrary
 
     # Perform a query using the Query API
     #
-    # path   - Request path
+    # query - Query path, e.g. "type=/type/edition&isbn_10=XXXXXXXXXX"
     #
     def query(query, params={})
       params.merge!(accept: :json)
@@ -83,6 +84,27 @@ module Openlibrary
         when 200
           session = response.cookies
           session
+        when 401
+          raise Openlibrary::Unauthorized
+        when 404
+          raise Openlibrary::NotFound
+        end
+      end
+    end
+
+    # Perform a PUT request to edit Open Library
+    #
+    # path    - Path to the Open Library resource
+    # changes - Hash of changes to the resource
+    #
+    def put(path, changes={}, params={})
+      params.merge!(content_type: :json, accept: :json)
+      url = "#{API_URL}#{path}"
+
+      resp = RestClient.put(url, changes, params) do |response, request, result, &block|
+        case response.code
+        when 200
+          response.return!(request, result, &block)
         when 401
           raise Openlibrary::Unauthorized
         when 404
