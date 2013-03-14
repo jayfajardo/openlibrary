@@ -92,14 +92,19 @@ module Openlibrary
       end
     end
 
-    # Perform a PUT request to edit Open Library
+    # Perform a PUT request to save changes to Open Library
     #
-    # path    - Path to the Open Library resource
+    # session - Session cookie retrieved by login method
+    # object  - Path to the Open Library resource
     # changes - Hash of changes to the resource
     #
-    def put(path, changes={}, params={})
-      params.merge!(content_type: :json, accept: :json)
-      url = "#{API_URL}#{path}"
+    def put(object, session, comment="", changes={}, params={})
+      comment = { 
+        'Opt' => '"http://openlibrary.org/dev/docs/api"; ns=42',
+        '42-comment' => comment 
+      }.to_json
+      params.merge!(session, comment, content_type: :json, accept: :json)
+      url = "#{API_URL}#{object}"
 
       resp = RestClient.put(url, changes, params) do |response, request, result, &block|
         case response.code
@@ -111,6 +116,7 @@ module Openlibrary
           raise Openlibrary::NotFound
         end
       end
+      parse(resp)
     end
 
     def parse(resp)

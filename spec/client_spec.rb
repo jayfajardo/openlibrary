@@ -202,8 +202,17 @@ describe 'Client' do
     it 'logs in to Open Library' do
       expect { client.login('username', 'password') }.not_to raise_error
 
-      session = client.login('username', 'password')
-      session.should eq "session" => "cookie"
+      cookie = client.login('username', 'password')
+      cookie.should eq "cookie"
+    end
+  end
+
+  describe '#save' do
+    before do
+      key = "/books/OL9674499M"
+    end
+
+    it 'changes and adds fields to an Open Library object' do
     end
   end
 end
