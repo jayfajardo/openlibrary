@@ -5,6 +5,7 @@ require 'openlibrary/client/history'
 require 'openlibrary/client/recent'
 require 'openlibrary/client/editions'
 require 'openlibrary/client/login'
+require 'openlibrary/client/save'
 
 module Openlibrary
   class Client
@@ -15,6 +16,7 @@ module Openlibrary
     include Openlibrary::Recent
     include Openlibrary::Editions
     include Openlibrary::Login
+    include Openlibrary::Save
 
     # Initialize an Openlibrary::Client instance
     #

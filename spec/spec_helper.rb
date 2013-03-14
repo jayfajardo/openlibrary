@@ -13,11 +13,29 @@ end
 
 def stub_get(path, fixture_name)
   stub_request(:get, api_url(path)).
-    with(:headers => {'Accept'=>'application/json'}).
+    with(headers: {
+      'Accept'=>'application/json'
+    }).
     to_return(
-      :status => 200, 
-      :body => fixture(fixture_name), 
-      :headers => {}
+      status:  200, 
+      body:    fixture(fixture_name), 
+      headers: {}
+    )
+end
+
+def stub_put(path, comment='', changes={}, fixture_name)
+  stub_request(:put, api_url(path)).
+    with(headers: {
+      'Accept'        => 'application/json',
+      'Content-Type'  => 'application/json',
+      'Opt'           => '"http://openlibrary.org/dev/docs/api"; ns=42',
+      '42-comment'    => comment,
+      'Cookie'       => 'cookie'
+    }).
+    to_return(
+      status:  200,
+      body:    fixture(fixture_name),
+      headers: {}
     )
 end
 
