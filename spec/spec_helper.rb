@@ -26,10 +26,10 @@ end
 def stub_put(path, comment='', changes={}, fixture_name)
   stub_request(:put, api_url(path)).
     with(headers: {
-      'Accept'        => 'application/json',
-      'Content-Type'  => 'application/json',
-      'Opt'           => '"http://openlibrary.org/dev/docs/api"; ns=42',
-      '42-comment'    => comment,
+      'Accept'       => 'application/json',
+      'Content-Type' => 'application/json',
+      'Opt'          => '"http://openlibrary.org/dev/docs/api"; ns=42',
+      '42-comment'   => comment,
       'Cookie'       => 'cookie'
     }).
     to_return(
