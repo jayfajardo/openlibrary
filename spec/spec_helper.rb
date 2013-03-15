@@ -23,15 +23,17 @@ def stub_get(path, fixture_name)
     )
 end
 
-def stub_put(path, changes, fixture_name, comment='')
+def stub_put(path, fixture_name, comment)
   stub_request(:put, api_url(path)).
-    with(headers: {
-      'Accept'       => 'application/json',
-      'Content-Type' => 'application/json',
-      'Opt'          => '"http://openlibrary.org/dev/docs/api"; ns=42',
-      '42-comment'   => comment,
-      'Cookie'       => 'cookie'
-    }).
+    with(
+      body: fixture(fixture_name),
+      headers: {
+        'Accept'       => 'application/json',
+        'Content-Type' => 'application/json',
+        'Opt'          => '"http://openlibrary.org/dev/docs/api"; ns=42',
+        '42-comment'   => comment,
+        'Cookie'       => 'cookie'
+      }).
     to_return(
       status:  200,
       body:    fixture(fixture_name),

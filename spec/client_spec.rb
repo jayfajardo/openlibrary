@@ -207,18 +207,25 @@ describe 'Client' do
     end
   end
 
-  describe '#save' do
+  describe '#after_save' do
     before do
       key = "/books/OL9674499M"
-      stub_put(key, { "weight" => "1.5 pounds" }, 'save.json', 'update weight')
+      comment = 'update weight and number of pages'
+      stub_put(key, 'save_after_change.json', comment)
     end
 
-    it 'changes and adds fields to an Open Library object' do
-      expect { client.save('/books/OL9674499M', 'cookie', '{"weight" => "1.5 pounds"}', 'update weight') }.not_to raise_error
+    it 'PUTs the updated object, and receives the updated object as a response' do
+      key = "/books/OL9674499M"
+      cookie = 'cookie'
+      update = fixture('save_after_change.json')
+      comment = 'update weight and number of pages'
 
-      updated_object = client.save('/books/OL9674499M', 'cookie', '{"weight" => "1.5 pounds"}', 'update weight')
-      updated_object.weight.should eq       '1.5 pounds'
-      updated_object.edition_name.should eq '10 Anv edition'
+      expect { client.save(key, cookie, update, comment) }.not_to raise_error
+
+      object = client.save(key, cookie, update, comment)
+
+      object.weight.should eq '1.5 pounds'
+      object.number_of_pages.should eq 1103
     end
   end
 end
