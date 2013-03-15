@@ -97,14 +97,17 @@ module Openlibrary
     # key     - Object key the Open Library resource
     # cookie  - Cookie retrieved by the login method
     # changes - Hash of changes to the resource
+    # comment - Comment describing the change to the object
     #
-    def put(key, cookie, comment="", changes={}, params={})
-      cookie = { 'Cookie' => cookie }.to_json
-      comment = { 
+    def put(key, cookie, changes, comment, params={})
+      cookie_header = { 'Cookie' => cookie }.to_json
+      comment_header = { 
         'Opt' => '"http://openlibrary.org/dev/docs/api"; ns=42',
         '42-comment' => comment 
       }.to_json
-      params.merge!(cookie, comment, content_type: :json, accept: :json)
+      params.merge!(cookie_header)
+      params.merge!(comment_header)
+      params.merge!(content_type: :json, accept: :json)
       url = "#{API_URL}#{key}"
 
       resp = RestClient.put(url, changes, params) do |response, request, result, &block|

@@ -210,9 +210,15 @@ describe 'Client' do
   describe '#save' do
     before do
       key = "/books/OL9674499M"
+      stub_put(key, { "weight" => "1.5 pounds" }, 'save.json', 'update weight')
     end
 
     it 'changes and adds fields to an Open Library object' do
+      expect { client.save('/books/OL9674499M', 'cookie', '{"weight" => "1.5 pounds"}', 'update weight') }.not_to raise_error
+
+      updated_object = client.save('/books/OL9674499M', 'cookie', '{"weight" => "1.5 pounds"}', 'update weight')
+      updated_object.weight.should eq       '1.5 pounds'
+      updated_object.edition_name.should eq '10 Anv edition'
     end
   end
 end

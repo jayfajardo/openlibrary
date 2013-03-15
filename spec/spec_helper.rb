@@ -23,7 +23,7 @@ def stub_get(path, fixture_name)
     )
 end
 
-def stub_put(path, comment='', changes={}, fixture_name)
+def stub_put(path, changes, fixture_name, comment='')
   stub_request(:put, api_url(path)).
     with(headers: {
       'Accept'       => 'application/json',
