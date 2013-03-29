@@ -100,7 +100,6 @@ module Openlibrary
     # comment - Comment describing the change(s) to the object
     #
     def update(key, cookie, update, comment, params={})
-      update = update.to_json
       cookie_header = { 'Cookie' => cookie }
       comment_header = { 
         'Opt' => '"http://openlibrary.org/dev/docs/api"; ns=42',

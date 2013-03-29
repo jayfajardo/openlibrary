@@ -32,7 +32,8 @@ def stub_put(path, fixture_name, comment)
         'Content-Type' => 'application/json',
         'Opt'          => '"http://openlibrary.org/dev/docs/api"; ns=42',
         '42-comment'   => comment,
-        'Cookie'       => 'cookie'
+        'Cookie'       => 'cookie',
+        'User-Agent'   => 'Ruby'
       }).
     to_return(
       status:  200,
