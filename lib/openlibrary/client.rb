@@ -4,6 +4,8 @@ require 'openlibrary/client/authors'
 require 'openlibrary/client/history'
 require 'openlibrary/client/recent'
 require 'openlibrary/client/editions'
+require 'openlibrary/client/login'
+require 'openlibrary/client/save'
 
 module Openlibrary
   class Client
@@ -13,6 +15,8 @@ module Openlibrary
     include Openlibrary::History
     include Openlibrary::Recent
     include Openlibrary::Editions
+    include Openlibrary::Login
+    include Openlibrary::Save
 
     # Initialize an Openlibrary::Client instance
     #
@@ -20,9 +24,6 @@ module Openlibrary
       unless options.kind_of?(Hash)
         raise ArgumentError, "Options hash required."
       end
-
-      # For future versions, options may include cookie information 
-      # and alternative Accept headers (e.g., RDF instead of JSON)
     end
   end
 end
