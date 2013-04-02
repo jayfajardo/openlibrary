@@ -191,4 +191,41 @@ describe 'Client' do
       # editions.entries[0].number_of_pages.should eq 322
     end
   end
+
+  describe '#login' do
+    before do
+      stub_http_request(:post, "www.openlibrary.org/account/login").
+        with( body: "{\"username\":\"username\",\"password\":\"password\"}" ).
+        to_return( status: 200, headers: {'Set-Cookie' => 'session=cookie'} )
+    end
+
+    it 'logs in to Open Library' do
+      expect { client.login('username', 'password') }.not_to raise_error
+
+      cookie = client.login('username', 'password')
+      cookie.should eq "cookie"
+    end
+  end
+
+  describe '#after_save' do
+    before do
+      key = "/books/OL9674499M"
+      comment = 'update weight and number of pages'
+      stub_put(key, 'save_after_change.json', comment)
+    end
+
+    it 'PUTs the updated object, and receives the updated object as a response' do
+      key = "/books/OL9674499M"
+      cookie = 'cookie'
+      update = fixture('save_after_change.json')
+      comment = 'update weight and number of pages'
+
+      expect { client.save(key, cookie, update, comment) }.not_to raise_error
+
+      object = client.save(key, cookie, update, comment)
+
+      object.weight.should eq '1.5 pounds'
+      object.number_of_pages.should eq 1103
+    end
+  end
 end

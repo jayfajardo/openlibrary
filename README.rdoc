@@ -1,4 +1,4 @@
-== Openlibrary 1.0.1 
+== Openlibrary 2.0.0
 
 The openlibrary gem provides Ruby clients for the {Open Library REST API}[http://openlibrary.org/dev/docs/restful_api] and {Books API}[http://openlibrary.org/dev/docs/api/books].
 
@@ -15,17 +15,18 @@ or in your Gemfile:
 
   gem 'openlibrary'
 
-
 == Usage
 
-You can use the Books client to retrieve a book's Open Library listing information, and the REST client to make broader queries.
+You can use the Books client to retrieve a book's Open Library listing information, and the REST client to perform more advanced queries and save changes to Open Library.
 
   # just require
   require 'openlibrary'
 
 == REST Client 
 
-You can use the REST client to look up books, authors, the revision history of any Open Library object, and recent changes to Open Library.
+You can use the REST client to look up books, authors, the revision history of any Open Library object, and recent changes to Open Library. 
+
+You can also use the REST client to log in and save changes to Open Library, after you register your profile (or your bot's profile) with the {API Usergroup}[http://openlibrary.org/usergroup/api]. Send a message to the {ol-tech mailing list}[http://mail.archive.org/cgi-bin/mailman/listinfo/ol-tech] to learn how!
 
 === Getting Started
 
@@ -35,7 +36,7 @@ Before anything else, create a new client:
 
 === Books
 
-Since Open Library has varying amounts of information about the books in its database, and returns data in a schemaless format, not every book will have the same properties. Some common properties include `title`, `works`, and `contributors`, but most books will have more.
+Since Open Library has varying amounts of information about the books in its database, and returns data in a schemaless format, not every book will have the same properties. Common properties include `title`, `works`, and `contributors`, but most books will have more.
 
 Find a book by its OLID:
 
@@ -101,13 +102,31 @@ Get the revision history of any Open Library object:
 
   history = client.rev_history('key')
 
-The key should be in the format '/books/{OLID}', '/authors/{OLID}', '/works/{OLID}', etc.
+The key should be in the format '/type/OLID'. E.g., '/books/OL9220552M', '/authors/OL27349A', or '/works/OL468516W'.
 
 === Recent Changes
 
 Get an array of recent changes to Open Library:
 
   changes = client.recent
+
+=== Saving Changes
+
+Use the login method to get a session cookie:
+
+  cookie = client.login('username', 'password')
+
+Set the other parameters for the object you want to change:
+
+  key     = '/type/OLID'              # e.g., '/books/OL9220552M'
+  update  = full_object_with_changes  # must be JSON format
+  comment = 'changed X, Y, and Z'
+  
+Save your changes and receive the updated object as a response:
+
+  object = client.save(key, cookie, update, comment)
+
+NOTICE: Before you can actually save changes to Open Library, you need to register your profile (or bot) with the {API Usergroup}[http://openlibrary.org/usergroup/api]. Send a message to the {ol-tech mailing list}[http://mail.archive.org/cgi-bin/mailman/listinfo/ol-tech] to learn how!
 
 == Books Client
 
@@ -162,8 +181,8 @@ Other built-in finder methods:
 == CONTRIBUTORS
 
 * Jay Fajardo https://github.com/jayfajardo
+* John Shutt https://github.com/pemulis
 * Robert Berry https://github.com/bdigital
 * Eric Larson https://github.com/ewlarson
 * Charles Horn https://github.com/hornc
-* John Shutt https://github.com/pemulis
 * Alex Grant https://github.com/grantovich
