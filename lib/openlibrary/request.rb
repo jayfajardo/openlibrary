@@ -6,7 +6,7 @@ require 'hashie'
 
 module Openlibrary
   module Request
-    API_URL    = 'http://www.openlibrary.org'
+    API_URL    = 'http://openlibrary.org'
 
     protected
 
@@ -60,8 +60,8 @@ module Openlibrary
     def query(query, params={})
       params.merge!(accept: :json)
       url = "#{API_URL}/query.json?#{query}"
-
       resp = RestClient.get(url, params) do |response, request, result, &block|
+        puts response
         case response.code
         when 200
           response.return!(request, result, &block)
