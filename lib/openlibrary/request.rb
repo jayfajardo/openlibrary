@@ -61,7 +61,6 @@ module Openlibrary
       params.merge!(accept: :json)
       url = "#{API_URL}/query.json?#{query}"
       resp = RestClient.get(url, params) do |response, request, result, &block|
-        puts response
         case response.code
         when 200
           response.return!(request, result, &block)
