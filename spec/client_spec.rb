@@ -194,7 +194,7 @@ describe 'Client' do
 
   describe '#login' do
     before do
-      stub_http_request(:post, "www.openlibrary.org/account/login").
+      stub_http_request(:post, "openlibrary.org/account/login").
         with( body: "{\"username\":\"username\",\"password\":\"password\"}" ).
         to_return( status: 200, headers: {'Set-Cookie' => 'session=cookie'} )
     end
