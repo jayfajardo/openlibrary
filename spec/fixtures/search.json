@@ -1,0 +1,7933 @@
+{
+ "start": 0, 
+ "num_found": 81, 
+ "numFound": 81, 
+ "docs": [
+  {
+   "title_suggest": "The Lord of the Rings", 
+   "edition_key": [
+    "OL21217116M", 
+    "OL22510662M", 
+    "OL21485714M", 
+    "OL15327355M", 
+    "OL6165495M", 
+    "OL13807949M", 
+    "OL13761262M", 
+    "OL17906645M", 
+    "OL4883007M", 
+    "OL5975400M", 
+    "OL22406853M", 
+    "OL17990125M", 
+    "OL16539692M", 
+    "OL23795326M", 
+    "OL22815379M", 
+    "OL20175829M", 
+    "OL5574175M", 
+    "OL5535578M", 
+    "OL4382055M", 
+    "OL21428276M", 
+    "OL21318055M", 
+    "OL20943851M", 
+    "OL16791443M", 
+    "OL24212887M", 
+    "OL24374051M", 
+    "OL21392110M", 
+    "OL22470927M", 
+    "OL22830376M", 
+    "OL22835039M", 
+    "OL21991879M", 
+    "OL5237526M", 
+    "OL23821472M", 
+    "OL20200626M", 
+    "OL17885449M", 
+    "OL22858420M", 
+    "OL20943862M", 
+    "OL20943864M", 
+    "OL22646050M", 
+    "OL9228712M", 
+    "OL7274004M", 
+    "OL9228713M", 
+    "OL3828014M", 
+    "OL7274003M", 
+    "OL22837887M", 
+    "OL20943868M", 
+    "OL17912024M", 
+    "OL2083847M", 
+    "OL8610134M", 
+    "OL8610132M", 
+    "OL8610133M", 
+    "OL1974942M", 
+    "OL25175074M", 
+    "OL22836449M", 
+    "OL7851256M", 
+    "OL21217131M", 
+    "OL10236393M", 
+    "OL22831274M", 
+    "OL21217165M", 
+    "OL22193052M", 
+    "OL17063250M", 
+    "OL1532643M", 
+    "OL22572775M", 
+    "OL22814360M", 
+    "OL21058613M", 
+    "OL24942639M", 
+    "OL24768140M", 
+    "OL20784407M", 
+    "OL19620537M", 
+    "OL21171006M", 
+    "OL7851753M", 
+    "OL10236415M", 
+    "OL10236417M", 
+    "OL10236416M", 
+    "OL10236419M", 
+    "OL8269996M", 
+    "OL9444589M", 
+    "OL23124795M", 
+    "OL22469028M", 
+    "OL7468970M", 
+    "OL7603320M", 
+    "OL7261843M", 
+    "OL9216558M", 
+    "OL7261844M", 
+    "OL7852726M", 
+    "OL7946403M", 
+    "OL9216557M", 
+    "OL22820202M", 
+    "OL7852725M", 
+    "OL3966044M", 
+    "OL9216449M", 
+    "OL9559516M", 
+    "OL7261734M", 
+    "OL9216559M", 
+    "OL7261842M", 
+    "OL3659520M", 
+    "OL9216964M", 
+    "OL7852728M", 
+    "OL7852600M", 
+    "OL7852730M", 
+    "OL7262249M", 
+    "OL7852729M", 
+    "OL8663966M", 
+    "OL22819486M", 
+    "OL8663967M", 
+    "OL7913935M", 
+    "OL3670214M", 
+    "OL7852727M", 
+    "OL23274300M", 
+    "OL7913934M", 
+    "OL8663968M", 
+    "OL9523430M", 
+    "OL3380031M", 
+    "OL10636627M", 
+    "OL22816363M", 
+    "OL22818250M", 
+    "OL7852249M", 
+    "OL3321902M", 
+    "OL3404981M", 
+    "OL24278639M", 
+    "OL24261347M"
+   ], 
+   "cover_i": 6308838, 
+   "id_librarything": [
+    "3203347", 
+    "1386651", 
+    "3203350", 
+    "1907927", 
+    "3203356", 
+    "4881", 
+    "636553", 
+    "1471210", 
+    "3947472", 
+    "3947494"
+   ], 
+   "has_fulltext": true, 
+   "text": [
+    "OL21217116M", 
+    "OL22510662M", 
+    "OL21485714M", 
+    "OL15327355M", 
+    "OL6165495M", 
+    "OL13807949M", 
+    "OL13761262M", 
+    "OL17906645M", 
+    "OL4883007M", 
+    "OL5975400M", 
+    "OL22406853M", 
+    "OL17990125M", 
+    "OL16539692M", 
+    "OL23795326M", 
+    "OL22815379M", 
+    "OL20175829M", 
+    "OL5574175M", 
+    "OL5535578M", 
+    "OL4382055M", 
+    "OL21428276M", 
+    "OL21318055M", 
+    "OL20943851M", 
+    "OL16791443M", 
+    "OL24212887M", 
+    "OL24374051M", 
+    "OL21392110M", 
+    "OL22470927M", 
+    "OL22830376M", 
+    "OL22835039M", 
+    "OL21991879M", 
+    "OL5237526M", 
+    "OL23821472M", 
+    "OL20200626M", 
+    "OL17885449M", 
+    "OL22858420M", 
+    "OL20943862M", 
+    "OL20943864M", 
+    "OL22646050M", 
+    "OL9228712M", 
+    "OL7274004M", 
+    "OL9228713M", 
+    "OL3828014M", 
+    "OL7274003M", 
+    "OL22837887M", 
+    "OL20943868M", 
+    "OL17912024M", 
+    "OL2083847M", 
+    "OL8610134M", 
+    "OL8610132M", 
+    "OL8610133M", 
+    "OL1974942M", 
+    "OL25175074M", 
+    "OL22836449M", 
+    "OL7851256M", 
+    "OL21217131M", 
+    "OL10236393M", 
+    "OL22831274M", 
+    "OL21217165M", 
+    "OL22193052M", 
+    "OL17063250M", 
+    "OL1532643M", 
+    "OL22572775M", 
+    "OL22814360M", 
+    "OL21058613M", 
+    "OL24942639M", 
+    "OL24768140M", 
+    "OL20784407M", 
+    "OL19620537M", 
+    "OL21171006M", 
+    "OL7851753M", 
+    "OL10236415M", 
+    "OL10236417M", 
+    "OL10236416M", 
+    "OL10236419M", 
+    "OL8269996M", 
+    "OL9444589M", 
+    "OL23124795M", 
+    "OL22469028M", 
+    "OL7468970M", 
+    "OL7603320M", 
+    "OL7261843M", 
+    "OL9216558M", 
+    "OL7261844M", 
+    "OL7852726M", 
+    "OL7946403M", 
+    "OL9216557M", 
+    "OL22820202M", 
+    "OL7852725M", 
+    "OL3966044M", 
+    "OL9216449M", 
+    "OL9559516M", 
+    "OL7261734M", 
+    "OL9216559M", 
+    "OL7261842M", 
+    "OL3659520M", 
+    "OL9216964M", 
+    "OL7852728M", 
+    "OL7852600M", 
+    "OL7852730M", 
+    "OL7262249M", 
+    "OL7852729M", 
+    "OL8663966M", 
+    "OL22819486M", 
+    "OL8663967M", 
+    "OL7913935M", 
+    "OL3670214M", 
+    "OL7852727M", 
+    "OL23274300M", 
+    "OL7913934M", 
+    "OL8663968M", 
+    "OL9523430M", 
+    "OL3380031M", 
+    "OL10636627M", 
+    "OL22816363M", 
+    "OL22818250M", 
+    "OL7852249M", 
+    "OL3321902M", 
+    "OL3404981M", 
+    "OL24278639M", 
+    "OL24261347M", 
+    "9780395193952", 
+    "0261103407", 
+    "9781565116696", 
+    "9780563536574", 
+    "0345339711", 
+    "0618517650", 
+    "9780061917806", 
+    "9780618640157", 
+    "0261102389", 
+    "0563528885", 
+    "9780048230911", 
+    "9780261102385", 
+    "9780048231147", 
+    "0586218696", 
+    "0048231126", 
+    "9780618260591", 
+    "9780618042203", 
+    "0618346260", 
+    "0618260587", 
+    "0618042210", 
+    "0618260269", 
+    "0048231142", 
+    "0261102419", 
+    "0563536543", 
+    "9780261102354", 
+    "061826051X", 
+    "9780563494850", 
+    "1402505205", 
+    "9780048231857", 
+    "9780618260584", 
+    "0563494859", 
+    "0807286087", 
+    "9780261102347", 
+    "0048231495", 
+    "0618042202", 
+    "9781565116689", 
+    "0618260285", 
+    "9780048231130", 
+    "0007123817", 
+    "0618002227", 
+    "9780618042265", 
+    "9780061917813", 
+    "9780618346264", 
+    "0563536578", 
+    "9780618260249", 
+    "0395647398", 
+    "9780395312674", 
+    "0618346279", 
+    "000712970X", 
+    "004823155X", 
+    "9780395647394", 
+    "0395647401", 
+    "9780586218693", 
+    "9780618260256", 
+    "9780395272237", 
+    "9780618260553", 
+    "1559350350", 
+    "0898452236", 
+    "9780618042241", 
+    "9780261102378", 
+    "0618260595", 
+    "0007172001", 
+    "0345339738", 
+    "9780007123810", 
+    "9780618002221", 
+    "006191780X", 
+    "9780345339713", 
+    "9780563536598", 
+    "9781559350341", 
+    "9780395647387", 
+    "0007144083", 
+    "0395312671", 
+    "9780395974681", 
+    "9780563496137", 
+    "0261102435", 
+    "0007129718", 
+    "9780345339737", 
+    "9780563536567", 
+    "0563388129", 
+    "9780807286081", 
+    "1559350342", 
+    "0007149239", 
+    "0395595118", 
+    "9780261102361", 
+    "056353656X", 
+    "9780048232007", 
+    "039564738X", 
+    "9780618042234", 
+    "9780563536581", 
+    "0739409557", 
+    "0618042261", 
+    "9780007129720", 
+    "0395489334", 
+    "9780563209829", 
+    "0048231878", 
+    "9780345339706", 
+    "9780618517657", 
+    "0563536594", 
+    "9780618346240", 
+    "0048230871", 
+    "9780395595114", 
+    "9780618645619", 
+    "9780618346257", 
+    "9780261103597", 
+    "0007149247", 
+    "9780395082546", 
+    "004823186X", 
+    "9780563528883", 
+    "0048232009", 
+    "0618645616", 
+    "0618260250", 
+    "0048230464", 
+    "9780739409558", 
+    "9780898452235", 
+    "9780007123827", 
+    "0007149220", 
+    "0007123825", 
+    "9780618042227", 
+    "9780618129027", 
+    "004823091X", 
+    "9780007149230", 
+    "9780261103573", 
+    "0618042253", 
+    "0395193958", 
+    "0261103598", 
+    "0563536586", 
+    "1565116674", 
+    "9780618260263", 
+    "9780048231550", 
+    "9780739301395", 
+    "0618640150", 
+    "0061917818", 
+    "0048231568", 
+    "0261102354", 
+    "9781559350358", 
+    "9780007149223", 
+    "0618260242", 
+    "0261103571", 
+    "9780395489338", 
+    "9780007171996", 
+    "0048231851", 
+    "0618260552", 
+    "0563209828", 
+    "0563496142", 
+    "9780618042210", 
+    "9780618037667", 
+    "0618042245", 
+    "9780618346271", 
+    "0395489318", 
+    "9780261102415", 
+    "9780007635610", 
+    "9780395272220", 
+    "9780261103566", 
+    "0395272211", 
+    "9780618260515", 
+    "0261102346", 
+    "1559350334", 
+    "0618260277", 
+    "0007129726", 
+    "9780563536550", 
+    "9780007144082", 
+    "9780048231871", 
+    "9781565116672", 
+    "1565116690", 
+    "0395974682", 
+    "0618042237", 
+    "9780007129713", 
+    "0007635613", 
+    "073930139X", 
+    "9780048230874", 
+    "9780618260270", 
+    "9780261102958", 
+    "9780048231123", 
+    "9780618260287", 
+    "9780007322596", 
+    "0395082544", 
+    "9780007172009", 
+    "9780739301401", 
+    "0618346244", 
+    "9780563388128", 
+    "0261102370", 
+    "9780048230461", 
+    "9780048231499", 
+    "9780395647400", 
+    "9780395489314", 
+    "0007322593", 
+    "9781402505201", 
+    "9788422616337", 
+    "0563496134", 
+    "9780261103405", 
+    "8422616335", 
+    "9780563536543", 
+    "9780007149247", 
+    "039527222X", 
+    "0345339703", 
+    "9781559350334", 
+    "9780007129706", 
+    "1565116682", 
+    "0261103563", 
+    "0007149212", 
+    "9780618042258", 
+    "0618042229", 
+    "9780261102439", 
+    "0618037667", 
+    "9780048231567", 
+    "9780395489307", 
+    "9780563496144", 
+    "0048231134", 
+    "0061952877", 
+    "9780048231864", 
+    "0261102958", 
+    "9780061952876", 
+    "0618346252", 
+    "0739301403", 
+    "0395272238", 
+    "0007171994", 
+    "0261102362", 
+    "0563536551", 
+    "9780007149216", 
+    "039548930X", 
+    "9780395272213", 
+    "0618129022", 
+    "J. R. R. Tolkien", 
+    "Stephen Thorne (Performer)", 
+    "Rob Inglis (Narrator, Reader)", 
+    "Lee, Alan, 1947-", 
+    "John Le Mesurier (Performer)", 
+    "Michael Hordern (Performer)", 
+    "Sir Michael Hordern (Performer)", 
+    "Simon Cadell (Performer)", 
+    "Mesurier John Le (Performer)", 
+    "Grathmer, Ingahild (Illustrator)", 
+    "Fraser, Eric (Illustrator)", 
+    "Dramatization (Narrator)", 
+    "Brian Sibley (Editor)", 
+    "Tolkien, J. R. R. 1892-1973.", 
+    "Lee, Alan.", 
+    "Ian Holm (Performer)", 
+    "57241599", 
+    "237889032", 
+    "53971149", 
+    "42949158", 
+    "52751474", 
+    "221689614", 
+    "156786374", 
+    "50131424", 
+    "1487587", 
+    "224835400", 
+    "1133027", 
+    "48428179", 
+    "34436053", 
+    "51859693", 
+    "48130922", 
+    "returnofking00tolk_1", 
+    "lordofrings00tolk_1", 
+    "lordofrings00tolk_0", 
+    "lordofrings00tolk_3", 
+    "lordofrings00tolk_2", 
+    "lordofrings00tolk", 
+    "twotowersbeingse1970tolk", 
+    "lordofring00tolk", 
+    "lordofrings56tolk", 
+    "lordofringstolk00tolk", 
+    "fellowshipofring00tolk_0", 
+    "OL26320A", 
+    "English Fantasy fiction", 
+    "In library", 
+    "Gandalf (Fictitious character)", 
+    "Middle Earth (Imaginary place)", 
+    "Fantasy fiction", 
+    "Accessible book", 
+    "Fiction in English", 
+    "Fiction", 
+    "Frodo Baggins", 
+    "Frodo Baggins (Fictitious character)", 
+    "Protected DAISY", 
+    "Textual Criticism", 
+    "The Fellowship of the Ring (BBC Audio Collection)", 
+    "The Two Towers and the Return of the King(Exerpts)", 
+    "The Two Towers v. 2", 
+    "The Return of the King (A Full-Cast Dramatization)", 
+    "The Two Towers (BBC Drama Series/Audio Cassettes)", 
+    "Being the first part of The Lord of the Rings", 
+    "Return of the King (BBC Audio Collection)", 
+    " The Ring Sets Out; The Ring Goes South; The Treason of Isengard; The Ring Goes East; The War of the Ring; The End of the Third Age; Appendices", 
+    "The two towers.", 
+    "Trilogy Gift Set", 
+    "Part 1, The Fellowship of the Ring (NPR Playhouse Dramatization)", 
+    "The Return of the King v. 3", 
+    "Part I : The fellowship of the ring", 
+    "Part 2, The Two Towers (NPR Playhouse Dramatization)", 
+    "the Fellowship of the Ring : the two Towers : the Return of the King", 
+    "Radio Dramatization", 
+    "Part 3, The Return of the King (NPR Playhouse Dramatization)", 
+    "being the second part of The Lord of the rings.", 
+    "The Lord of the Rings", 
+    "OL27448W", 
+    "complete with index and full appendices ; by J.R.R. Tolkien.", 
+    "part II : The two towers ; part III : The return of the king ; by J.R.R. Tolkien.", 
+    "by J.R.R. Tolkien.", 
+    "by J. R. R. Tolkien.", 
+    "J.R.R. Tolkien. Part 1, The Fellowship of the Ring.", 
+    "by J.R.R. Tolkien. Bk. 1, The ring sets out.", 
+    "J.R.R. Tolkien ; illustrations by Ingahild Grathmer ; drawn by Eric Fraser.", 
+    "J.R.R. Tolkien ; illustrations by Ingahild Grathmer, drawn by Eric Fraser.", 
+    "J.R.R. Tolkien.", 
+    "J. R. R. Tolkien. Part 3, The return of the king.", 
+    "by J.R.R. Tolkien", 
+    "J. R. R. Tolkien.", 
+    "by J. R. H. Tolkien ; illustrated by Alan Lee.", 
+    "J.R.R. Tolkien ; illustrated by Alan Lee.", 
+    "(by) J.R.R. Tolkien.", 
+    "J. R. R. Tolkien. Part 2, The two towers.", 
+    "J.R.R. Tolkien. Part 2, The two towers.", 
+    "by J. R. R. Tolkien. With a new foreword by the author.", 
+    "by J.R.R. Tolkien. Part 3, The return of the king.", 
+    "by J.R.R. Tolkien; with a new foreword by the author.", 
+    "J. R. R. Tolkien ; illustrated by A. Lee..", 
+    "J.R.R. Tolkien", 
+    "J. R. R. Tolkien ; illustrated by A. Lee.", 
+    "Houghton Mifflin Co.", 
+    "Allenand Unwin", 
+    "Random House Audio", 
+    "BBC Books", 
+    "Allen & Unwin", 
+    "Folio Society", 
+    "Grafton Books", 
+    "Collins", 
+    "Book Club Association", 
+    "George Allen and Unwin", 
+    "BBC Audiobooks", 
+    "Grafton", 
+    "J R R Tolkien", 
+    "Circulo de Lectores", 
+    "Houghton Mifflin", 
+    "Soundelux Audio Pub", 
+    "Unwin Books", 
+    "HarperCollins Publishers Ltd", 
+    "Allen and Unwin", 
+    "Listening Library", 
+    "Ballantine Books", 
+    "Guild", 
+    "Houghton Mifflin (T)", 
+    "Recorded Books Unabridged", 
+    "Harper-Collins", 
+    "Easton Press", 
+    "George Allen & Unwin", 
+    "Unwin Paperbacks", 
+    "Unwin Hyman", 
+    "Caedmon", 
+    "Methuen", 
+    "HarperCollins", 
+    "Highbridge Audio", 
+    "The Lord of the Rings (BBC Dramatization, Library Edition)", 
+    "Fellowship of the ring", 
+    "Treason of Isengard.", 
+    "The two towers.", 
+    "The lord of the Rings", 
+    "The Lord of theRings.", 
+    "The lord of the rings.", 
+    "Ring sets out.", 
+    "War of the ring.", 
+    "Return of the king.", 
+    "Two towers.", 
+    "The lord of the Rings.", 
+    "The Fellowship of the Ring", 
+    "THE LORD OF THE RINGS", 
+    "Lord of the Rings (BBC Radio Collection)", 
+    "The Lord of the Rings ", 
+    "The Lord of the rings.", 
+    "The Lord of the Rings (Collins Modern Classics)", 
+    "Lord of the rings (2002)", 
+    "End of the Third Age.", 
+    "The fellowship of the ring.", 
+    "The Two towers.", 
+    "The Lord of the rings", 
+    "The Lord of the Rings (Millennium Edition)", 
+    "The Lord of the Rings (BBC Radio Collection)", 
+    "Ring goes east.", 
+    "The Lord of the Rings (Radio Collection)", 
+    "Return of the king", 
+    "Two towers", 
+    "The return of the king.", 
+    "Lord of the Rings (Radio Collection)", 
+    "Ring goes south.", 
+    "The lord of the rings", 
+    "The Lord of the Rings.", 
+    "El Se\u00f1or de los Anillos", 
+    "The Lord of the Rings (One Volume Edition)", 
+    "Fellowship of the ring.", 
+    "Lord of the Rings", 
+    "54004943", 
+    "76012275", 
+    "75308399", 
+    "67084547", 
+    "99013942", 
+    "90215588", 
+    "2001271127", 
+    "54036398", 
+    "2004541379", 
+    "2002726623", 
+    "2005020460", 
+    "81139600", 
+    "2004275215", 
+    "67012274", 
+    "2002524228", 
+    "88122831", 
+    "66000953", 
+    "91010298", 
+    "78873439", 
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "author_name": [
+    "J. R. R. Tolkien"
+   ], 
+   "contributor": [
+    "Stephen Thorne (Performer)", 
+    "Rob Inglis (Narrator, Reader)", 
+    "Lee, Alan, 1947-", 
+    "John Le Mesurier (Performer)", 
+    "Michael Hordern (Performer)", 
+    "Sir Michael Hordern (Performer)", 
+    "Simon Cadell (Performer)", 
+    "Mesurier John Le (Performer)", 
+    "Grathmer, Ingahild (Illustrator)", 
+    "Fraser, Eric (Illustrator)", 
+    "Dramatization (Narrator)", 
+    "Brian Sibley (Editor)", 
+    "Tolkien, J. R. R. 1892-1973.", 
+    "Lee, Alan.", 
+    "Ian Holm (Performer)"
+   ], 
+   "ia_loaded_id": [
+    "returnofking00tolk_1", 
+    "lordofrings00tolk_4", 
+    "lordofrings00tolk_1", 
+    "lordofrings00tolk_0", 
+    "lordofrings00tolk_3", 
+    "twotowersbeingse1970tolk", 
+    "lordofringstolk00tolk", 
+    "fellowshipofring00tolk_0"
+   ], 
+   "oclc": [
+    "57241599", 
+    "237889032", 
+    "53971149", 
+    "42949158", 
+    "52751474", 
+    "221689614", 
+    "156786374", 
+    "50131424", 
+    "1487587", 
+    "224835400", 
+    "1133027", 
+    "48428179", 
+    "34436053", 
+    "51859693", 
+    "48130922"
+   ], 
+   "ia": [
+    "returnofking00tolk_1", 
+    "lordofrings00tolk_1", 
+    "lordofrings00tolk_0", 
+    "lordofrings00tolk_3", 
+    "lordofrings00tolk_2", 
+    "lordofrings00tolk", 
+    "twotowersbeingse1970tolk", 
+    "lordofring00tolk", 
+    "lordofrings56tolk", 
+    "lordofringstolk00tolk", 
+    "fellowshipofring00tolk_0"
+   ], 
+   "isbn": [
+    "9780395193952", 
+    "0261103407", 
+    "9781565116696", 
+    "9780563536574", 
+    "0345339711", 
+    "0618517650", 
+    "9780061917806", 
+    "9780618640157", 
+    "0261102389", 
+    "0563528885", 
+    "9780048230911", 
+    "9780261102385", 
+    "9780048231147", 
+    "0586218696", 
+    "0048231126", 
+    "9780618260591", 
+    "9780618042203", 
+    "0618346260", 
+    "0618260587", 
+    "0618042210", 
+    "0618260269", 
+    "0048231142", 
+    "0261102419", 
+    "0563536543", 
+    "9780261102354", 
+    "061826051X", 
+    "9780563494850", 
+    "1402505205", 
+    "9780048231857", 
+    "9780618260584", 
+    "0563494859", 
+    "0807286087", 
+    "9780261102347", 
+    "0048231495", 
+    "0618042202", 
+    "9781565116689", 
+    "0618260285", 
+    "9780048231130", 
+    "0007123817", 
+    "0618002227", 
+    "9780618042265", 
+    "9780061917813", 
+    "9780618346264", 
+    "0563536578", 
+    "9780618260249", 
+    "0395647398", 
+    "9780395312674", 
+    "0618346279", 
+    "000712970X", 
+    "004823155X", 
+    "9780395647394", 
+    "0395647401", 
+    "9780586218693", 
+    "9780618260256", 
+    "9780395272237", 
+    "9780618260553", 
+    "1559350350", 
+    "0898452236", 
+    "9780618042241", 
+    "9780261102378", 
+    "0618260595", 
+    "0007172001", 
+    "0345339738", 
+    "9780007123810", 
+    "9780618002221", 
+    "006191780X", 
+    "9780345339713", 
+    "9780563536598", 
+    "9781559350341", 
+    "9780395647387", 
+    "0007144083", 
+    "0395312671", 
+    "9780395974681", 
+    "9780563496137", 
+    "0261102435", 
+    "0007129718", 
+    "9780345339737", 
+    "9780563536567", 
+    "0563388129", 
+    "9780807286081", 
+    "1559350342", 
+    "0007149239", 
+    "0395595118", 
+    "9780261102361", 
+    "056353656X", 
+    "9780048232007", 
+    "039564738X", 
+    "9780618042234", 
+    "9780563536581", 
+    "0739409557", 
+    "0618042261", 
+    "9780007129720", 
+    "0395489334", 
+    "9780563209829", 
+    "0048231878", 
+    "9780345339706", 
+    "9780618517657", 
+    "0563536594", 
+    "9780618346240", 
+    "0048230871", 
+    "9780395595114", 
+    "9780618645619", 
+    "9780618346257", 
+    "9780261103597", 
+    "0007149247", 
+    "9780395082546", 
+    "004823186X", 
+    "9780563528883", 
+    "0048232009", 
+    "0618645616", 
+    "0618260250", 
+    "0048230464", 
+    "9780739409558", 
+    "9780898452235", 
+    "9780007123827", 
+    "0007149220", 
+    "0007123825", 
+    "9780618042227", 
+    "9780618129027", 
+    "004823091X", 
+    "9780007149230", 
+    "9780261103573", 
+    "0618042253", 
+    "0395193958", 
+    "0261103598", 
+    "0563536586", 
+    "1565116674", 
+    "9780618260263", 
+    "9780048231550", 
+    "9780739301395", 
+    "0618640150", 
+    "0061917818", 
+    "0048231568", 
+    "0261102354", 
+    "9781559350358", 
+    "9780007149223", 
+    "0618260242", 
+    "0261103571", 
+    "9780395489338", 
+    "9780007171996", 
+    "0048231851", 
+    "0618260552", 
+    "0563209828", 
+    "0563496142", 
+    "9780618042210", 
+    "9780618037667", 
+    "0618042245", 
+    "9780618346271", 
+    "0395489318", 
+    "9780261102415", 
+    "9780007635610", 
+    "9780395272220", 
+    "9780261103566", 
+    "0395272211", 
+    "9780618260515", 
+    "0261102346", 
+    "1559350334", 
+    "0618260277", 
+    "0007129726", 
+    "9780563536550", 
+    "9780007144082", 
+    "9780048231871", 
+    "9781565116672", 
+    "1565116690", 
+    "0395974682", 
+    "0618042237", 
+    "9780007129713", 
+    "0007635613", 
+    "073930139X", 
+    "9780048230874", 
+    "9780618260270", 
+    "9780261102958", 
+    "9780048231123", 
+    "9780618260287", 
+    "9780007322596", 
+    "0395082544", 
+    "9780007172009", 
+    "9780739301401", 
+    "0618346244", 
+    "9780563388128", 
+    "0261102370", 
+    "9780048230461", 
+    "9780048231499", 
+    "9780395647400", 
+    "9780395489314", 
+    "0007322593", 
+    "9781402505201", 
+    "9788422616337", 
+    "0563496134", 
+    "9780261103405", 
+    "8422616335", 
+    "9780563536543", 
+    "9780007149247", 
+    "039527222X", 
+    "0345339703", 
+    "9781559350334", 
+    "9780007129706", 
+    "1565116682", 
+    "0261103563", 
+    "0007149212", 
+    "9780618042258", 
+    "0618042229", 
+    "9780261102439", 
+    "0618037667", 
+    "9780048231567", 
+    "9780395489307", 
+    "9780563496144", 
+    "0048231134", 
+    "0061952877", 
+    "9780048231864", 
+    "0261102958", 
+    "9780061952876", 
+    "0618346252", 
+    "0739301403", 
+    "0395272238", 
+    "0007171994", 
+    "0261102362", 
+    "0563536551", 
+    "9780007149216", 
+    "039548930X", 
+    "9780395272213", 
+    "0618129022"
+   ], 
+   "author_key": [
+    "OL26320A"
+   ], 
+   "subject": [
+    "English Fantasy fiction", 
+    "In library", 
+    "Gandalf (Fictitious character)", 
+    "Middle Earth (Imaginary place)", 
+    "Fantasy fiction", 
+    "Accessible book", 
+    "Fiction in English", 
+    "Fiction", 
+    "Frodo Baggins", 
+    "Frodo Baggins (Fictitious character)", 
+    "Protected DAISY", 
+    "Textual Criticism"
+   ], 
+   "title": "The Lord of the Rings", 
+   "ia_collection_s": "printdisabled;blogistics;americana;internetarchivebooks;inlibrary;internetarchivebookdrive;bostonpubliclibrary;china;alibris;browserlending;danielsiders", 
+   "printdisabled_s": "OL24212887M;OL17063250M;OL22814360M;OL21171006M;OL21058613M;OL3966044M;OL24768140M;OL23274300M;OL24261347M;OL24942639M;OL3659520M;OL24374051M", 
+   "ebook_count_i": 11, 
+   "publish_place": [
+    "London (40 Museum St., W.C.1)", 
+    "Toronto", 
+    "Boston, Mass", 
+    "Boston, MA", 
+    "Norwalk, Conn", 
+    "Boston", 
+    "New York", 
+    "London", 
+    "London (etc.)", 
+    "Glasgow", 
+    "Spain"
+   ], 
+   "ia_box_id": [
+    "IA108116", 
+    "IA177301", 
+    "IA116523", 
+    "IA179101", 
+    "IA176701", 
+    "IA177101", 
+    "IA111510", 
+    "IA108122", 
+    "IA119409", 
+    "IA180001", 
+    "IA124917"
+   ], 
+   "edition_count": 120, 
+   "first_publish_year": 1954, 
+   "overdrive_s": "417C4314-2354-4092-96A7-DB3C12598E8A;2CCA69FD-FE09-4C2C-8C91-84D55F4AA425", 
+   "key": "OL27448W", 
+   "id_goodreads": [
+    "423092", 
+    "795109", 
+    "899781", 
+    "31", 
+    "349246", 
+    "1246553", 
+    "1463142", 
+    "1410734", 
+    "899777", 
+    "497348", 
+    "77683", 
+    "77684", 
+    "77685", 
+    "70991", 
+    "1110276", 
+    "1110277", 
+    "2527331", 
+    "150779", 
+    "516989", 
+    "516970", 
+    "497349", 
+    "15336", 
+    "33", 
+    "54707", 
+    "899735", 
+    "899773", 
+    "15395", 
+    "899736", 
+    "15347", 
+    "3619846", 
+    "828401", 
+    "128681", 
+    "899771", 
+    "15330", 
+    "32", 
+    "877730", 
+    "34", 
+    "1153955", 
+    "15241", 
+    "877731", 
+    "1079424", 
+    "1337450", 
+    "2042556", 
+    "15369", 
+    "1451516", 
+    "5899", 
+    "93937", 
+    "2042557", 
+    "899790", 
+    "380884", 
+    "15407", 
+    "15404", 
+    "1233420", 
+    "215343", 
+    "1233422", 
+    "3007740", 
+    "2298536", 
+    "15367", 
+    "15306", 
+    "499550", 
+    "340381", 
+    "2068966", 
+    "273437", 
+    "1164368", 
+    "497347", 
+    "222954", 
+    "727798", 
+    "2057782", 
+    "899757", 
+    "877732", 
+    "261838", 
+    "159886", 
+    "899800", 
+    "93934", 
+    "899801", 
+    "35", 
+    "360973", 
+    "825248", 
+    "623517", 
+    "176123", 
+    "899734", 
+    "15245", 
+    "15310", 
+    "399048", 
+    "899795", 
+    "529015", 
+    "569465", 
+    "837605", 
+    "6215547", 
+    "3094606", 
+    "215342", 
+    "261857", 
+    "899759", 
+    "54709", 
+    "1223937", 
+    "1223951", 
+    "733999", 
+    "18510", 
+    "18511", 
+    "18512", 
+    "227232", 
+    "2582657", 
+    "827763", 
+    "727800", 
+    "727810", 
+    "15366"
+   ], 
+   "public_scan_b": false, 
+   "id_overdrive": [
+    "417C4314-2354-4092-96A7-DB3C12598E8A", 
+    "2CCA69FD-FE09-4C2C-8C91-84D55F4AA425"
+   ], 
+   "publisher": [
+    "Houghton Mifflin Co.", 
+    "Allenand Unwin", 
+    "Random House Audio", 
+    "BBC Books", 
+    "Allen & Unwin", 
+    "Folio Society", 
+    "Grafton Books", 
+    "Collins", 
+    "Book Club Association", 
+    "George Allen and Unwin", 
+    "BBC Audiobooks", 
+    "Grafton", 
+    "J R R Tolkien", 
+    "Circulo de Lectores", 
+    "Houghton Mifflin", 
+    "Soundelux Audio Pub", 
+    "Unwin Books", 
+    "HarperCollins Publishers Ltd", 
+    "Allen and Unwin", 
+    "Listening Library", 
+    "Ballantine Books", 
+    "Guild", 
+    "Houghton Mifflin (T)", 
+    "Recorded Books Unabridged", 
+    "Harper-Collins", 
+    "Easton Press", 
+    "George Allen & Unwin", 
+    "Unwin Paperbacks", 
+    "Unwin Hyman", 
+    "Caedmon", 
+    "Methuen", 
+    "HarperCollins", 
+    "Highbridge Audio"
+   ], 
+   "language": [
+    "spa", 
+    "eng"
+   ], 
+   "lccn": [
+    "54004943", 
+    "76012275", 
+    "75308399", 
+    "67084547", 
+    "99013942", 
+    "90215588", 
+    "2001271127", 
+    "54036398", 
+    "2004541379", 
+    "2002726623", 
+    "2005020460", 
+    "81139600", 
+    "2004275215", 
+    "67012274", 
+    "2002524228", 
+    "88122831", 
+    "66000953", 
+    "91010298", 
+    "78873439"
+   ], 
+   "last_modified_i": 1365019629, 
+   "lending_edition_s": "OL24212887M", 
+   "author_alternative_name": [
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "cover_edition_key": "OL23124795M", 
+   "publish_year": [
+    1974, 
+    1986, 
+    1977, 
+    1968, 
+    1969, 
+    1981, 
+    1965, 
+    1966, 
+    1967, 
+    2005, 
+    1954, 
+    1982, 
+    1991, 
+    1990, 
+    1993, 
+    1992, 
+    1995, 
+    1994, 
+    1997, 
+    1996, 
+    1999, 
+    1998, 
+    1975, 
+    1978, 
+    1973, 
+    1972, 
+    1970, 
+    2002, 
+    2003, 
+    2001, 
+    2004, 
+    1979, 
+    2009
+   ], 
+   "publish_date": [
+    "September 3, 2001", 
+    "February 2001", 
+    "2003", 
+    "February 4, 2002", 
+    "October 1999", 
+    "June 1999", 
+    "1986", 
+    "1996", 
+    "1968", 
+    "1969", 
+    "1981", 
+    "1965", 
+    "1966", 
+    "1967", 
+    "February 1990", 
+    "November 12, 2001", 
+    "October 7, 1991", 
+    "2009", 
+    "January 5, 1998", 
+    "November 2, 1998", 
+    "October 7, 2002", 
+    "August 2001", 
+    "November 3, 1997", 
+    "July 2, 2002", 
+    "1954", 
+    "October 9, 1995", 
+    "1982", 
+    "1991", 
+    "1990", 
+    "1993", 
+    "1992", 
+    "March 4, 2002", 
+    "1994", 
+    "1979", 
+    "1978", 
+    "1977", 
+    "1975", 
+    "1974", 
+    "1973", 
+    "1972", 
+    "1970", 
+    "2002", 
+    "1999", 
+    "2001", 
+    "October 6, 2003", 
+    "2004", 
+    "2005", 
+    "January 2003", 
+    "April 15, 2002"
+   ]
+  }, 
+  {
+   "title_suggest": "The Lord of The Rings", 
+   "edition_key": [
+    "OL21569651M", 
+    "OL18681467M", 
+    "OL17427263M", 
+    "OL15270768M", 
+    "OL24373736M", 
+    "OL15350852M", 
+    "OL18361532M", 
+    "OL16007731M", 
+    "OL17400708M", 
+    "OL19740972M", 
+    "OL23134821M", 
+    "OL10682120M", 
+    "OL10682349M", 
+    "OL10682515M", 
+    "OL10682856M", 
+    "OL3848674M", 
+    "OL24381678M", 
+    "OL22362976M", 
+    "OL24935110M", 
+    "OL10684789M", 
+    "OL24749268M", 
+    "OL2131720M", 
+    "OL22944875M", 
+    "OL1937606M", 
+    "OL21998829M", 
+    "OL9406818M", 
+    "OL19519472M", 
+    "OL24952873M", 
+    "OL24610193M", 
+    "OL19634003M", 
+    "OL22640311M", 
+    "OL10236389M", 
+    "OL10686524M", 
+    "OL22106818M", 
+    "OL23041749M", 
+    "OL24934077M", 
+    "OL24381691M", 
+    "OL20392464M", 
+    "OL3970931M", 
+    "OL9395648M", 
+    "OL7946104M", 
+    "OL7852616M", 
+    "OL3777334M", 
+    "OL3682839M", 
+    "OL7605826M", 
+    "OL24287586M", 
+    "OL24279131M"
+   ], 
+   "cover_i": 6694727, 
+   "subtitle": "The Return of The King", 
+   "has_fulltext": true, 
+   "id_librarything": [
+    "3203356"
+   ], 
+   "text": [
+    "OL21569651M", 
+    "OL18681467M", 
+    "OL17427263M", 
+    "OL15270768M", 
+    "OL24373736M", 
+    "OL15350852M", 
+    "OL18361532M", 
+    "OL16007731M", 
+    "OL17400708M", 
+    "OL19740972M", 
+    "OL23134821M", 
+    "OL10682120M", 
+    "OL10682349M", 
+    "OL10682515M", 
+    "OL10682856M", 
+    "OL3848674M", 
+    "OL24381678M", 
+    "OL22362976M", 
+    "OL24935110M", 
+    "OL10684789M", 
+    "OL24749268M", 
+    "OL2131720M", 
+    "OL22944875M", 
+    "OL1937606M", 
+    "OL21998829M", 
+    "OL9406818M", 
+    "OL19519472M", 
+    "OL24952873M", 
+    "OL24610193M", 
+    "OL19634003M", 
+    "OL22640311M", 
+    "OL10236389M", 
+    "OL10686524M", 
+    "OL22106818M", 
+    "OL23041749M", 
+    "OL24934077M", 
+    "OL24381691M", 
+    "OL20392464M", 
+    "OL3970931M", 
+    "OL9395648M", 
+    "OL7946104M", 
+    "OL7852616M", 
+    "OL3777334M", 
+    "OL3682839M", 
+    "OL7605826M", 
+    "OL24287586M", 
+    "OL24279131M", 
+    "0061917869", 
+    "9780395312681", 
+    "9780395489307", 
+    "0048230464", 
+    "078625176X", 
+    "9721041548", 
+    "0345253450", 
+    "0345339738", 
+    "1850894248", 
+    "0061952885", 
+    "9780618002245", 
+    "9780786251766", 
+    "2266118021", 
+    "0007123809", 
+    "0563530561", 
+    "9570823380", 
+    "0345240340", 
+    "039531268X", 
+    "0345272609", 
+    "9780061952883", 
+    "9780345296085", 
+    "0395082560", 
+    "0007322550", 
+    "9780563530572", 
+    "9780261103597", 
+    "9780345917454", 
+    "9780345339737", 
+    "0345332091", 
+    "9780345253453", 
+    "9780618154005", 
+    "0061917877", 
+    "9780061917875", 
+    "9780618260553", 
+    "0048230472", 
+    "9780345332097", 
+    "0618002243", 
+    "0345296087", 
+    "9789570823387", 
+    "9781850894247", 
+    "0261102338", 
+    "0618260552", 
+    "9780007322558", 
+    "9780061917868", 
+    "0345248295", 
+    "0261103598", 
+    "9782266118026", 
+    "9780345248299", 
+    "9780395082560", 
+    "9780807209103", 
+    "9780007637683", 
+    "9780618574971", 
+    "9783608935431", 
+    "9789721041547", 
+    "0618154000", 
+    "9780007123803", 
+    "3608935436", 
+    "0345917456", 
+    "9780563530565", 
+    "0395272211", 
+    "0807209104", 
+    "056353057X", 
+    "345240340150", 
+    "9780345240347", 
+    "9780048230461", 
+    "0007637683", 
+    "0618574972", 
+    "9780345272607", 
+    "9780048230478", 
+    "9780261102330", 
+    "9780395272213", 
+    "039548930X", 
+    "J. R. R. Tolkien", 
+    "Dramatization (Narrator)", 
+    "Tolkien, J. R. R. 1892-1973.", 
+    "Lee, Alan.", 
+    "Zhu, Xueheng.", 
+    "Beagle, Peter S.", 
+    "223610657", 
+    "7369551", 
+    "434006554", 
+    "51278686", 
+    "21652151", 
+    "19469536", 
+    "42677911", 
+    "48612920", 
+    "48764583", 
+    "51690034", 
+    "48538900", 
+    "45374750", 
+    "51390011", 
+    "1098880", 
+    "returnofkingbeintolk00tolk", 
+    "returnofking00tolk_0", 
+    "returnofkingbein1965tolk", 
+    "returnofkingtolk00tolk", 
+    "returnofkingbei00tolk", 
+    "returnofkingbein00tolk_0", 
+    "returnofkingbein03tolk", 
+    "returnofking03tolk", 
+    "returnofkingbeintol00tolk", 
+    "returnofkingbe00tolk", 
+    "The Return of The King", 
+    "OL26320A", 
+    "English Fantasy fiction", 
+    "In library", 
+    "Gandalf (Fictitious character)", 
+    "Middle Earth (Imaginary place)", 
+    "Accessible book", 
+    "Textual Criticism", 
+    "Fantastic fiction", 
+    "Fiction", 
+    "Popular Print Disabled Books", 
+    "Fantasy", 
+    "Frodo Baggins", 
+    "OverDrive", 
+    "Frodo Baggins (Fictitious character)", 
+    "Protected DAISY", 
+    "Large type books", 
+    "Juvenile fiction", 
+    "being the third part of the The lord of the rings", 
+    "being the third part of The lord of the rings.", 
+    "wang zhe zai lin = The return of the king", 
+    "Radio Dramatization", 
+    "being the third part of the Lord of the Rings", 
+    "being the third part of The lord of the rings", 
+    "being the third part of The Lord of the Rings", 
+    "o regresso do rei", 
+    "Being the Third Part of The Lord of the Rings", 
+    "Part III of The Lord of the Rings (J.R.R. Tolkien)", 
+    "being the third part of The Lord of the rings", 
+    "The Lord of The Rings", 
+    "OL27516W", 
+    "J. R. R. Tolkien zhu ; Alan Lee tu ; Zhu Xueheng yi.", 
+    "by J.R.R. Tolkien ; frontispiece by Michael Hauge.", 
+    "J.R.R. Tolkien ; [introduction by Peter S. Beagle]", 
+    "J. R. R Tolkien.", 
+    "J.R.R. Tolkien ; illustrated by Alan Lee.", 
+    "with a foreword by the author", 
+    "J.R.R. Tolkien.", 
+    "by J.R.R. Tolkien.", 
+    "by J.R.R. Tolkien", 
+    "by J. R. R. Tolkien.", 
+    "by J. R. R. Tolkien", 
+    "J.R.R. Tolkien ; [introduction by Peter Beagle ; maps by Shelley Shapiro]", 
+    "J.R.R. Tolkien ; t\u0142umaczy\u0142a Maria Skibniewska ; [wiersze prze\u0142o\u017cy\u0142 W\u0142odzimierz Lewik].", 
+    "J.R.R. Tolkien ; [traduit de l'anglais par F. Ledoux].", 
+    "J.R.R. Tolkien", 
+    "J. R. R. Tolkien.", 
+    "Klett-Cotta", 
+    "Houghton Mifflin Co.", 
+    "BBC Books", 
+    "Allen & Unwin", 
+    "BBC Audiobooks America", 
+    "Thorndike Press", 
+    "Europa-America", 
+    "G. Allen & Unwin", 
+    "Christian Bourgois", 
+    "CiA Books/SVARO", 
+    "HarperCollins Publishers Ltd", 
+    "Houghton Mifflin", 
+    "ISIS Large Print Books", 
+    "Czytelnik", 
+    "Listening Library", 
+    "Ballantine Books", 
+    "Lian jing chu ban shi ye gong si", 
+    "Easton Press", 
+    "Allen and Unwin", 
+    "Ted Smart", 
+    "Allen andUnwin", 
+    "HarperCollins", 
+    "Clio", 
+    "The return of the king.", 
+    "The Return of the King.", 
+    "The Return of the King", 
+    "The  return of the king", 
+    "o Senhor dos an\u00e9is III", 
+    "The Return of the king", 
+    "The lord of the rings, part 3.", 
+    "Mo jie san bu qu", 
+    "Le retour du roi", 
+    "The lord of the rings.", 
+    "Powr\u00f3t kr\u00f3la", 
+    "Mo jie 3 bu qu", 
+    "Der Herr der Ringe.", 
+    "Return of the king.", 
+    "Wang zhe zai lin", 
+    "The return of the king", 
+    "Lord of the rings", 
+    "The Return of the king.", 
+    "Return of the King", 
+    "81166154", 
+    "2001278184", 
+    "90156548", 
+    "2003542567", 
+    "67012275", 
+    "67-12275", 
+    "2003041693", 
+    "88195987", 
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein", 
+    "Pippin looked out from the shelter of Gandalf's cloak.", 
+    "PIPPIN looked out from the shelter of Grandalf's cloak.", 
+    "J. R. R. Tolkien (1892-1973)"
+   ], 
+   "author_name": [
+    "J. R. R. Tolkien"
+   ], 
+   "contributor": [
+    "Dramatization (Narrator)", 
+    "Tolkien, J. R. R. 1892-1973.", 
+    "Lee, Alan.", 
+    "Zhu, Xueheng.", 
+    "Beagle, Peter S."
+   ], 
+   "ia_loaded_id": [
+    "returnofking00tolk_0", 
+    "returnofkingbein00tolk_0", 
+    "returnofkingbein03tolk", 
+    "returnofkingbein1994tolk", 
+    "returnofking03tolk", 
+    "returnofkingbeintolki00tolk"
+   ], 
+   "oclc": [
+    "223610657", 
+    "7369551", 
+    "434006554", 
+    "51278686", 
+    "21652151", 
+    "19469536", 
+    "42677911", 
+    "48612920", 
+    "48764583", 
+    "51690034", 
+    "48538900", 
+    "45374750", 
+    "51390011", 
+    "1098880"
+   ], 
+   "ia": [
+    "returnofkingbeintolk00tolk", 
+    "returnofking00tolk_0", 
+    "returnofkingbein1965tolk", 
+    "returnofkingtolk00tolk", 
+    "returnofkingbei00tolk", 
+    "returnofkingbein00tolk_0", 
+    "returnofkingbein03tolk", 
+    "returnofking03tolk", 
+    "returnofkingbeintol00tolk", 
+    "returnofkingbe00tolk"
+   ], 
+   "isbn": [
+    "0061917869", 
+    "9780395312681", 
+    "9780395489307", 
+    "0048230464", 
+    "078625176X", 
+    "9721041548", 
+    "0345253450", 
+    "0345339738", 
+    "1850894248", 
+    "0061952885", 
+    "9780618002245", 
+    "9780786251766", 
+    "2266118021", 
+    "0007123809", 
+    "0563530561", 
+    "9570823380", 
+    "0345240340", 
+    "039531268X", 
+    "0345272609", 
+    "9780061952883", 
+    "9780345296085", 
+    "0395082560", 
+    "0007322550", 
+    "9780563530572", 
+    "9780261103597", 
+    "9780345917454", 
+    "9780345339737", 
+    "0345332091", 
+    "9780345253453", 
+    "9780618154005", 
+    "0061917877", 
+    "9780061917875", 
+    "9780618260553", 
+    "0048230472", 
+    "9780345332097", 
+    "0618002243", 
+    "0345296087", 
+    "9789570823387", 
+    "9781850894247", 
+    "0261102338", 
+    "0618260552", 
+    "9780007322558", 
+    "9780061917868", 
+    "0345248295", 
+    "0261103598", 
+    "9782266118026", 
+    "9780345248299", 
+    "9780395082560", 
+    "9780807209103", 
+    "9780007637683", 
+    "9780618574971", 
+    "9783608935431", 
+    "9789721041547", 
+    "0618154000", 
+    "9780007123803", 
+    "3608935436", 
+    "0345917456", 
+    "9780563530565", 
+    "0395272211", 
+    "0807209104", 
+    "056353057X", 
+    "345240340150", 
+    "9780345240347", 
+    "9780048230461", 
+    "0007637683", 
+    "0618574972", 
+    "9780345272607", 
+    "9780048230478", 
+    "9780261102330", 
+    "9780395272213", 
+    "039548930X"
+   ], 
+   "author_key": [
+    "OL26320A"
+   ], 
+   "subject": [
+    "English Fantasy fiction", 
+    "In library", 
+    "Gandalf (Fictitious character)", 
+    "Middle Earth (Imaginary place)", 
+    "Accessible book", 
+    "Textual Criticism", 
+    "Fantastic fiction", 
+    "Fiction", 
+    "Popular Print Disabled Books", 
+    "Fantasy", 
+    "Frodo Baggins", 
+    "OverDrive", 
+    "Frodo Baggins (Fictitious character)", 
+    "Protected DAISY", 
+    "Large type books", 
+    "Juvenile fiction"
+   ], 
+   "title": "The Lord of The Rings", 
+   "ia_collection_s": "printdisabled;americana;internetarchivebooks;inlibrary;internetarchivebookdrive;china;alibris;belvederetiburonlibrary;browserlending;danielsiders", 
+   "printdisabled_s": "OL22640311M;OL24610193M;OL24749268M;OL24373736M;OL24935110M;OL24381678M;OL2131720M;OL10682856M;OL24381691M;OL24287586M", 
+   "ebook_count_i": 10, 
+   "publish_place": [
+    "Norwalk, Conn", 
+    "Waterville, Me", 
+    "Portugal", 
+    "Boston", 
+    "[France]", 
+    "Stuttgart", 
+    "New York", 
+    "London", 
+    "Oxford", 
+    "Warszawa", 
+    "Taipei Shi", 
+    "Glasgow"
+   ], 
+   "ia_box_id": [
+    "IA137212", 
+    "IA119603", 
+    "IA119520", 
+    "IA108814", 
+    "IA123411", 
+    "IA178201", 
+    "ia122211", 
+    "IA177101", 
+    "ia110108", 
+    "IA124702", 
+    "IA149207", 
+    "IA119406"
+   ], 
+   "edition_count": 47, 
+   "first_publish_year": 1955, 
+   "overdrive_s": "B7602AF5-6224-406B-A4E9-5922DA9EF233;2FB08892-85D2-47A4-AA7F-F4816D979796", 
+   "key": "OL27516W", 
+   "id_goodreads": [
+    "15319", 
+    "6320187", 
+    "1070467", 
+    "2136731", 
+    "1796982", 
+    "2075447", 
+    "1233419", 
+    "15298", 
+    "1623612", 
+    "3211133", 
+    "828400", 
+    "77685", 
+    "1245626", 
+    "1110277", 
+    "15394", 
+    "838729", 
+    "3875114", 
+    "2659611", 
+    "1778426", 
+    "892574", 
+    "1490470", 
+    "1233418", 
+    "623517", 
+    "899759"
+   ], 
+   "public_scan_b": false, 
+   "id_overdrive": [
+    "B7602AF5-6224-406B-A4E9-5922DA9EF233", 
+    "2FB08892-85D2-47A4-AA7F-F4816D979796"
+   ], 
+   "publisher": [
+    "Klett-Cotta", 
+    "Houghton Mifflin Co.", 
+    "BBC Books", 
+    "Allen & Unwin", 
+    "BBC Audiobooks America", 
+    "Thorndike Press", 
+    "Europa-America", 
+    "G. Allen & Unwin", 
+    "Christian Bourgois", 
+    "CiA Books/SVARO", 
+    "HarperCollins Publishers Ltd", 
+    "Houghton Mifflin", 
+    "ISIS Large Print Books", 
+    "Czytelnik", 
+    "Listening Library", 
+    "Ballantine Books", 
+    "Lian jing chu ban shi ye gong si", 
+    "Easton Press", 
+    "Allen and Unwin", 
+    "Ted Smart", 
+    "Allen andUnwin", 
+    "HarperCollins", 
+    "Clio"
+   ], 
+   "language": [
+    "ger", 
+    "fre", 
+    "eng", 
+    "chi", 
+    "por", 
+    "pol"
+   ], 
+   "lccn": [
+    "81166154", 
+    "2001278184", 
+    "90156548", 
+    "2003542567", 
+    "67012275", 
+    "67-12275", 
+    "2003041693", 
+    "88195987"
+   ], 
+   "last_modified_i": 1365573125, 
+   "lending_edition_s": "OL24373736M", 
+   "author_alternative_name": [
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "cover_edition_key": "OL24610193M", 
+   "first_sentence": [
+    "Pippin looked out from the shelter of Gandalf's cloak.", 
+    "PIPPIN looked out from the shelter of Grandalf's cloak."
+   ], 
+   "person": [
+    "J. R. R. Tolkien (1892-1973)"
+   ], 
+   "publish_year": [
+    1977, 
+    1986, 
+    1984, 
+    1985, 
+    1969, 
+    1981, 
+    1965, 
+    1966, 
+    1955, 
+    1956, 
+    1983, 
+    1991, 
+    1990, 
+    1993, 
+    1998, 
+    1994, 
+    1997, 
+    1999, 
+    1976, 
+    1975, 
+    1974, 
+    1973, 
+    2002, 
+    2003, 
+    2000, 
+    2001, 
+    2005, 
+    2009
+   ], 
+   "publish_date": [
+    "June 1, 2005", 
+    "June 1991", 
+    "July 5, 1999", 
+    "1986", 
+    "1984", 
+    "1969", 
+    "1981", 
+    "1965", 
+    "1966", 
+    "November 2002", 
+    "September 12, 1985", 
+    "November 2, 1998", 
+    "1993", 
+    "1955", 
+    "June 12, 1976", 
+    "1956", 
+    "July 12, 1974", 
+    "1983", 
+    "1990", 
+    "May 12, 1975", 
+    "1994", 
+    "1997", 
+    "July 2, 2002", 
+    "1973", 
+    "2002", 
+    "2003", 
+    "2000", 
+    "2001", 
+    "October 12, 1977", 
+    "2009"
+   ]
+  }, 
+  {
+   "title_suggest": "The Lord of The Rings", 
+   "edition_key": [
+    "OL18774656M", 
+    "OL16533827M", 
+    "OL16007738M", 
+    "OL19740951M", 
+    "OL10681987M", 
+    "OL10682119M", 
+    "OL10682348M", 
+    "OL10682514M", 
+    "OL10682855M", 
+    "OL7591510M", 
+    "OL23256553M", 
+    "OL3848669M", 
+    "OL24371522M", 
+    "OL10684790M", 
+    "OL2131709M", 
+    "OL17847198M", 
+    "OL22944871M", 
+    "OL21898446M", 
+    "OL8151470M", 
+    "OL8969577M", 
+    "OL19519470M", 
+    "OL7604000M", 
+    "OL17072476M", 
+    "OL19134227M", 
+    "OL10236418M", 
+    "OL10236388M", 
+    "OL7603170M", 
+    "OL10686523M", 
+    "OL22106812M", 
+    "OL23041747M", 
+    "OL16202838M", 
+    "OL24949820M", 
+    "OL24935342M", 
+    "OL3969873M", 
+    "OL18379526M", 
+    "OL7852617M", 
+    "OL7946103M", 
+    "OL24222637M", 
+    "OL3777335M", 
+    "OL7852618M", 
+    "OL16008007M", 
+    "OL3682821M", 
+    "OL7605825M", 
+    "OL24266927M", 
+    "OL24284966M"
+   ], 
+   "cover_i": 6415824, 
+   "subtitle": "The Two Towers", 
+   "has_fulltext": true, 
+   "id_librarything": [
+    "3203350", 
+    "3947494"
+   ], 
+   "text": [
+    "OL18774656M", 
+    "OL16533827M", 
+    "OL16007738M", 
+    "OL19740951M", 
+    "OL10681987M", 
+    "OL10682119M", 
+    "OL10682348M", 
+    "OL10682514M", 
+    "OL10682855M", 
+    "OL7591510M", 
+    "OL23256553M", 
+    "OL3848669M", 
+    "OL24371522M", 
+    "OL10684790M", 
+    "OL2131709M", 
+    "OL17847198M", 
+    "OL22944871M", 
+    "OL21898446M", 
+    "OL8151470M", 
+    "OL8969577M", 
+    "OL19519470M", 
+    "OL7604000M", 
+    "OL17072476M", 
+    "OL19134227M", 
+    "OL10236418M", 
+    "OL10236388M", 
+    "OL7603170M", 
+    "OL10686523M", 
+    "OL22106812M", 
+    "OL23041747M", 
+    "OL16202838M", 
+    "OL24949820M", 
+    "OL24935342M", 
+    "OL3969873M", 
+    "OL18379526M", 
+    "OL7852617M", 
+    "OL7946103M", 
+    "OL24222637M", 
+    "OL3777335M", 
+    "OL7852618M", 
+    "OL16008007M", 
+    "OL3682821M", 
+    "OL7605825M", 
+    "OL24266927M", 
+    "OL24284966M", 
+    "9780563530596", 
+    "0618260277", 
+    "0345332105", 
+    "9780618129089", 
+    "0345339711", 
+    "0618260595", 
+    "0345248287", 
+    "9789721041448", 
+    "9780345296061", 
+    "9780061917929", 
+    "026110232X", 
+    "9780807209073", 
+    "9721041440", 
+    "0618002235", 
+    "1850894191", 
+    "9780345339713", 
+    "9780061952890", 
+    "026110358X", 
+    "9788372981134", 
+    "3608935428", 
+    "9780345248282", 
+    "0563530588", 
+    "0788739581", 
+    "0786251751", 
+    "9780345240330", 
+    "000732250X", 
+    "9780395272220", 
+    "0345917448", 
+    "9783608935424", 
+    "0007637691", 
+    "045890760X", 
+    "9780261103580", 
+    "9780395312667", 
+    "9780618153992", 
+    "9780345272591", 
+    "9780345235107", 
+    "9780007637690", 
+    "034523510X", 
+    "9780395489338", 
+    "0345253442", 
+    "9780563530589", 
+    "9780061917936", 
+    "0345240332", 
+    "0345296060", 
+    "9780007322503", 
+    "9780788739583", 
+    "0061952893", 
+    "9780007171989", 
+    "9785050023971", 
+    "9780786251759", 
+    "039527222X", 
+    "0395489334", 
+    "9780618260591", 
+    "0618153993", 
+    "9780458907601", 
+    "0007171986", 
+    "8372981132", 
+    "9780618574957", 
+    "0061917931", 
+    "9780261102323", 
+    "0807209074", 
+    "0395312663", 
+    "9789570823370", 
+    "0345272595", 
+    "9780345332103", 
+    "5050023971", 
+    "9780618002238", 
+    "9780618260270", 
+    "9781850894193", 
+    "0563530596", 
+    "0618129081", 
+    "0061917923", 
+    "9780345917447", 
+    "0618574956", 
+    "9570823372", 
+    "9780345253446", 
+    "J. R. R. Tolkien", 
+    "Rob Inglis (Narrator)", 
+    "Tolkien, J. R. R. 1892-1973.", 
+    "Lee, Alan.", 
+    "Zhu, Xueheng.", 
+    "Dramatization (Narrator)", 
+    "614417014", 
+    "15340021", 
+    "51314595", 
+    "458623467", 
+    "31385993", 
+    "51864632", 
+    "25355071", 
+    "24855964", 
+    "51278725", 
+    "51690028", 
+    "223611310", 
+    "48034242", 
+    "473268446", 
+    "50882303", 
+    "twotowersbeing00tolk", 
+    "twotowers00tolk", 
+    "twotowersbeingse2002tolk", 
+    "twotowersbeingth00tolk", 
+    "The Two Towers", 
+    "OL26320A", 
+    "English Fantasy fiction", 
+    "In library", 
+    "Gandalf (Fictitious character)", 
+    "Middle Earth (Imaginary place)", 
+    "Accessible book", 
+    "Fiction", 
+    "Popular Print Disabled Books", 
+    "Fantasy", 
+    "Frodo Baggins (Fictitious character)", 
+    "Protected DAISY", 
+    "Large type books", 
+    "shuang cheng qi mou = The two towers", 
+    "being the second part of the Lord of the Rings", 
+    "being the second part of The Lord of the Rings", 
+    "Being the Second Part of The Lord of the Rings", 
+    "Part II of The Lord of the Rings (J.R.R. Tolkien)", 
+    "being the second part of The lord of the rings", 
+    "As duas Torres", 
+    "Radio Dramatization", 
+    "being the second part of The Lord of the rings", 
+    "being the second part of The lord of the rings.", 
+    "The Lord of The Rings", 
+    "OL262757W", 
+    "J. R. R. Tolkien zhu ; Alan Lee tu ; Zhu Xueheng yi.", 
+    "J.R.R. Tolkien ; [introduction by Peter S. Beagle]", 
+    "J.R.R. Tolkien ; illustrated by Alan Lee.", 
+    "J.R.R. Tolkien.", 
+    "by J.R.R. Tolkien.", 
+    "by J.R.R. Tolkien", 
+    "by J. R. R. Tolkien.", 
+    "J.R.R. Tolkien ; t\u0142umaczy\u0142a Maria Skibniewska ; [wiersze prze\u0142o\u017cy\u0142 W\u0142odzimierz Lewik].", 
+    "J.R.R. Tolkien", 
+    "J. R. R. Tolkien.", 
+    "Klett-Cotta", 
+    "Houghton Mifflin Co.", 
+    "1987.", 
+    "Allen & Unwin", 
+    "BBC Audiobooks America", 
+    "Magnum", 
+    "Europa-America", 
+    "Guild Publishing", 
+    "George Allen and Unwin", 
+    "G. Allen & Unwin", 
+    "CiA Books/SVARO", 
+    "HarperCollins Publishers Ltd", 
+    "Houghton Mifflin", 
+    "ISIS Large Print Books", 
+    "Czytelnik", 
+    "Listening Library", 
+    "Ballantine Books", 
+    "Ballantine", 
+    "Zysk i S-ka", 
+    "Ted Smart.", 
+    "Lian jing chu ban shi ye gong si", 
+    "Thorndike Press", 
+    "Houghton, Mifflin", 
+    "HarperCollins", 
+    "Recorded Books", 
+    "The two towers", 
+    "Dwie wie\u017ce", 
+    "The lord of the rings, part 2.", 
+    "The Two Towers", 
+    "The Two towers.", 
+    "O senhor dos An\u00e9is II", 
+    "The two towers.", 
+    "The lord of the rings", 
+    "Mo jie er bu qu", 
+    "Mo jie 2 bu qu", 
+    "Dwie wieze", 
+    "Der Herr der Ringe.", 
+    "Shuang cheng qi mou", 
+    "Two towers.", 
+    "Dve tverdyni.", 
+    "2003542568", 
+    "2003041662", 
+    "88195969", 
+    "2001276577", 
+    "81166148", 
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein", 
+    "Aragorn sped on up the hill.", 
+    "ARAGORN sped on up the hill."
+   ], 
+   "author_name": [
+    "J. R. R. Tolkien"
+   ], 
+   "contributor": [
+    "Rob Inglis (Narrator)", 
+    "Tolkien, J. R. R. 1892-1973.", 
+    "Lee, Alan.", 
+    "Zhu, Xueheng.", 
+    "Dramatization (Narrator)"
+   ], 
+   "ia_loaded_id": [
+    "twotowersbeingse00tolk", 
+    "twotowers00tolk", 
+    "twotowersbeingth00tolk"
+   ], 
+   "oclc": [
+    "614417014", 
+    "15340021", 
+    "51314595", 
+    "458623467", 
+    "31385993", 
+    "51864632", 
+    "25355071", 
+    "24855964", 
+    "51278725", 
+    "51690028", 
+    "223611310", 
+    "48034242", 
+    "473268446", 
+    "50882303"
+   ], 
+   "ia": [
+    "twotowersbeing00tolk", 
+    "twotowers00tolk", 
+    "twotowersbeingse2002tolk", 
+    "twotowersbeingth00tolk"
+   ], 
+   "isbn": [
+    "9780563530596", 
+    "0618260277", 
+    "0345332105", 
+    "9780618129089", 
+    "0345339711", 
+    "0618260595", 
+    "0345248287", 
+    "9789721041448", 
+    "9780345296061", 
+    "9780061917929", 
+    "026110232X", 
+    "9780807209073", 
+    "9721041440", 
+    "0618002235", 
+    "1850894191", 
+    "9780345339713", 
+    "9780061952890", 
+    "026110358X", 
+    "9788372981134", 
+    "3608935428", 
+    "9780345248282", 
+    "0563530588", 
+    "0788739581", 
+    "0786251751", 
+    "9780345240330", 
+    "000732250X", 
+    "9780395272220", 
+    "0345917448", 
+    "9783608935424", 
+    "0007637691", 
+    "045890760X", 
+    "9780261103580", 
+    "9780395312667", 
+    "9780618153992", 
+    "9780345272591", 
+    "9780345235107", 
+    "9780007637690", 
+    "034523510X", 
+    "9780395489338", 
+    "0345253442", 
+    "9780563530589", 
+    "9780061917936", 
+    "0345240332", 
+    "0345296060", 
+    "9780007322503", 
+    "9780788739583", 
+    "0061952893", 
+    "9780007171989", 
+    "9785050023971", 
+    "9780786251759", 
+    "039527222X", 
+    "0395489334", 
+    "9780618260591", 
+    "0618153993", 
+    "9780458907601", 
+    "0007171986", 
+    "8372981132", 
+    "9780618574957", 
+    "0061917931", 
+    "9780261102323", 
+    "0807209074", 
+    "0395312663", 
+    "9789570823370", 
+    "0345272595", 
+    "9780345332103", 
+    "5050023971", 
+    "9780618002238", 
+    "9780618260270", 
+    "9781850894193", 
+    "0563530596", 
+    "0618129081", 
+    "0061917923", 
+    "9780345917447", 
+    "0618574956", 
+    "9570823372", 
+    "9780345253446"
+   ], 
+   "author_key": [
+    "OL26320A"
+   ], 
+   "subject": [
+    "English Fantasy fiction", 
+    "In library", 
+    "Gandalf (Fictitious character)", 
+    "Middle Earth (Imaginary place)", 
+    "Accessible book", 
+    "Fiction", 
+    "Popular Print Disabled Books", 
+    "Fantasy", 
+    "Frodo Baggins (Fictitious character)", 
+    "Protected DAISY", 
+    "Large type books"
+   ], 
+   "title": "The Lord of The Rings", 
+   "ia_collection_s": "printdisabled;americana;internetarchivebooks;inlibrary;bostonpubliclibrary;china;alibris;browserlending", 
+   "printdisabled_s": "OL24935342M;OL24371522M;OL24222637M;OL7603170M", 
+   "ebook_count_i": 4, 
+   "publish_place": [
+    "Boston, Mass", 
+    "Portugal", 
+    "Raduga", 
+    "Boston", 
+    "Waterville, Me", 
+    "Poznan", 
+    "Stuttgart", 
+    "New York", 
+    "London", 
+    "Taipei Shi", 
+    "Warszawa", 
+    "Glasgow"
+   ], 
+   "ia_box_id": [
+    "IA108122", 
+    "IA124610", 
+    "IA112012", 
+    "IA173301", 
+    "IA118809"
+   ], 
+   "edition_count": 45, 
+   "first_publish_year": 1966, 
+   "overdrive_s": "57844706-20FA-4ACE-B5EE-3470B1B52173;F7D04E28-1A33-4579-B6A6-B6CD2A8BAC10", 
+   "key": "OL262757W", 
+   "id_goodreads": [
+    "15318", 
+    "165491", 
+    "6310025", 
+    "2501879", 
+    "1092792", 
+    "4522630", 
+    "569712", 
+    "128682", 
+    "2045533", 
+    "825248", 
+    "1233421", 
+    "838689", 
+    "15268", 
+    "517924", 
+    "77684", 
+    "1110276", 
+    "2932941", 
+    "16694", 
+    "1949584", 
+    "60208", 
+    "3874880", 
+    "2659612", 
+    "1092788", 
+    "892586", 
+    "601135", 
+    "1245620", 
+    "163556", 
+    "899758"
+   ], 
+   "public_scan_b": false, 
+   "id_overdrive": [
+    "F7D04E28-1A33-4579-B6A6-B6CD2A8BAC10", 
+    "57844706-20FA-4ACE-B5EE-3470B1B52173"
+   ], 
+   "publisher": [
+    "Klett-Cotta", 
+    "Houghton Mifflin Co.", 
+    "1987.", 
+    "Allen & Unwin", 
+    "BBC Audiobooks America", 
+    "Magnum", 
+    "Europa-America", 
+    "Guild Publishing", 
+    "George Allen and Unwin", 
+    "G. Allen & Unwin", 
+    "CiA Books/SVARO", 
+    "HarperCollins Publishers Ltd", 
+    "Houghton Mifflin", 
+    "ISIS Large Print Books", 
+    "Czytelnik", 
+    "Listening Library", 
+    "Ballantine Books", 
+    "Ballantine", 
+    "Zysk i S-ka", 
+    "Ted Smart.", 
+    "Lian jing chu ban shi ye gong si", 
+    "Thorndike Press", 
+    "Houghton, Mifflin", 
+    "HarperCollins", 
+    "Recorded Books"
+   ], 
+   "language": [
+    "ger", 
+    "eng", 
+    "chi", 
+    "por", 
+    "pol", 
+    "rus"
+   ], 
+   "lccn": [
+    "2003542568", 
+    "2003041662", 
+    "88195969", 
+    "2001276577", 
+    "81166148"
+   ], 
+   "last_modified_i": 1366383112, 
+   "lending_edition_s": "OL24371522M", 
+   "author_alternative_name": [
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "cover_edition_key": "OL24266927M", 
+   "first_sentence": [
+    "Aragorn sped on up the hill.", 
+    "ARAGORN sped on up the hill."
+   ], 
+   "publish_year": [
+    1976, 
+    2003, 
+    1986, 
+    1987, 
+    1985, 
+    1983, 
+    1981, 
+    1966, 
+    1967, 
+    1991, 
+    1990, 
+    1993, 
+    1994, 
+    1997, 
+    1999, 
+    1998, 
+    1975, 
+    1974, 
+    1973, 
+    2002, 
+    1977, 
+    2000, 
+    2001, 
+    2005, 
+    2009
+   ], 
+   "publish_date": [
+    "June 1, 2005", 
+    "June 1991", 
+    "July 5, 1999", 
+    "August 12, 1973", 
+    "1986", 
+    "1987", 
+    "1983", 
+    "1981", 
+    "October 12, 1977", 
+    "1966", 
+    "1967", 
+    "November 2002", 
+    "September 12, 1985", 
+    "November 2, 1998", 
+    "September 19, 1993", 
+    "1993", 
+    "July 2, 2002", 
+    "July 12, 1974", 
+    "July 12, 1976", 
+    "1990", 
+    "May 12, 1975", 
+    "1994", 
+    "1997", 
+    "1977", 
+    "September 1999", 
+    "2002", 
+    "2003", 
+    "2000", 
+    "2001", 
+    "2009"
+   ]
+  }, 
+  {
+   "title_suggest": "The Lord of The Rings", 
+   "edition_key": [
+    "OL22266040M", 
+    "OL15350842M", 
+    "OL24206969M", 
+    "OL7465583M", 
+    "OL10681593M", 
+    "OL24737100M", 
+    "OL10681986M", 
+    "OL20932268M", 
+    "OL10682513M", 
+    "OL10682854M", 
+    "OL3848658M", 
+    "OL24374179M", 
+    "OL18299598M", 
+    "OL20942846M", 
+    "OL24373119M", 
+    "OL2082346M", 
+    "OL9370678M", 
+    "OL8969576M", 
+    "OL21478444M", 
+    "OL10682347M", 
+    "OL23077320M", 
+    "OL19685717M", 
+    "OL10236387M", 
+    "OL22106804M", 
+    "OL7466031M", 
+    "OL23041688M", 
+    "OL24206968M", 
+    "OL3969872M", 
+    "OL13569251M", 
+    "OL3777336M", 
+    "OL22069376M", 
+    "OL3682825M", 
+    "OL7605824M", 
+    "OL25420485M", 
+    "OL24293296M", 
+    "OL24281996M"
+   ], 
+   "cover_i": 7074458, 
+   "subtitle": "The Fellowship of The Ring", 
+   "has_fulltext": true, 
+   "text": [
+    "OL22266040M", 
+    "OL15350842M", 
+    "OL24206969M", 
+    "OL7465583M", 
+    "OL10681593M", 
+    "OL24737100M", 
+    "OL10681986M", 
+    "OL20932268M", 
+    "OL10682513M", 
+    "OL10682854M", 
+    "OL3848658M", 
+    "OL24374179M", 
+    "OL18299598M", 
+    "OL20942846M", 
+    "OL24373119M", 
+    "OL2082346M", 
+    "OL9370678M", 
+    "OL8969576M", 
+    "OL21478444M", 
+    "OL10682347M", 
+    "OL23077320M", 
+    "OL19685717M", 
+    "OL10236387M", 
+    "OL22106804M", 
+    "OL7466031M", 
+    "OL23041688M", 
+    "OL24206968M", 
+    "OL3969872M", 
+    "OL13569251M", 
+    "OL3777336M", 
+    "OL22069376M", 
+    "OL3682825M", 
+    "OL7605824M", 
+    "OL25420485M", 
+    "OL24293296M", 
+    "OL24281996M", 
+    "9780345235091", 
+    "9780345215338", 
+    "0007171978", 
+    "9780261102316", 
+    "9780261102354", 
+    "0786251786", 
+    "9780061917677", 
+    "0345235096", 
+    "0618129030", 
+    "9780618002221", 
+    "0345296052", 
+    "0618153985", 
+    "9780061917684", 
+    "360893541X", 
+    "0007322496", 
+    "8371502419", 
+    "9780007322497", 
+    "9780618574940", 
+    "0395312671", 
+    "0395082544", 
+    "0345272587", 
+    "9780618260263", 
+    "9783608935417", 
+    "9781850894148", 
+    "9788371502415", 
+    "9780395082546", 
+    "0618260269", 
+    "0061917672", 
+    "0061952834", 
+    "9780345253439", 
+    "0618574948", 
+    "9570823364", 
+    "0061917680", 
+    "061826051X", 
+    "0261102354", 
+    "1850894140", 
+    "0261102311", 
+    "9780618346257", 
+    "0345215338", 
+    "9780007171972", 
+    "0345339703", 
+    "9780618129034", 
+    "9780786251780", 
+    "9780345296054", 
+    "9789570823363", 
+    "0618002227", 
+    "9780345272584", 
+    "0395489318", 
+    "345247868", 
+    "9780395489314", 
+    "9780345339706", 
+    "9780606006507", 
+    "9780395312674", 
+    "0618346252", 
+    "0395272238", 
+    "0345248279", 
+    "0345015339", 
+    "9780618260515", 
+    "9780061952838", 
+    "9780618153985", 
+    "9780345248275", 
+    "9780395272237", 
+    "0345253434", 
+    "0606006508", 
+    "9780345015334", 
+    "J. R. R. Tolkien", 
+    "Tolkien, J. R. R. 1892-1973.", 
+    "Lee, Alan.", 
+    "Zhu, Xueheng.", 
+    "22366207", 
+    "48491076", 
+    "31385993", 
+    "69655217", 
+    "52200109", 
+    "48034705", 
+    "314934465", 
+    "228444755", 
+    "228436622", 
+    "fellowshipofring00tolk", 
+    "fellowshipofring1973tolk", 
+    "fellowshipofring01tolk", 
+    "fellowshipofring00tolkrich", 
+    "fellowshipofrin00tolk", 
+    "fellowshipofringtol00tolk", 
+    "The Fellowship of The Ring", 
+    "OL26320A", 
+    "English Fantasy fiction", 
+    "In library", 
+    "Popular Print Disabled Books", 
+    "Middle Earth (Imaginary place)", 
+    "Fantasy fiction", 
+    "Accessible book", 
+    "Fiction", 
+    "Fantasy", 
+    "Fairy tales", 
+    "Frodo Baggins (Fictitious character)", 
+    "Adventure stories", 
+    "Protected DAISY", 
+    "Large type books", 
+    "being the first part of The Lord of the rings", 
+    "Being the First Part of The Lord of the Rings (The Lord of the RIngs)", 
+    "Being the First Part of the Lord of the Rings (Tolkien, J. R. R. Lord of the Rings (Silver Anniversary Edition), Pt. 1.)", 
+    "Being the First Part of the Lord of the Rings (The Lord of the Rings / By J.R.R. Tolkien, Pt. 1)", 
+    "Being The First Part Of The Lord Of The Rings", 
+    "Being the first part of The Lord of the Rings", 
+    "being the first part of The Lord of the Rings", 
+    "Mo jie xian shen = The fellowship of the ring", 
+    "being the first part of The lord of the rings", 
+    "being the first part of The lord of the Rings", 
+    "The Lord of The Rings", 
+    "OL15331214W", 
+    "J. R. R. Tolkien zhu ; Alan Lee tu ; Zhu Xueheng yi.", 
+    "J.R.R. Tolkien ; with a new foreword by the author", 
+    "with a new foreward by the author J.R.R. Tolkien", 
+    "with a new foreword by the author, J.R.R. Tolkien.", 
+    "J.R.R. Tolkien ; illustrated by Alan Lee.", 
+    "by J.R.R. Tolkien.", 
+    "by J.R.R. Tolkien", 
+    "by J. R. R. Tolkien.", 
+    "J.R.R. Tolkien", 
+    "J. R. R. Tolkien.", 
+    "Klett-Cotta", 
+    "Ballantine Books", 
+    "Houghton Mifflin Co.", 
+    "Thorndike Press", 
+    "Ballantine", 
+    "Houghton Mifflin (T)", 
+    "Allen &Unwin", 
+    "Grafton", 
+    "Zysk i S-ka", 
+    "Houghton Mifflin Company", 
+    "Houghton Mifflin", 
+    "ISIS Large Print Books", 
+    "harpercollins", 
+    "Lian jing chu ban shi ye gong si", 
+    "HarperCollins Publishers Ltd", 
+    "Ballentine Books", 
+    "HarperCollins", 
+    "Fellowship of the Ring", 
+    "Mo jie shou bu qu", 
+    "The Fellowship of the ring", 
+    "Lord of the rings, pt. 1.", 
+    "The Fellowship Of The Ring", 
+    "The Fellowship of the ring.", 
+    "Der Herr der Ringe.", 
+    "Mo jie xian shen", 
+    "The fellowship of the ring", 
+    "The Fellowship of the Ring", 
+    "The lord of the rings", 
+    "The fellowship of the ring.", 
+    "Bractwo pierscienia", 
+    "Fellowship of the ring.", 
+    "the lord of the rings", 
+    "88120282", 
+    "2001276576", 
+    "81166135", 
+    "2003041673", 
+    "67012274", 
+    "67-12274", 
+    "2003542569", 
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein", 
+    "THIS BOOK is largely concerned with Hobbits, and from its pages a reader may discover much of their character and a little of their history.", 
+    "This book is largely concerned with Hobbits, and from its pages a reader may discover much of their character and a little of their history.", 
+    "Aragorn (Strider)", 
+    "Gandalf the Wizard", 
+    "Frodo Baggins", 
+    "Elrond", 
+    "Gimli", 
+    "Bilbo Baggins", 
+    "Samwise Gamgee", 
+    "Legolas", 
+    "Middle Earth (fictional place)", 
+    "Before the Age of Men"
+   ], 
+   "author_name": [
+    "J. R. R. Tolkien"
+   ], 
+   "contributor": [
+    "Tolkien, J. R. R. 1892-1973.", 
+    "Lee, Alan.", 
+    "Zhu, Xueheng."
+   ], 
+   "ia_loaded_id": [
+    "fellowshipofrin00tolk"
+   ], 
+   "oclc": [
+    "22366207", 
+    "48491076", 
+    "31385993", 
+    "69655217", 
+    "52200109", 
+    "48034705", 
+    "314934465", 
+    "228444755", 
+    "228436622"
+   ], 
+   "ia": [
+    "fellowshipofring00tolk", 
+    "fellowshipofring1973tolk", 
+    "fellowshipofring01tolk", 
+    "fellowshipofring00tolkrich", 
+    "fellowshipofrin00tolk", 
+    "fellowshipofringtol00tolk"
+   ], 
+   "isbn": [
+    "9780345235091", 
+    "9780345215338", 
+    "0007171978", 
+    "9780261102316", 
+    "9780261102354", 
+    "0786251786", 
+    "9780061917677", 
+    "0345235096", 
+    "0618129030", 
+    "9780618002221", 
+    "0345296052", 
+    "0618153985", 
+    "9780061917684", 
+    "360893541X", 
+    "0007322496", 
+    "8371502419", 
+    "9780007322497", 
+    "9780618574940", 
+    "0395312671", 
+    "0395082544", 
+    "0345272587", 
+    "9780618260263", 
+    "9783608935417", 
+    "9781850894148", 
+    "9788371502415", 
+    "9780395082546", 
+    "0618260269", 
+    "0061917672", 
+    "0061952834", 
+    "9780345253439", 
+    "0618574948", 
+    "9570823364", 
+    "0061917680", 
+    "061826051X", 
+    "0261102354", 
+    "1850894140", 
+    "0261102311", 
+    "9780618346257", 
+    "0345215338", 
+    "9780007171972", 
+    "0345339703", 
+    "9780618129034", 
+    "9780786251780", 
+    "9780345296054", 
+    "9789570823363", 
+    "0618002227", 
+    "9780345272584", 
+    "0395489318", 
+    "345247868", 
+    "9780395489314", 
+    "9780345339706", 
+    "9780606006507", 
+    "9780395312674", 
+    "0618346252", 
+    "0395272238", 
+    "0345248279", 
+    "0345015339", 
+    "9780618260515", 
+    "9780061952838", 
+    "9780618153985", 
+    "9780345248275", 
+    "9780395272237", 
+    "0345253434", 
+    "0606006508", 
+    "9780345015334"
+   ], 
+   "author_key": [
+    "OL26320A"
+   ], 
+   "subject": [
+    "English Fantasy fiction", 
+    "In library", 
+    "Popular Print Disabled Books", 
+    "Middle Earth (Imaginary place)", 
+    "Fantasy fiction", 
+    "Accessible book", 
+    "Fiction", 
+    "Fantasy", 
+    "Fairy tales", 
+    "Frodo Baggins (Fictitious character)", 
+    "Adventure stories", 
+    "Protected DAISY", 
+    "Large type books"
+   ], 
+   "title": "The Lord of The Rings", 
+   "ia_collection_s": "printdisabled;americana;internetarchivebooks;newcollege;inlibrary;china;alibris;friendsofthesanfranciscopubliclibrary;browserlending;allen_county", 
+   "first_publish_year": 1954, 
+   "ebook_count_i": 6, 
+   "publish_place": [
+    "New York, USA", 
+    "Boston, MA", 
+    "Boston", 
+    "s.l", 
+    "Waterville, Me", 
+    "Stuttgart", 
+    "New York", 
+    "London", 
+    "Poznan", 
+    "Taipei Shi", 
+    "Glasgow", 
+    "Boston, USA"
+   ], 
+   "ia_box_id": [
+    "IA101514", 
+    "IA125203", 
+    "IA142018", 
+    "IA105914", 
+    "IA123705", 
+    "IA119501"
+   ], 
+   "edition_count": 36, 
+   "overdrive_s": "C2A9A798-DB81-472E-B555-A7A3D6A04BF8;DFDA6E54-C616-431D-89D2-0D3CA8CF5A46", 
+   "key": "OL15331214W", 
+   "id_goodreads": [
+    "1070463", 
+    "15294", 
+    "929674", 
+    "77683", 
+    "822620", 
+    "15331", 
+    "1367355", 
+    "937196", 
+    "128681", 
+    "70991", 
+    "191626", 
+    "460643", 
+    "727798", 
+    "18510", 
+    "838625", 
+    "838626", 
+    "929675", 
+    "1181600", 
+    "601134", 
+    "1432618", 
+    "360973", 
+    "54709", 
+    "423092"
+   ], 
+   "author_alternative_name": [
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "public_scan_b": false, 
+   "id_overdrive": [
+    "C2A9A798-DB81-472E-B555-A7A3D6A04BF8", 
+    "DFDA6E54-C616-431D-89D2-0D3CA8CF5A46"
+   ], 
+   "publisher": [
+    "Klett-Cotta", 
+    "Ballantine Books", 
+    "Houghton Mifflin Co.", 
+    "Thorndike Press", 
+    "Ballantine", 
+    "Houghton Mifflin (T)", 
+    "Allen &Unwin", 
+    "Grafton", 
+    "Zysk i S-ka", 
+    "Houghton Mifflin Company", 
+    "Houghton Mifflin", 
+    "ISIS Large Print Books", 
+    "harpercollins", 
+    "Lian jing chu ban shi ye gong si", 
+    "HarperCollins Publishers Ltd", 
+    "Ballentine Books", 
+    "HarperCollins"
+   ], 
+   "language": [
+    "ger", 
+    "pol", 
+    "chi", 
+    "eng"
+   ], 
+   "lccn": [
+    "88120282", 
+    "2001276576", 
+    "81166135", 
+    "2003041673", 
+    "67012274", 
+    "67-12274", 
+    "2003542569"
+   ], 
+   "last_modified_i": 1365573125, 
+   "lending_edition_s": "OL24206969M", 
+   "id_librarything": [
+    "3203347"
+   ], 
+   "cover_edition_key": "OL22069376M", 
+   "first_sentence": [
+    "THIS BOOK is largely concerned with Hobbits, and from its pages a reader may discover much of their character and a little of their history.", 
+    "This book is largely concerned with Hobbits, and from its pages a reader may discover much of their character and a little of their history."
+   ], 
+   "person": [
+    "Aragorn (Strider)", 
+    "Gandalf the Wizard", 
+    "Frodo Baggins", 
+    "Elrond", 
+    "Gimli", 
+    "Bilbo Baggins", 
+    "Samwise Gamgee", 
+    "Legolas"
+   ], 
+   "publish_year": [
+    1986, 
+    1984, 
+    1982, 
+    1981, 
+    1965, 
+    1967, 
+    1989, 
+    1954, 
+    1998, 
+    1991, 
+    1994, 
+    1996, 
+    1977, 
+    1976, 
+    1973, 
+    1972, 
+    2002, 
+    2003, 
+    2000, 
+    2001, 
+    2005, 
+    2009
+   ], 
+   "printdisabled_s": "OL20932268M;OL24206969M;OL24206968M;OL24373119M;OL24374179M;OL24737100M;OL13569251M", 
+   "place": [
+    "Middle Earth (fictional place)"
+   ], 
+   "time": [
+    "Before the Age of Men"
+   ], 
+   "publish_date": [
+    "February 13, 1991", 
+    "June 1, 2005", 
+    "June 1991", 
+    "1986", 
+    "1984", 
+    "1982", 
+    "1981", 
+    "1965", 
+    "1989", 
+    "November 12, 1972", 
+    "November 2, 1998", 
+    "1954", 
+    "1991", 
+    "May 12, 1976", 
+    "December 2000", 
+    "1994", 
+    "1996", 
+    "1973", 
+    "2002", 
+    "2003", 
+    "2000", 
+    "2001", 
+    "October 12, 1977", 
+    "2009", 
+    "June 1967"
+   ]
+  }, 
+  {
+   "title_suggest": "The Lord of the Rings", 
+   "edition_key": [
+    "OL8889882M", 
+    "OL8889789M", 
+    "OL22050937M", 
+    "OL22050938M", 
+    "OL22819322M", 
+    "OL18928910M", 
+    "OL12509252M", 
+    "OL8890612M", 
+    "OL8890400M", 
+    "OL8890596M", 
+    "OL8890550M", 
+    "OL9507942M"
+   ], 
+   "cover_i": 980334, 
+   "isbn": [
+    "9782266046497", 
+    "2266154125", 
+    "2267011255", 
+    "2266127926", 
+    "9782266120975", 
+    "9782070334810", 
+    "2266046497", 
+    "2266070614", 
+    "9782266120999", 
+    "2070334813", 
+    "9782266154123", 
+    "9782267011258", 
+    "2266120972", 
+    "9782266127929", 
+    "2266032488", 
+    "9782267013160", 
+    "9782266070614", 
+    "9782266032483", 
+    "2266120999", 
+    "9782266107983", 
+    "2267013169", 
+    "2266107984"
+   ], 
+   "has_fulltext": false, 
+   "text": [
+    "OL27507W", 
+    "The Lord of the Rings", 
+    "Le seigneur des anneaux.", 
+    "Le Seigneur des Anneaux", 
+    "Le Seigneur Des Anneaux", 
+    "Le Seigneur DES Anneaux", 
+    "Le Seigneur des anneaux", 
+    "les deux tours.", 
+    "Volume 2 (Lord of the Rings (French))", 
+    "La Communaute de l'Anneau", 
+    "Le Retour Du Roi", 
+    "OL8889882M", 
+    "OL8889789M", 
+    "OL22050937M", 
+    "OL22050938M", 
+    "OL22819322M", 
+    "OL18928910M", 
+    "OL12509252M", 
+    "OL8890612M", 
+    "OL8890400M", 
+    "OL8890596M", 
+    "OL8890550M", 
+    "OL9507942M", 
+    "traduit de l'anglais par F. Ledoux.", 
+    "Pocket", 
+    "Gallimard", 
+    "Christian Bourgois", 
+    "Distribooks", 
+    "Distribooks Int'l+inc", 
+    "9782266046497", 
+    "2266154125", 
+    "2267011255", 
+    "2266127926", 
+    "9782266120975", 
+    "9782070334810", 
+    "2266046497", 
+    "2266070614", 
+    "9782266120999", 
+    "2070334813", 
+    "9782266154123", 
+    "9782267011258", 
+    "2266120972", 
+    "9782266127929", 
+    "2266032488", 
+    "9782267013160", 
+    "9782266070614", 
+    "9782266032483", 
+    "2266120999", 
+    "9782266107983", 
+    "2267013169", 
+    "2266107984", 
+    "OL26320A", 
+    "J. R. R. Tolkien", 
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "author_name": [
+    "J. R. R. Tolkien"
+   ], 
+   "author_alternative_name": [
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "author_key": [
+    "OL26320A"
+   ], 
+   "title": "The Lord of the Rings", 
+   "publish_date": [
+    "1991", 
+    "February 2005", 
+    "December 31, 1995", 
+    "1972", 
+    "1988", 
+    "October 16, 2002", 
+    "July 5, 2002", 
+    "August 2005"
+   ], 
+   "ebook_count_i": 0, 
+   "edition_count": 12, 
+   "key": "OL27507W", 
+   "id_goodreads": [
+    "1362027", 
+    "6952598", 
+    "1597667", 
+    "1362031", 
+    "1152666", 
+    "877746", 
+    "2913945", 
+    "1811086", 
+    "3031666", 
+    "1381753", 
+    "6768611"
+   ], 
+   "publisher": [
+    "Pocket", 
+    "Gallimard", 
+    "Christian Bourgois", 
+    "Distribooks", 
+    "Distribooks Int'l+inc"
+   ], 
+   "language": [
+    "spa", 
+    "fre"
+   ], 
+   "last_modified_i": 1341338875, 
+   "id_librarything": [
+    "3203356", 
+    "3203350", 
+    "1386651", 
+    "3203347"
+   ], 
+   "cover_edition_key": "OL8890400M", 
+   "publish_year": [
+    1991, 
+    1995, 
+    1972, 
+    1988, 
+    2002, 
+    2005
+   ], 
+   "first_publish_year": 1972
+  }, 
+  {
+   "title_suggest": "The Lord of the Rings", 
+   "edition_key": [
+    "OL15280670M", 
+    "OL9076613M", 
+    "OL23097541M", 
+    "OL22054291M", 
+    "OL9076577M", 
+    "OL9076578M", 
+    "OL12823904M"
+   ], 
+   "isbn": [
+    "3608955380", 
+    "3608933522", 
+    "9783608958553", 
+    "9783608935448", 
+    "3608933514", 
+    "3608955372", 
+    "360895855X", 
+    "3608936394", 
+    "9783608936391", 
+    "9783608955378", 
+    "3608955364", 
+    "9783608955385", 
+    "9783608933512", 
+    "9783608933529", 
+    "3608935444", 
+    "9783608955361"
+   ], 
+   "has_fulltext": false, 
+   "text": [
+    "OL16245393W", 
+    "The Lord of the Rings", 
+    "Lord of the rings.", 
+    "Der Herr der Ringe.", 
+    "The Lord of the Rings.", 
+    "Der Herr der Ringe", 
+    "Der Herr Der Ringe", 
+    "Die Gefahrten", 
+    "Die Zwei T\u00fcrme", 
+    "OL15280670M", 
+    "OL9076613M", 
+    "OL23097541M", 
+    "OL22054291M", 
+    "OL9076577M", 
+    "OL9076578M", 
+    "OL12823904M", 
+    "J.R.R. Tolkien ; [aus dem Englischen \u00fcbersetzt von Margaret Carroux].", 
+    "Klett-Cotta", 
+    "Klett-Cotte", 
+    "J.G. Cotta'sche, Buchhandlung Nachfolger GmbH", 
+    "Hobbit Presse", 
+    "43202270", 
+    "Carroux, Margaret.", 
+    "3608955380", 
+    "3608933522", 
+    "9783608958553", 
+    "9783608935448", 
+    "3608933514", 
+    "3608955372", 
+    "360895855X", 
+    "3608936394", 
+    "9783608936391", 
+    "9783608955378", 
+    "3608955364", 
+    "9783608955385", 
+    "9783608933512", 
+    "9783608933529", 
+    "3608935444", 
+    "9783608955361", 
+    "OL26320A", 
+    "J. R. R. Tolkien", 
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein", 
+    "English Fantasy fiction", 
+    "Translations into German", 
+    "German Fantasy fiction", 
+    "Translations from English"
+   ], 
+   "author_name": [
+    "J. R. R. Tolkien"
+   ], 
+   "author_alternative_name": [
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "contributor": [
+    "Carroux, Margaret."
+   ], 
+   "author_key": [
+    "OL26320A"
+   ], 
+   "subject": [
+    "English Fantasy fiction", 
+    "Translations into German", 
+    "German Fantasy fiction", 
+    "Translations from English"
+   ], 
+   "title": "The Lord of the Rings", 
+   "publish_date": [
+    "1991", 
+    "March 12, 1999", 
+    "2002", 
+    "2001", 
+    "July 1, 2003", 
+    "October 31, 2001"
+   ], 
+   "publish_place": [
+    "Stuttgart", 
+    "Klett-Cotta"
+   ], 
+   "edition_count": 7, 
+   "key": "OL16245393W", 
+   "id_goodreads": [
+    "136775", 
+    "1615697", 
+    "514236", 
+    "136779", 
+    "136773", 
+    "4543827", 
+    "136774", 
+    "514235"
+   ], 
+   "publisher": [
+    "Klett-Cotta", 
+    "Klett-Cotte", 
+    "J.G. Cotta'sche, Buchhandlung Nachfolger GmbH", 
+    "Hobbit Presse"
+   ], 
+   "language": [
+    "ger"
+   ], 
+   "id_librarything": [
+    "3203350", 
+    "3203347", 
+    "1386651"
+   ], 
+   "cover_edition_key": "OL9076613M", 
+   "publish_year": [
+    1991, 
+    1999, 
+    2001, 
+    2002, 
+    2003
+   ], 
+   "first_publish_year": 1991, 
+   "oclc": [
+    "43202270"
+   ]
+  }, 
+  {
+   "title_suggest": "The Lord of the Rings", 
+   "publish_place": [
+    "Barcelona"
+   ], 
+   "isbn": [
+    "9505470657", 
+    "9789505470655", 
+    "9788445071779", 
+    "8445071777", 
+    "9788422690306", 
+    "9789706906519", 
+    "9706906517", 
+    "8445071408", 
+    "9788445071403", 
+    "8422690306"
+   ], 
+   "has_fulltext": false, 
+   "author_name": [
+    "J. R. R. Tolkien"
+   ], 
+   "edition_count": 6, 
+   "edition_key": [
+    "OL9117897M", 
+    "OL18462275M", 
+    "OL9137996M", 
+    "OL9131887M", 
+    "OL9131874M", 
+    "OL9179424M"
+   ], 
+   "text": [
+    "OL16245392W", 
+    "The Lord of the Rings", 
+    "El senor de los anillos.", 
+    "El Senor De Los Anillos", 
+    "The lord of the rings.", 
+    "LA Comunidad Del Anillo (Lord of the Rings)", 
+    "El Retorno Del Rey (Tolkien, J. R. R. Lord of the Rings. 3.)", 
+    "La Comunidad Del Anillo I", 
+    "Las DOS Torres", 
+    "OL9117897M", 
+    "OL18462275M", 
+    "OL9137996M", 
+    "OL9131887M", 
+    "OL9131874M", 
+    "OL9179424M", 
+    "Distribooks", 
+    "Minotauro/Argentina", 
+    "Minotauro", 
+    "Circulo de Lectores", 
+    "Matilde Horne (Translator)", 
+    "Luis Domenech (Translator)", 
+    "9505470657", 
+    "9789505470655", 
+    "9788445071779", 
+    "8445071777", 
+    "9788422690306", 
+    "9789706906519", 
+    "9706906517", 
+    "8445071408", 
+    "9788445071403", 
+    "8422690306", 
+    "OL26320A", 
+    "J. R. R. Tolkien", 
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "title": "The Lord of the Rings", 
+   "publisher": [
+    "Distribooks", 
+    "Minotauro/Argentina", 
+    "Minotauro", 
+    "Circulo de Lectores"
+   ], 
+   "author_alternative_name": [
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "cover_edition_key": "OL9137996M", 
+   "language": [
+    "spa", 
+    "eng"
+   ], 
+   "publish_year": [
+    1977, 
+    2003, 
+    2001, 
+    1982, 
+    2002
+   ], 
+   "first_publish_year": 1977, 
+   "id_librarything": [
+    "3203356", 
+    "3203350", 
+    "3203347"
+   ], 
+   "key": "OL16245392W", 
+   "contributor": [
+    "Matilde Horne (Translator)", 
+    "Luis Domenech (Translator)"
+   ], 
+   "publish_date": [
+    "1977", 
+    "November 2001", 
+    "April 2003", 
+    "1982", 
+    "March 2002"
+   ], 
+   "author_key": [
+    "OL26320A"
+   ], 
+   "id_goodreads": [
+    "15397", 
+    "984744", 
+    "63387", 
+    "984757", 
+    "222947"
+   ]
+  }, 
+  {
+   "title_suggest": "The Lord of the Rings", 
+   "publisher": [
+    "Minotauro/Argentina", 
+    "Minotauro", 
+    "Turtleback Books Distributed by Demco Media"
+   ], 
+   "cover_i": 4927739, 
+   "id_librarything": [
+    "3203347", 
+    "1386651", 
+    "3203356", 
+    "3203350"
+   ], 
+   "has_fulltext": false, 
+   "author_name": [
+    "J. R. R. Tolkien"
+   ], 
+   "edition_count": 6, 
+   "edition_key": [
+    "OL9131845M", 
+    "OL9137997M", 
+    "OL9131886M", 
+    "OL9131846M", 
+    "OL9179425M", 
+    "OL10943762M"
+   ], 
+   "text": [
+    "OL27494W", 
+    "The Lord of the Rings", 
+    "El Senor De Los Anillos / the Lord of the Rings", 
+    "El Senor De Los Anillos/the Lord of the Rings", 
+    "el retorno del rey", 
+    "Las DOS Torres (Lord of the Rings)", 
+    "LA Comunidad Del Anillo", 
+    "El Retorno Del Rey Iii", 
+    "Las Dos Torres", 
+    "OL9131845M", 
+    "OL9137997M", 
+    "OL9131886M", 
+    "OL9131846M", 
+    "OL9179425M", 
+    "OL10943762M", 
+    "Minotauro/Argentina", 
+    "Minotauro", 
+    "Turtleback Books Distributed by Demco Media", 
+    "56605802", 
+    "9780606305648", 
+    "8445070320", 
+    "9788445070321", 
+    "9788445070338", 
+    "9789706906533", 
+    "8445071769", 
+    "9789505470662", 
+    "9706906533", 
+    "9788445071762", 
+    "9505470665", 
+    "8445070339", 
+    "0606305645", 
+    "OL26320A", 
+    "J. R. R. Tolkien", 
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "title": "The Lord of the Rings", 
+   "isbn": [
+    "9780606305648", 
+    "8445070320", 
+    "9788445070321", 
+    "9788445070338", 
+    "9789706906533", 
+    "8445071769", 
+    "9789505470662", 
+    "9706906533", 
+    "9788445071762", 
+    "9505470665", 
+    "8445070339", 
+    "0606305645"
+   ], 
+   "author_alternative_name": [
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "cover_edition_key": "OL9179425M", 
+   "language": [
+    "spa"
+   ], 
+   "publish_year": [
+    2002, 
+    2003, 
+    1985, 
+    2004, 
+    2001
+   ], 
+   "first_publish_year": 1985, 
+   "oclc": [
+    "56605802"
+   ], 
+   "key": "OL27494W", 
+   "publish_date": [
+    "March 2003", 
+    "March 2002", 
+    "February 1985", 
+    "April 30, 2004", 
+    "November 2001", 
+    "April 2003"
+   ], 
+   "author_key": [
+    "OL26320A"
+   ], 
+   "id_goodreads": [
+    "984745", 
+    "984752", 
+    "63390", 
+    "63360", 
+    "15280"
+   ]
+  }, 
+  {
+   "title_suggest": "The Lord of the Rings", 
+   "publisher": [
+    "HarperCollins"
+   ], 
+   "cover_i": 10796, 
+   "isbn": [
+    "0007149131", 
+    "9780007149131"
+   ], 
+   "has_fulltext": false, 
+   "id_librarything": [
+    "1386651"
+   ], 
+   "edition_count": 2, 
+   "edition_key": [
+    "OL9217143M", 
+    "OL7262428M"
+   ], 
+   "text": [
+    "OL27449W", 
+    "The Lord of the Rings", 
+    "The Lord of the Rings trilogy - one volume hardback (movie cover)", 
+    "OL9217143M", 
+    "OL7262428M", 
+    "HarperCollins", 
+    "0007149131", 
+    "9780007149131", 
+    "OL26320A", 
+    "J. R. R. Tolkien", 
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "title": "The Lord of the Rings", 
+   "author_alternative_name": [
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "cover_edition_key": "OL7262428M", 
+   "publish_year": [
+    2002
+   ], 
+   "first_publish_year": 2002, 
+   "author_name": [
+    "J. R. R. Tolkien"
+   ], 
+   "key": "OL27449W", 
+   "publish_date": [
+    "2002"
+   ], 
+   "author_key": [
+    "OL26320A"
+   ], 
+   "id_goodreads": [
+    "273440"
+   ]
+  }, 
+  {
+   "title_suggest": "The Fellowship of the Ring (Lord of the Rings", 
+   "publisher": [
+    "Ballantine Books", 
+    "Houghton Mifflin"
+   ], 
+   "isbn": [
+    "9780395272237", 
+    "9780345008626", 
+    "0345008626", 
+    "0395272238"
+   ], 
+   "has_fulltext": false, 
+   "id_librarything": [
+    "3203347"
+   ], 
+   "edition_count": 2, 
+   "edition_key": [
+    "OL7465858M", 
+    "OL9678816M"
+   ], 
+   "text": [
+    "OL14933360W", 
+    "The Fellowship of the Ring (Lord of the Rings", 
+    "The Fellowship of the Ring (Lord of the Rings (Paperback))", 
+    "OL7465858M", 
+    "OL9678816M", 
+    "Ballantine Books", 
+    "Houghton Mifflin", 
+    "9780395272237", 
+    "9780345008626", 
+    "0345008626", 
+    "0395272238", 
+    "OL26320A", 
+    "J. R. R. Tolkien", 
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "title": "The Fellowship of the Ring (Lord of the Rings", 
+   "author_alternative_name": [
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "cover_edition_key": "OL7465858M", 
+   "language": [
+    "eng"
+   ], 
+   "publish_year": [
+    1988
+   ], 
+   "first_publish_year": 1988, 
+   "author_name": [
+    "J. R. R. Tolkien"
+   ], 
+   "key": "OL14933360W", 
+   "publish_date": [
+    "October 2, 1988", 
+    "September 1988"
+   ], 
+   "author_key": [
+    "OL26320A"
+   ], 
+   "id_goodreads": [
+    "70991", 
+    "222909"
+   ]
+  }, 
+  {
+   "title_suggest": "The Lord of Rings", 
+   "publisher": [
+    "Ballantine Books"
+   ], 
+   "isbn": [
+    "0345214528", 
+    "9780345214522"
+   ], 
+   "has_fulltext": false, 
+   "id_librarything": [
+    "1386651"
+   ], 
+   "edition_count": 1, 
+   "edition_key": [
+    "OL10681579M"
+   ], 
+   "text": [
+    "OL14926051W", 
+    "The Lord of Rings", 
+    "OL10681579M", 
+    "Ballantine Books", 
+    "0345214528", 
+    "9780345214522", 
+    "OL26320A", 
+    "J. R. R. Tolkien", 
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "title": "The Lord of Rings", 
+   "author_alternative_name": [
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "language": [
+    "eng"
+   ], 
+   "publish_year": [
+    1972
+   ], 
+   "first_publish_year": 1972, 
+   "author_name": [
+    "J. R. R. Tolkien"
+   ], 
+   "key": "OL14926051W", 
+   "publish_date": [
+    "September 12, 1972"
+   ], 
+   "author_key": [
+    "OL26320A"
+   ], 
+   "id_goodreads": [
+    "877754"
+   ]
+  }, 
+  {
+   "title_suggest": "Lord of the Rings, the", 
+   "publisher": [
+    "HarperCollins Publishers"
+   ], 
+   "cover_i": 149274, 
+   "isbn": [
+    "9780261103252", 
+    "0261103253"
+   ], 
+   "has_fulltext": false, 
+   "author_name": [
+    "J. R. R. Tolkien"
+   ], 
+   "edition_count": 1, 
+   "edition_key": [
+    "OL9850389M"
+   ], 
+   "text": [
+    "OL14933439W", 
+    "Lord of the Rings, the", 
+    "OL9850389M", 
+    "HarperCollins Publishers", 
+    "9780261103252", 
+    "0261103253", 
+    "OL26320A", 
+    "J. R. R. Tolkien", 
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein", 
+    "Fantasy", 
+    "OverDrive", 
+    "Fiction"
+   ], 
+   "title": "Lord of the Rings, the", 
+   "author_alternative_name": [
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "cover_edition_key": "OL9850389M", 
+   "language": [
+    "eng"
+   ], 
+   "publish_year": [
+    1996
+   ], 
+   "first_publish_year": 1996, 
+   "id_librarything": [
+    "1386651"
+   ], 
+   "key": "OL14933439W", 
+   "publish_date": [
+    "August 1996"
+   ], 
+   "author_key": [
+    "OL26320A"
+   ], 
+   "id_goodreads": [
+    "15350"
+   ], 
+   "subject": [
+    "Fantasy", 
+    "OverDrive", 
+    "Fiction"
+   ]
+  }, 
+  {
+   "title_suggest": "The Lord of the Rings", 
+   "publisher": [
+    "Klett-Cotta"
+   ], 
+   "isbn": [
+    "9783608932225", 
+    "3608932224"
+   ], 
+   "has_fulltext": false, 
+   "id_librarything": [
+    "1386651"
+   ], 
+   "edition_count": 1, 
+   "edition_key": [
+    "OL9076563M"
+   ], 
+   "text": [
+    "OL15331152W", 
+    "The Lord of the Rings", 
+    "Der Herr der Ringe. Die Gef\u00e4hrten / Die zwei T\u00fcrme / Die R\u00fcckkehr des K\u00f6nigs. Mit Anh\u00e4ngen und Register.", 
+    "OL9076563M", 
+    "Klett-Cotta", 
+    "9783608932225", 
+    "3608932224", 
+    "OL26320A", 
+    "J. R. R. Tolkien", 
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "title": "The Lord of the Rings", 
+   "author_alternative_name": [
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "cover_edition_key": "OL9076563M", 
+   "language": [
+    "ger"
+   ], 
+   "publish_year": [
+    2002
+   ], 
+   "first_publish_year": 2002, 
+   "author_name": [
+    "J. R. R. Tolkien"
+   ], 
+   "key": "OL15331152W", 
+   "publish_date": [
+    "January 1, 2002"
+   ], 
+   "author_key": [
+    "OL26320A"
+   ], 
+   "id_goodreads": [
+    "671212"
+   ]
+  }, 
+  {
+   "title_suggest": "The Lord of the Rings", 
+   "publisher": [
+    "Random House Audio"
+   ], 
+   "cover_i": 370481, 
+   "isbn": [
+    "0553456539", 
+    "9780553456530"
+   ], 
+   "has_fulltext": false, 
+   "author_name": [
+    "J. R. R. Tolkien"
+   ], 
+   "edition_count": 1, 
+   "edition_key": [
+    "OL7827516M"
+   ], 
+   "text": [
+    "OL14926055W", 
+    "The Lord of the Rings", 
+    "OL7827516M", 
+    "Random House Audio", 
+    "Ian Holm (Narrator)", 
+    "Dramatization (Narrator)", 
+    "0553456539", 
+    "9780553456530", 
+    "OL26320A", 
+    "J. R. R. Tolkien", 
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "title": "The Lord of the Rings", 
+   "author_alternative_name": [
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "cover_edition_key": "OL7827516M", 
+   "language": [
+    "eng"
+   ], 
+   "publish_year": [
+    1999
+   ], 
+   "first_publish_year": 1999, 
+   "id_librarything": [
+    "636553"
+   ], 
+   "key": "OL14926055W", 
+   "contributor": [
+    "Ian Holm (Narrator)", 
+    "Dramatization (Narrator)"
+   ], 
+   "publish_date": [
+    "December 1, 1999"
+   ], 
+   "author_key": [
+    "OL26320A"
+   ], 
+   "id_goodreads": [
+    "39"
+   ]
+  }, 
+  {
+   "title_suggest": "Lord of the Rings", 
+   "publisher": [
+    "J.G. Cotta'sche, Buchhandlung Nachfolger GmbH"
+   ], 
+   "isbn": [
+    "9783608952124", 
+    "3608952128"
+   ], 
+   "has_fulltext": false, 
+   "id_librarything": [
+    "3203347"
+   ], 
+   "edition_count": 1, 
+   "edition_key": [
+    "OL9076659M"
+   ], 
+   "last_modified_i": 1341337816, 
+   "title": "Lord of the Rings", 
+   "author_alternative_name": [
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "language": [
+    "ger"
+   ], 
+   "publish_year": [
+    1996
+   ], 
+   "first_publish_year": 1996, 
+   "author_name": [
+    "J. R. R. Tolkien"
+   ], 
+   "key": "OL8997429W", 
+   "text": [
+    "OL8997429W", 
+    "Lord of the Rings", 
+    "Lord of the Rings in German", 
+    "OL9076659M", 
+    "J.G. Cotta'sche, Buchhandlung Nachfolger GmbH", 
+    "9783608952124", 
+    "3608952128", 
+    "OL26320A", 
+    "J. R. R. Tolkien", 
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "publish_date": [
+    "1996"
+   ], 
+   "author_key": [
+    "OL26320A"
+   ], 
+   "id_goodreads": [
+    "165488"
+   ], 
+   "ebook_count_i": 0
+  }, 
+  {
+   "title_suggest": "The Lord of the Rings", 
+   "cover_i": 1047630, 
+   "has_fulltext": false, 
+   "edition_count": 0, 
+   "text": [
+    "OL27493W", 
+    "The Lord of the Rings", 
+    "OL26320A", 
+    "J. R. R. Tolkien", 
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "title": "The Lord of the Rings", 
+   "author_alternative_name": [
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "author_name": [
+    "J. R. R. Tolkien"
+   ], 
+   "key": "OL27493W", 
+   "author_key": [
+    "OL26320A"
+   ]
+  }, 
+  {
+   "title_suggest": "LORD OF THE RINGS BOXED SET", 
+   "publisher": [
+    "HARPERCOLLINS PUBLISHERS"
+   ], 
+   "cover_i": 13349, 
+   "isbn": [
+    "9780007203635", 
+    "0007203632"
+   ], 
+   "has_fulltext": false, 
+   "id_librarything": [
+    "1386651"
+   ], 
+   "edition_count": 2, 
+   "edition_key": [
+    "OL7264037M", 
+    "OL9218752M"
+   ], 
+   "text": [
+    "OL265321W", 
+    "LORD OF THE RINGS BOXED SET", 
+    "OL7264037M", 
+    "OL9218752M", 
+    "HARPERCOLLINS PUBLISHERS", 
+    "63195661", 
+    "9780007203635", 
+    "0007203632", 
+    "OL26320A", 
+    "J. R. R. Tolkien", 
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "title": "LORD OF THE RINGS BOXED SET", 
+   "author_alternative_name": [
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "cover_edition_key": "OL7264037M", 
+   "publish_year": [
+    2005
+   ], 
+   "first_publish_year": 2005, 
+   "author_name": [
+    "J. R. R. Tolkien"
+   ], 
+   "key": "OL265321W", 
+   "publish_date": [
+    "2005"
+   ], 
+   "author_key": [
+    "OL26320A"
+   ], 
+   "id_goodreads": [
+    "222953"
+   ], 
+   "oclc": [
+    "63195661"
+   ]
+  }, 
+  {
+   "title_suggest": "The Lord of the Rings Trilogy", 
+   "publisher": [
+    "BBC Audiobooks", 
+    "Ballantine"
+   ], 
+   "isbn": [
+    "0345247868", 
+    "9780563528876", 
+    "0563528877", 
+    "9780345247865"
+   ], 
+   "has_fulltext": false, 
+   "id_librarything": [
+    "1386651"
+   ], 
+   "edition_count": 2, 
+   "edition_key": [
+    "OL10682337M", 
+    "OL7852599M"
+   ], 
+   "text": [
+    "OL9085720W", 
+    "The Lord of the Rings Trilogy", 
+    "The Lord of the Rings Trilogy (Radio Collection)", 
+    "OL10682337M", 
+    "OL7852599M", 
+    "BBC Audiobooks", 
+    "Ballantine", 
+    "Stephen Thorne (Performer)", 
+    "John Le Mesurier (Performer)", 
+    "Simon Cadell (Performer)", 
+    "Ian Holm (Performer)", 
+    "Michael Hordern (Performer)", 
+    "0345247868", 
+    "9780563528876", 
+    "0563528877", 
+    "9780345247865", 
+    "OL26320A", 
+    "J. R. R. Tolkien", 
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "title": "The Lord of the Rings Trilogy", 
+   "author_alternative_name": [
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "cover_edition_key": "OL7852599M", 
+   "publish_year": [
+    2002, 
+    1975
+   ], 
+   "first_publish_year": 1975, 
+   "author_name": [
+    "J. R. R. Tolkien"
+   ], 
+   "key": "OL9085720W", 
+   "contributor": [
+    "Stephen Thorne (Performer)", 
+    "John Le Mesurier (Performer)", 
+    "Simon Cadell (Performer)", 
+    "Ian Holm (Performer)", 
+    "Michael Hordern (Performer)"
+   ], 
+   "publish_date": [
+    "October 7, 2002", 
+    "1975"
+   ], 
+   "author_key": [
+    "OL26320A"
+   ], 
+   "id_goodreads": [
+    "130023", 
+    "998763"
+   ]
+  }, 
+  {
+   "title_suggest": "The Lord of the Rings: The Two Towers", 
+   "publisher": [
+    "Random House Audio"
+   ], 
+   "subtitle": "A Full-Cast Dramatization", 
+   "has_fulltext": false, 
+   "author_name": [
+    "J. R. R. Tolkien"
+   ], 
+   "edition_count": 2, 
+   "edition_key": [
+    "OL7913929M", 
+    "OL7913930M"
+   ], 
+   "text": [
+    "OL16245381W", 
+    "The Lord of the Rings: The Two Towers", 
+    "A Full-Cast Dramatization", 
+    "OL7913929M", 
+    "OL7913930M", 
+    "Random House Audio", 
+    "Dramatization (Narrator)", 
+    "9780739301180", 
+    "0739301195", 
+    "0739301187", 
+    "9780739301197", 
+    "OL26320A", 
+    "J. R. R. Tolkien", 
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "title": "The Lord of the Rings: The Two Towers", 
+   "isbn": [
+    "9780739301180", 
+    "0739301195", 
+    "0739301187", 
+    "9780739301197"
+   ], 
+   "author_alternative_name": [
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "cover_edition_key": "OL7913929M", 
+   "language": [
+    "eng"
+   ], 
+   "publish_year": [
+    2002
+   ], 
+   "first_publish_year": 2002, 
+   "id_librarything": [
+    "3203350", 
+    "3947494"
+   ], 
+   "key": "OL16245381W", 
+   "contributor": [
+    "Dramatization (Narrator)"
+   ], 
+   "publish_date": [
+    "July 2, 2002"
+   ], 
+   "author_key": [
+    "OL26320A"
+   ], 
+   "id_goodreads": [
+    "2914584", 
+    "126754"
+   ]
+  }, 
+  {
+   "title_suggest": "Poems from The lord of the rings", 
+   "edition_key": [
+    "OL9429879M", 
+    "OL19581879M"
+   ], 
+   "cover_i": 149269, 
+   "isbn": [
+    "9780261103122", 
+    "0261103121"
+   ], 
+   "has_fulltext": false, 
+   "text": [
+    "OL27453W", 
+    "Poems from The lord of the rings", 
+    "The lord of the rings.", 
+    "Poems from the \"Lord of the Rings\"", 
+    "OL9429879M", 
+    "OL19581879M", 
+    "illustrated by Alan Lee.", 
+    "HarperCollins Publishers Ltd", 
+    "HarperCollins", 
+    "Alan Lee (Illustrator)", 
+    "Tolkien, J. R. R. 1892-1973.", 
+    "Lee, Alan, 1947-", 
+    "9780261103122", 
+    "0261103121", 
+    "OL26320A", 
+    "J. R. R. Tolkien", 
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "author_name": [
+    "J. R. R. Tolkien"
+   ], 
+   "id_librarything": [
+    "364210"
+   ], 
+   "contributor": [
+    "Alan Lee (Illustrator)", 
+    "Tolkien, J. R. R. 1892-1973.", 
+    "Lee, Alan, 1947-"
+   ], 
+   "author_key": [
+    "OL26320A"
+   ], 
+   "title": "Poems from The lord of the rings", 
+   "publish_date": [
+    "2002", 
+    "October 20, 1994"
+   ], 
+   "publish_place": [
+    "London"
+   ], 
+   "edition_count": 2, 
+   "key": "OL27453W", 
+   "id_goodreads": [
+    "15315"
+   ], 
+   "publisher": [
+    "HarperCollins Publishers Ltd", 
+    "HarperCollins"
+   ], 
+   "language": [
+    "eng"
+   ], 
+   "author_alternative_name": [
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "cover_edition_key": "OL9429879M", 
+   "publish_year": [
+    2002, 
+    1994
+   ], 
+   "first_publish_year": 1994
+  }, 
+  {
+   "title_suggest": "The Return of the King (Lord of the Rings", 
+   "publisher": [
+    "Ballantine Books"
+   ], 
+   "isbn": [
+    "0345008642", 
+    "9780345008640", 
+    "0345296087", 
+    "9780345296085"
+   ], 
+   "has_fulltext": false, 
+   "id_librarything": [
+    "3203356"
+   ], 
+   "edition_count": 2, 
+   "edition_key": [
+    "OL9573658M", 
+    "OL10680913M"
+   ], 
+   "last_modified_i": 1340485211, 
+   "title": "The Return of the King (Lord of the Rings", 
+   "author_alternative_name": [
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "language": [
+    "eng"
+   ], 
+   "publish_year": [
+    1988, 
+    1981
+   ], 
+   "first_publish_year": 1981, 
+   "author_name": [
+    "J. R. R. Tolkien"
+   ], 
+   "key": "OL14926075W", 
+   "text": [
+    "OL14926075W", 
+    "The Return of the King (Lord of the Rings", 
+    "The Return of the King (Lord of the Rings (Paperback))", 
+    "RETURN OF THE KING (Lord of the Rings (Paperback))", 
+    "OL9573658M", 
+    "OL10680913M", 
+    "Ballantine Books", 
+    "0345008642", 
+    "9780345008640", 
+    "0345296087", 
+    "9780345296085", 
+    "OL26320A", 
+    "J. R. R. Tolkien", 
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "publish_date": [
+    "September 1988", 
+    "March 12, 1981"
+   ], 
+   "author_key": [
+    "OL26320A"
+   ], 
+   "id_goodreads": [
+    "2177657", 
+    "222912"
+   ], 
+   "ebook_count_i": 0
+  }, 
+  {
+   "title_suggest": "The Lord of the Rings (The Two Towers)", 
+   "edition_key": [
+    "OL7913929M", 
+    "OL9216863M", 
+    "OL7262148M", 
+    "OL7913930M"
+   ], 
+   "cover_i": 467477, 
+   "subtitle": "A Full-Cast Dramatization", 
+   "has_fulltext": false, 
+   "text": [
+    "OL262744W", 
+    "The Lord of the Rings (The Two Towers)", 
+    "A Full-Cast Dramatization", 
+    "The Lord of the Rings: The Two Towers", 
+    "OL7913929M", 
+    "OL9216863M", 
+    "OL7262148M", 
+    "OL7913930M", 
+    "Random House Audio", 
+    "HarperCollins Audio", 
+    "Rob Inglis (Narrator)", 
+    "Dramatization (Narrator)", 
+    "9780007141302", 
+    "0739301195", 
+    "0739301187", 
+    "0007141300", 
+    "9780739301180", 
+    "9780739301197", 
+    "OL26320A", 
+    "J. R. R. Tolkien", 
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "author_name": [
+    "J. R. R. Tolkien"
+   ], 
+   "id_librarything": [
+    "3203350", 
+    "3947494"
+   ], 
+   "contributor": [
+    "Rob Inglis (Narrator)", 
+    "Dramatization (Narrator)"
+   ], 
+   "isbn": [
+    "9780007141302", 
+    "0739301195", 
+    "0739301187", 
+    "0007141300", 
+    "9780739301180", 
+    "9780739301197"
+   ], 
+   "author_key": [
+    "OL26320A"
+   ], 
+   "title": "The Lord of the Rings (The Two Towers)", 
+   "publish_date": [
+    "July 2, 2002", 
+    "October 21, 2002"
+   ], 
+   "edition_count": 4, 
+   "key": "OL262744W", 
+   "id_goodreads": [
+    "2914584", 
+    "93935", 
+    "126754"
+   ], 
+   "publisher": [
+    "Random House Audio", 
+    "HarperCollins Audio"
+   ], 
+   "language": [
+    "eng"
+   ], 
+   "author_alternative_name": [
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "cover_edition_key": "OL7913929M", 
+   "publish_year": [
+    2002
+   ], 
+   "first_publish_year": 2002
+  }, 
+  {
+   "title_suggest": "The History of the Lord of the Rings", 
+   "publisher": [
+    "Houghton Mifflin"
+   ], 
+   "cover_i": 393177, 
+   "isbn": [
+    "9780618083558", 
+    "0618083553"
+   ], 
+   "has_fulltext": false, 
+   "author_name": [
+    "J. R. R. Tolkien"
+   ], 
+   "edition_count": 1, 
+   "edition_key": [
+    "OL7603610M"
+   ], 
+   "text": [
+    "OL14926004W", 
+    "The History of the Lord of the Rings", 
+    "OL7603610M", 
+    "Houghton Mifflin", 
+    "Christopher Tolkien (Editor)", 
+    "9780618083558", 
+    "0618083553", 
+    "OL26320A", 
+    "J. R. R. Tolkien", 
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "title": "The History of the Lord of the Rings", 
+   "author_alternative_name": [
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "cover_edition_key": "OL7603610M", 
+   "language": [
+    "eng"
+   ], 
+   "publish_year": [
+    2000
+   ], 
+   "first_publish_year": 2000, 
+   "id_librarything": [
+    "395425"
+   ], 
+   "key": "OL14926004W", 
+   "contributor": [
+    "Christopher Tolkien (Editor)"
+   ], 
+   "publish_date": [
+    "September 2000"
+   ], 
+   "author_key": [
+    "OL26320A"
+   ], 
+   "id_goodreads": [
+    "2329"
+   ]
+  }, 
+  {
+   "title_suggest": "LORD OF THE RING SET PAP", 
+   "publisher": [
+    "Houghton Mifflin"
+   ], 
+   "id_librarything": [
+    "1386651"
+   ], 
+   "has_fulltext": false, 
+   "author_name": [
+    "J. R. R. Tolkien"
+   ], 
+   "edition_count": 1, 
+   "edition_key": [
+    "OL7465857M"
+   ], 
+   "text": [
+    "OL14933435W", 
+    "LORD OF THE RING SET PAP", 
+    "OL7465857M", 
+    "Houghton Mifflin", 
+    "8733571", 
+    "9780395272206", 
+    "0395272203", 
+    "OL26320A", 
+    "J. R. R. Tolkien", 
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "title": "LORD OF THE RING SET PAP", 
+   "isbn": [
+    "9780395272206", 
+    "0395272203"
+   ], 
+   "author_alternative_name": [
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "language": [
+    "eng"
+   ], 
+   "publish_year": [
+    1978
+   ], 
+   "first_publish_year": 1978, 
+   "oclc": [
+    "8733571"
+   ], 
+   "key": "OL14933435W", 
+   "publish_date": [
+    "October 28, 1978"
+   ], 
+   "author_key": [
+    "OL26320A"
+   ], 
+   "id_goodreads": [
+    "2145536"
+   ]
+  }, 
+  {
+   "title_suggest": "The Lord of the Rings (Spark Notes)", 
+   "publisher": [
+    "SparkNotes"
+   ], 
+   "cover_i": 4853661, 
+   "isbn": [
+    "9781586637903", 
+    "1586637908"
+   ], 
+   "has_fulltext": false, 
+   "id_librarything": [
+    "8204903"
+   ], 
+   "edition_count": 1, 
+   "edition_key": [
+    "OL8821524M"
+   ], 
+   "text": [
+    "OL14933438W", 
+    "The Lord of the Rings (Spark Notes)", 
+    "OL8821524M", 
+    "SparkNotes", 
+    "9781586637903", 
+    "1586637908", 
+    "OL26320A", 
+    "J. R. R. Tolkien", 
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "title": "The Lord of the Rings (Spark Notes)", 
+   "author_alternative_name": [
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "cover_edition_key": "OL8821524M", 
+   "language": [
+    "eng"
+   ], 
+   "publish_year": [
+    2002
+   ], 
+   "first_publish_year": 2002, 
+   "author_name": [
+    "J. R. R. Tolkien"
+   ], 
+   "key": "OL14933438W", 
+   "publish_date": [
+    "September 1, 2002"
+   ], 
+   "author_key": [
+    "OL26320A"
+   ], 
+   "id_goodreads": [
+    "54698"
+   ]
+  }, 
+  {
+   "title_suggest": "The \"Lord of the Rings\" Sketchbook", 
+   "publisher": [
+    "HarperCollins Publishers Ltd"
+   ], 
+   "cover_i": 149310, 
+   "id_librarything": [
+    "250376"
+   ], 
+   "has_fulltext": false, 
+   "author_name": [
+    "J. R. R. Tolkien"
+   ], 
+   "edition_count": 1, 
+   "edition_key": [
+    "OL9516476M"
+   ], 
+   "text": [
+    "OL14933437W", 
+    "The \"Lord of the Rings\" Sketchbook", 
+    "OL9516476M", 
+    "HarperCollins Publishers Ltd", 
+    "60793953", 
+    "Alan Lee (Illustrator)", 
+    "0261103830", 
+    "9780261103832", 
+    "OL26320A", 
+    "J. R. R. Tolkien", 
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "title": "The \"Lord of the Rings\" Sketchbook", 
+   "isbn": [
+    "0261103830", 
+    "9780261103832"
+   ], 
+   "author_alternative_name": [
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "cover_edition_key": "OL9516476M", 
+   "publish_year": [
+    2005
+   ], 
+   "first_publish_year": 2005, 
+   "oclc": [
+    "60793953"
+   ], 
+   "key": "OL14933437W", 
+   "contributor": [
+    "Alan Lee (Illustrator)"
+   ], 
+   "publish_date": [
+    "September 5, 2005"
+   ], 
+   "author_key": [
+    "OL26320A"
+   ], 
+   "id_goodreads": [
+    "534001"
+   ]
+  }, 
+  {
+   "title_suggest": "Vlastelin Kolec / Lord of the Rings", 
+   "publisher": [
+    "\"Kniga\""
+   ], 
+   "cover_i": 1045348, 
+   "isbn": [
+    "9785040081769", 
+    "5040081766"
+   ], 
+   "has_fulltext": false, 
+   "id_librarything": [
+    "1386651"
+   ], 
+   "edition_count": 1, 
+   "edition_key": [
+    "OL9039651M"
+   ], 
+   "text": [
+    "OL14933529W", 
+    "Vlastelin Kolec / Lord of the Rings", 
+    "OL9039651M", 
+    "\"Kniga\"", 
+    "9785040081769", 
+    "5040081766", 
+    "OL26320A", 
+    "J. R. R. Tolkien", 
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "title": "Vlastelin Kolec / Lord of the Rings", 
+   "author_alternative_name": [
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "cover_edition_key": "OL9039651M", 
+   "language": [
+    "rus"
+   ], 
+   "publish_year": [
+    2001
+   ], 
+   "first_publish_year": 2001, 
+   "author_name": [
+    "J. R. R. Tolkien"
+   ], 
+   "key": "OL14933529W", 
+   "publish_date": [
+    "October 2001"
+   ], 
+   "author_key": [
+    "OL26320A"
+   ], 
+   "id_goodreads": [
+    "1412028"
+   ]
+  }, 
+  {
+   "title_suggest": "The Lord of the Rings and The Hobbit", 
+   "publisher": [
+    "Highbridge Audio"
+   ], 
+   "cover_i": 803005, 
+   "isbn": [
+    "1565117077", 
+    "9781565117075"
+   ], 
+   "has_fulltext": false, 
+   "id_librarything": [
+    "4881"
+   ], 
+   "edition_count": 1, 
+   "edition_key": [
+    "OL8663980M"
+   ], 
+   "text": [
+    "OL14933440W", 
+    "The Lord of the Rings and The Hobbit", 
+    "OL8663980M", 
+    "Highbridge Audio", 
+    "1565117077", 
+    "9781565117075", 
+    "OL26320A", 
+    "J. R. R. Tolkien", 
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "title": "The Lord of the Rings and The Hobbit", 
+   "author_alternative_name": [
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "cover_edition_key": "OL8663980M", 
+   "language": [
+    "eng"
+   ], 
+   "publish_year": [
+    2002
+   ], 
+   "first_publish_year": 2002, 
+   "author_name": [
+    "J. R. R. Tolkien"
+   ], 
+   "key": "OL14933440W", 
+   "publish_date": [
+    "October 10, 2002"
+   ], 
+   "author_key": [
+    "OL26320A"
+   ], 
+   "id_goodreads": [
+    "598925"
+   ]
+  }, 
+  {
+   "title_suggest": "The Lord of the Rings. Appendix", 
+   "publish_place": [
+    "Barcelona, Spain"
+   ], 
+   "isbn": [
+    "842269283X", 
+    "9788422692836"
+   ], 
+   "has_fulltext": false, 
+   "language": [
+    "spa"
+   ], 
+   "edition_count": 1, 
+   "edition_key": [
+    "OL25175082M"
+   ], 
+   "text": [
+    "OL16466869W", 
+    "The Lord of the Rings. Appendix", 
+    "El Se\u00f1or de los Anillos. Ap\u00e9ndices", 
+    "OL25175082M", 
+    "Circulo de Lectores", 
+    "842269283X", 
+    "9788422692836", 
+    "OL26320A", 
+    "J. R. R. Tolkien", 
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "title": "The Lord of the Rings. Appendix", 
+   "publisher": [
+    "Circulo de Lectores"
+   ], 
+   "author_alternative_name": [
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "cover_edition_key": "OL25175082M", 
+   "publish_year": [
+    2002
+   ], 
+   "first_publish_year": 2002, 
+   "author_name": [
+    "J. R. R. Tolkien"
+   ], 
+   "key": "OL16466869W", 
+   "publish_date": [
+    "2002"
+   ], 
+   "author_key": [
+    "OL26320A"
+   ]
+  }, 
+  {
+   "title_suggest": "Hobbit Lord of the Rings", 
+   "publisher": [
+    "Coles Pub Group Ltd"
+   ], 
+   "cover_i": 7020407, 
+   "isbn": [
+    "0774032979", 
+    "9780774032971"
+   ], 
+   "has_fulltext": false, 
+   "id_librarything": [
+    "4881"
+   ], 
+   "edition_count": 1, 
+   "edition_key": [
+    "OL8080254M"
+   ], 
+   "text": [
+    "OL14933384W", 
+    "Hobbit Lord of the Rings", 
+    "OL8080254M", 
+    "Coles Pub Group Ltd", 
+    "0774032979", 
+    "9780774032971", 
+    "OL26320A", 
+    "J. R. R. Tolkien", 
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "title": "Hobbit Lord of the Rings", 
+   "author_alternative_name": [
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "language": [
+    "eng"
+   ], 
+   "publish_year": [
+    1979
+   ], 
+   "first_publish_year": 1979, 
+   "author_name": [
+    "J. R. R. Tolkien"
+   ], 
+   "key": "OL14933384W", 
+   "publish_date": [
+    "June 1979"
+   ], 
+   "author_key": [
+    "OL26320A"
+   ], 
+   "id_goodreads": [
+    "222946"
+   ]
+  }, 
+  {
+   "title_suggest": "Lord of the Rings Set 1970", 
+   "publisher": [
+    "Ballantine Books"
+   ], 
+   "edition_key": [
+    "OL10681058M"
+   ], 
+   "isbn": [
+    "0345020200", 
+    "9780345020208"
+   ], 
+   "has_fulltext": false, 
+   "id_librarything": [
+    "1386651"
+   ], 
+   "edition_count": 1, 
+   "oclc": [
+    "31385942"
+   ], 
+   "last_modified_i": 1274396160, 
+   "title": "Lord of the Rings Set 1970", 
+   "author_alternative_name": [
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "publish_year": [
+    1970
+   ], 
+   "first_publish_year": 1970, 
+   "author_name": [
+    "J. R. R. Tolkien"
+   ], 
+   "key": "OL14926061W", 
+   "text": [
+    "OL14926061W", 
+    "Lord of the Rings Set 1970", 
+    "OL10681058M", 
+    "Ballantine Books", 
+    "31385942", 
+    "0345020200", 
+    "9780345020208", 
+    "OL26320A", 
+    "J. R. R. Tolkien", 
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "publish_date": [
+    "1970"
+   ], 
+   "author_key": [
+    "OL26320A"
+   ], 
+   "id_goodreads": [
+    "70996"
+   ], 
+   "ebook_count_i": 0
+  }, 
+  {
+   "title_suggest": "Ring Goes South Book Lord of the Rings", 
+   "publisher": [
+    "Houghton Mifflin Co"
+   ], 
+   "isbn": [
+    "0618042210", 
+    "9780618042210"
+   ], 
+   "has_fulltext": false, 
+   "id_librarything": [
+    "3213461"
+   ], 
+   "edition_count": 1, 
+   "edition_key": [
+    "OL7603336M"
+   ], 
+   "text": [
+    "OL14933488W", 
+    "Ring Goes South Book Lord of the Rings", 
+    "OL7603336M", 
+    "Houghton Mifflin Co", 
+    "0618042210", 
+    "9780618042210", 
+    "OL26320A", 
+    "J. R. R. Tolkien", 
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "title": "Ring Goes South Book Lord of the Rings", 
+   "author_alternative_name": [
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "author_name": [
+    "J. R. R. Tolkien"
+   ], 
+   "key": "OL14933488W", 
+   "author_key": [
+    "OL26320A"
+   ], 
+   "id_goodreads": [
+    "1233420"
+   ]
+  }, 
+  {
+   "title_suggest": "THE WAR OF THE RING BEING THE FIFTH BOOK OF THE LORD OF THE RINGS", 
+   "publisher": [
+    "Houghton Mifflin"
+   ], 
+   "isbn": [
+    "9780618042241", 
+    "0618042245"
+   ], 
+   "has_fulltext": false, 
+   "id_librarything": [
+    "7642592"
+   ], 
+   "edition_count": 1, 
+   "edition_key": [
+    "OL7603339M"
+   ], 
+   "text": [
+    "OL14926116W", 
+    "THE WAR OF THE RING BEING THE FIFTH BOOK OF THE LORD OF THE RINGS", 
+    "OL7603339M", 
+    "Houghton Mifflin", 
+    "9780618042241", 
+    "0618042245", 
+    "OL26320A", 
+    "J. R. R. Tolkien", 
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "title": "THE WAR OF THE RING BEING THE FIFTH BOOK OF THE LORD OF THE RINGS", 
+   "author_alternative_name": [
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "publish_year": [
+    1993
+   ], 
+   "first_publish_year": 1993, 
+   "author_name": [
+    "J. R. R. Tolkien"
+   ], 
+   "key": "OL14926116W", 
+   "publish_date": [
+    "1993"
+   ], 
+   "author_key": [
+    "OL26320A"
+   ], 
+   "id_goodreads": [
+    "3007740"
+   ]
+  }, 
+  {
+   "title_suggest": "Ring Sets Out Book Lord of the Rings", 
+   "publisher": [
+    "Houghton Mifflin Co"
+   ], 
+   "isbn": [
+    "0618042202", 
+    "9780618042203"
+   ], 
+   "has_fulltext": false, 
+   "id_librarything": [
+    "3203347"
+   ], 
+   "edition_count": 1, 
+   "edition_key": [
+    "OL7603335M"
+   ], 
+   "text": [
+    "OL14933489W", 
+    "Ring Sets Out Book Lord of the Rings", 
+    "OL7603335M", 
+    "Houghton Mifflin Co", 
+    "0618042202", 
+    "9780618042203", 
+    "OL26320A", 
+    "J. R. R. Tolkien", 
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "title": "Ring Sets Out Book Lord of the Rings", 
+   "author_alternative_name": [
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "author_name": [
+    "J. R. R. Tolkien"
+   ], 
+   "key": "OL14933489W", 
+   "author_key": [
+    "OL26320A"
+   ], 
+   "id_goodreads": [
+    "15404"
+   ]
+  }, 
+  {
+   "title_suggest": "Ring Goes East Book Lord of the Rings", 
+   "publisher": [
+    "Houghton Mifflin Co"
+   ], 
+   "isbn": [
+    "0618042237", 
+    "9780618042234"
+   ], 
+   "has_fulltext": false, 
+   "id_librarything": [
+    "3203350"
+   ], 
+   "edition_count": 1, 
+   "edition_key": [
+    "OL7603338M"
+   ], 
+   "text": [
+    "OL14933487W", 
+    "Ring Goes East Book Lord of the Rings", 
+    "OL7603338M", 
+    "Houghton Mifflin Co", 
+    "0618042237", 
+    "9780618042234", 
+    "OL26320A", 
+    "J. R. R. Tolkien", 
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "title": "Ring Goes East Book Lord of the Rings", 
+   "author_alternative_name": [
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "author_name": [
+    "J. R. R. Tolkien"
+   ], 
+   "key": "OL14933487W", 
+   "author_key": [
+    "OL26320A"
+   ], 
+   "id_goodreads": [
+    "1233422"
+   ]
+  }, 
+  {
+   "title_suggest": "The fellowship of the Ring - Part One of the Lord of the Rings Trilogy", 
+   "publisher": [
+    "Magnum Books"
+   ], 
+   "isbn": [
+    "0458907502", 
+    "9780458907502"
+   ], 
+   "has_fulltext": false, 
+   "id_librarything": [
+    "3203347"
+   ], 
+   "edition_count": 1, 
+   "edition_key": [
+    "OL7591509M"
+   ], 
+   "text": [
+    "OL14933362W", 
+    "The fellowship of the Ring - Part One of the Lord of the Rings Trilogy", 
+    "OL7591509M", 
+    "Magnum Books", 
+    "25433866", 
+    "0458907502", 
+    "9780458907502", 
+    "OL26320A", 
+    "J. R. R. Tolkien", 
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "title": "The fellowship of the Ring - Part One of the Lord of the Rings Trilogy", 
+   "author_alternative_name": [
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "publish_year": [
+    1977
+   ], 
+   "first_publish_year": 1977, 
+   "author_name": [
+    "J. R. R. Tolkien"
+   ], 
+   "key": "OL14933362W", 
+   "publish_date": [
+    "1977"
+   ], 
+   "author_key": [
+    "OL26320A"
+   ], 
+   "id_goodreads": [
+    "92660"
+   ], 
+   "oclc": [
+    "25433866"
+   ]
+  }, 
+  {
+   "title_suggest": "The Fellowship of the Ring, being the first part of the Lord of the Rings", 
+   "publish_place": [
+    "London"
+   ], 
+   "has_fulltext": false, 
+   "language": [
+    "eng"
+   ], 
+   "edition_count": 1, 
+   "edition_key": [
+    "OL13893006M"
+   ], 
+   "text": [
+    "OL14933358W", 
+    "The Fellowship of the Ring, being the first part of the Lord of the Rings", 
+    "The Lord of the Rings.", 
+    "OL13893006M", 
+    "illustrations by Ingahild Grathmer ; drawn by Eric Fraser.", 
+    "Folio Society", 
+    "Fraser, Eric.", 
+    "Grathmer, Ingahild.", 
+    "OL26320A", 
+    "J. R. R. Tolkien", 
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "title": "The Fellowship of the Ring, being the first part of the Lord of the Rings", 
+   "publisher": [
+    "Folio Society"
+   ], 
+   "author_alternative_name": [
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "author_name": [
+    "J. R. R. Tolkien"
+   ], 
+   "key": "OL14933358W", 
+   "contributor": [
+    "Fraser, Eric.", 
+    "Grathmer, Ingahild."
+   ], 
+   "author_key": [
+    "OL26320A"
+   ]
+  }, 
+  {
+   "title_suggest": "Tolkien 12 SW (Lord of Rings)", 
+   "publisher": [
+    "HarperCollins Publishers Ltd"
+   ], 
+   "isbn": [
+    "0586215751", 
+    "9780586215753"
+   ], 
+   "has_fulltext": false, 
+   "edition_count": 1, 
+   "edition_key": [
+    "OL10697675M"
+   ], 
+   "text": [
+    "OL9469205W", 
+    "Tolkien 12 SW (Lord of Rings)", 
+    "OL10697675M", 
+    "HarperCollins Publishers Ltd", 
+    "0586215751", 
+    "9780586215753", 
+    "OL26320A", 
+    "J. R. R. Tolkien", 
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "title": "Tolkien 12 SW (Lord of Rings)", 
+   "author_alternative_name": [
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "publish_year": [
+    1991
+   ], 
+   "first_publish_year": 1991, 
+   "author_name": [
+    "J. R. R. Tolkien"
+   ], 
+   "key": "OL9469205W", 
+   "publish_date": [
+    "September 1, 1991"
+   ], 
+   "author_key": [
+    "OL26320A"
+   ], 
+   "id_goodreads": [
+    "3697852"
+   ]
+  }, 
+  {
+   "title_suggest": "The Lord of the Rings (Movie Art Cover)", 
+   "publisher": [
+    "Houghton Mifflin"
+   ], 
+   "cover_i": 393434, 
+   "isbn": [
+    "0618129014", 
+    "9780618129010"
+   ], 
+   "has_fulltext": false, 
+   "id_librarything": [
+    "1386651"
+   ], 
+   "edition_count": 1, 
+   "edition_key": [
+    "OL7603874M"
+   ], 
+   "text": [
+    "OL14926059W", 
+    "The Lord of the Rings (Movie Art Cover)", 
+    "OL7603874M", 
+    "Houghton Mifflin", 
+    "0618129014", 
+    "9780618129010", 
+    "OL26320A", 
+    "J. R. R. Tolkien", 
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "title": "The Lord of the Rings (Movie Art Cover)", 
+   "author_alternative_name": [
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "cover_edition_key": "OL7603874M", 
+   "language": [
+    "eng"
+   ], 
+   "publish_year": [
+    2001
+   ], 
+   "first_publish_year": 2001, 
+   "author_name": [
+    "J. R. R. Tolkien"
+   ], 
+   "key": "OL14926059W", 
+   "publish_date": [
+    "June 2001"
+   ], 
+   "author_key": [
+    "OL26320A"
+   ], 
+   "id_goodreads": [
+    "360974"
+   ]
+  }, 
+  {
+   "title_suggest": "The Lord of the Rings (Mind's Eye Version)", 
+   "publisher": [
+    "Soundelux Audio Publishing"
+   ], 
+   "cover_i": 786366, 
+   "id_librarything": [
+    "1386651"
+   ], 
+   "has_fulltext": false, 
+   "author_name": [
+    "J. R. R. Tolkien"
+   ], 
+   "edition_count": 1, 
+   "edition_key": [
+    "OL8610140M"
+   ], 
+   "text": [
+    "OL14933436W", 
+    "The Lord of the Rings (Mind's Eye Version)", 
+    "OL8610140M", 
+    "Soundelux Audio Publishing", 
+    "39032585", 
+    "9781559351201", 
+    "1559351209", 
+    "OL26320A", 
+    "J. R. R. Tolkien", 
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "title": "The Lord of the Rings (Mind's Eye Version)", 
+   "isbn": [
+    "9781559351201", 
+    "1559351209"
+   ], 
+   "author_alternative_name": [
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "cover_edition_key": "OL8610140M", 
+   "language": [
+    "eng"
+   ], 
+   "publish_year": [
+    1994
+   ], 
+   "first_publish_year": 1994, 
+   "oclc": [
+    "39032585"
+   ], 
+   "key": "OL14933436W", 
+   "publish_date": [
+    "June 1994"
+   ], 
+   "author_key": [
+    "OL26320A"
+   ], 
+   "id_goodreads": [
+    "899772"
+   ]
+  }, 
+  {
+   "title_suggest": "The Lord of the Rings Trilogy Gift Set", 
+   "edition_key": [
+    "OL8373813M"
+   ], 
+   "cover_i": 751387, 
+   "isbn": [
+    "1402516274", 
+    "9781402516276"
+   ], 
+   "has_fulltext": false, 
+   "text": [
+    "OL14926063W", 
+    "The Lord of the Rings Trilogy Gift Set", 
+    "OL8373813M", 
+    "Recorded Books Unabridged", 
+    "51603388", 
+    "Rob Inglis (Narrator)", 
+    "1402516274", 
+    "9781402516276", 
+    "OL26320A", 
+    "J. R. R. Tolkien", 
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "author_name": [
+    "J. R. R. Tolkien"
+   ], 
+   "author_alternative_name": [
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "contributor": [
+    "Rob Inglis (Narrator)"
+   ], 
+   "author_key": [
+    "OL26320A"
+   ], 
+   "title": "The Lord of the Rings Trilogy Gift Set", 
+   "publish_date": [
+    "January 2002"
+   ], 
+   "edition_count": 1, 
+   "key": "OL14926063W", 
+   "id_goodreads": [
+    "7353"
+   ], 
+   "publisher": [
+    "Recorded Books Unabridged"
+   ], 
+   "language": [
+    "eng"
+   ], 
+   "id_librarything": [
+    "1386651"
+   ], 
+   "cover_edition_key": "OL8373813M", 
+   "publish_year": [
+    2002
+   ], 
+   "first_publish_year": 2002, 
+   "oclc": [
+    "51603388"
+   ]
+  }, 
+  {
+   "title_suggest": "La Silmarillon (Lord of the Rings (French))", 
+   "publisher": [
+    "Distribooks"
+   ], 
+   "cover_i": 980337, 
+   "id_librarything": [
+    "3203319"
+   ], 
+   "has_fulltext": false, 
+   "author_name": [
+    "J. R. R. Tolkien"
+   ], 
+   "edition_count": 1, 
+   "edition_key": [
+    "OL8890403M"
+   ], 
+   "text": [
+    "OL14933417W", 
+    "La Silmarillon (Lord of the Rings (French))", 
+    "OL8890403M", 
+    "Distribooks", 
+    "422030238", 
+    "2266121022", 
+    "9782266121026", 
+    "OL26320A", 
+    "J. R. R. Tolkien", 
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "title": "La Silmarillon (Lord of the Rings (French))", 
+   "isbn": [
+    "2266121022", 
+    "9782266121026"
+   ], 
+   "author_alternative_name": [
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "cover_edition_key": "OL8890403M", 
+   "language": [
+    "fre"
+   ], 
+   "publish_year": [
+    2002
+   ], 
+   "first_publish_year": 2002, 
+   "oclc": [
+    "422030238"
+   ], 
+   "key": "OL14933417W", 
+   "publish_date": [
+    "March 2002"
+   ], 
+   "author_key": [
+    "OL26320A"
+   ], 
+   "id_goodreads": [
+    "63413"
+   ]
+  }, 
+  {
+   "title_suggest": "Appendices Final Book Lord of the Rings", 
+   "publisher": [
+    "Houghton Mifflin Co"
+   ], 
+   "isbn": [
+    "0618042261", 
+    "9780618042265"
+   ], 
+   "has_fulltext": false, 
+   "id_librarything": [
+    "2224571"
+   ], 
+   "edition_count": 1, 
+   "edition_key": [
+    "OL7603341M"
+   ], 
+   "text": [
+    "OL14933308W", 
+    "Appendices Final Book Lord of the Rings", 
+    "OL7603341M", 
+    "Houghton Mifflin Co", 
+    "0618042261", 
+    "9780618042265", 
+    "OL26320A", 
+    "J. R. R. Tolkien", 
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "title": "Appendices Final Book Lord of the Rings", 
+   "author_alternative_name": [
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "author_name": [
+    "J. R. R. Tolkien"
+   ], 
+   "key": "OL14933308W", 
+   "author_key": [
+    "OL26320A"
+   ], 
+   "id_goodreads": [
+    "15367"
+   ]
+  }, 
+  {
+   "title_suggest": "The filmbook of J. R. R. Tolkien's The lord of the rings", 
+   "edition_key": [
+    "OL24941410M", 
+    "OL21321024M", 
+    "OL19016354M"
+   ], 
+   "subtitle": "over 130 pictures from the Fantasy Films presentation of The Lord of the rings part one, with a text based on the film script, produced by Saul Zaentz, directed by Ralph Bakshi.", 
+   "has_fulltext": false, 
+   "text": [
+    "OL27440W", 
+    "The filmbook of J. R. R. Tolkien's The lord of the rings", 
+    "over 130 pictures from the Fantasy Films presentation of The Lord of the rings part one, with a text based on the film script, produced by Saul Zaentz, directed by Ralph Bakshi.", 
+    "Lord of the rings.", 
+    "The film book of J.R.R. Tolkien's the Lord of the Rings.", 
+    "Lord of the rings (Motion picture)", 
+    "The film book of J.R.R. Tolkien's The lord of the rings", 
+    "directed by Ralph Bakshi", 
+    "OL24941410M", 
+    "OL21321024M", 
+    "OL19016354M", 
+    "produced by Saul Zaentz :", 
+    "Ballantine Books", 
+    "Ballantine", 
+    "78061709", 
+    "4573129", 
+    "Tolkien, J. R. R. 1892-1973.", 
+    "9780345281395", 
+    "034528139X", 
+    "OL26320A", 
+    "J. R. R. Tolkien", 
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein", 
+    "J. R. R. Tolkien (1892-1973)", 
+    "Accessible book", 
+    "Lord of the rings (Motion picture)", 
+    "Lord of the rings (Motion picture : 1978)", 
+    "Protected DAISY"
+   ], 
+   "author_name": [
+    "J. R. R. Tolkien"
+   ], 
+   "ia_loaded_id": [
+    "filmbookofjrrtol00tolk"
+   ], 
+   "author_alternative_name": [
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "contributor": [
+    "Tolkien, J. R. R. 1892-1973."
+   ], 
+   "isbn": [
+    "9780345281395", 
+    "034528139X"
+   ], 
+   "author_key": [
+    "OL26320A"
+   ], 
+   "subject": [
+    "Accessible book", 
+    "Lord of the rings (Motion picture)", 
+    "Lord of the rings (Motion picture : 1978)", 
+    "Protected DAISY"
+   ], 
+   "title": "The filmbook of J. R. R. Tolkien's The lord of the rings", 
+   "publish_date": [
+    "1978"
+   ], 
+   "ebook_count_i": 0, 
+   "publish_place": [
+    "New York"
+   ], 
+   "ia_box_id": [
+    "ia118318"
+   ], 
+   "edition_count": 3, 
+   "key": "OL27440W", 
+   "id_goodreads": [
+    "128684"
+   ], 
+   "publisher": [
+    "Ballantine Books", 
+    "Ballantine"
+   ], 
+   "language": [
+    "eng"
+   ], 
+   "lccn": [
+    "78061709"
+   ], 
+   "last_modified_i": 1320437721, 
+   "id_librarything": [
+    "112161"
+   ], 
+   "person": [
+    "J. R. R. Tolkien (1892-1973)"
+   ], 
+   "publish_year": [
+    1978
+   ], 
+   "first_publish_year": 1978, 
+   "oclc": [
+    "4573129"
+   ]
+  }, 
+  {
+   "title_suggest": "The Hobbit and The Lord of the Rings", 
+   "has_fulltext": false, 
+   "edition_count": 0, 
+   "text": [
+    "OL15333194W", 
+    "The Hobbit and The Lord of the Rings", 
+    "OL26320A", 
+    "J. R. R. Tolkien", 
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "title": "The Hobbit and The Lord of the Rings", 
+   "author_alternative_name": [
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "author_name": [
+    "J. R. R. Tolkien"
+   ], 
+   "key": "OL15333194W", 
+   "author_key": [
+    "OL26320A"
+   ]
+  }, 
+  {
+   "title_suggest": "Poems from the \"Lord of the Rings\"", 
+   "has_fulltext": false, 
+   "edition_count": 0, 
+   "text": [
+    "OL16245371W", 
+    "Poems from the \"Lord of the Rings\"", 
+    "OL26320A", 
+    "J. R. R. Tolkien", 
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "title": "Poems from the \"Lord of the Rings\"", 
+   "author_alternative_name": [
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "author_name": [
+    "J. R. R. Tolkien"
+   ], 
+   "key": "OL16245371W", 
+   "author_key": [
+    "OL26320A"
+   ]
+  }, 
+  {
+   "title_suggest": "The Hobbit and The Lord of the Rings", 
+   "has_fulltext": false, 
+   "edition_count": 0, 
+   "text": [
+    "OL16245387W", 
+    "The Hobbit and The Lord of the Rings", 
+    "OL26320A", 
+    "J. R. R. Tolkien", 
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "title": "The Hobbit and The Lord of the Rings", 
+   "author_alternative_name": [
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "author_name": [
+    "J. R. R. Tolkien"
+   ], 
+   "key": "OL16245387W", 
+   "author_key": [
+    "OL26320A"
+   ]
+  }, 
+  {
+   "title_suggest": "The Hobbit and The Lord of the Rings", 
+   "has_fulltext": false, 
+   "edition_count": 0, 
+   "text": [
+    "OL16290360W", 
+    "The Hobbit and The Lord of the Rings", 
+    "OL26320A", 
+    "J. R. R. Tolkien", 
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "title": "The Hobbit and The Lord of the Rings", 
+   "author_alternative_name": [
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "author_name": [
+    "J. R. R. Tolkien"
+   ], 
+   "key": "OL16290360W", 
+   "author_key": [
+    "OL26320A"
+   ]
+  }, 
+  {
+   "title_suggest": "Poems from the \"Lord of the Rings\"", 
+   "has_fulltext": false, 
+   "edition_count": 0, 
+   "text": [
+    "OL16290352W", 
+    "Poems from the \"Lord of the Rings\"", 
+    "OL26320A", 
+    "J. R. R. Tolkien", 
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "title": "Poems from the \"Lord of the Rings\"", 
+   "author_alternative_name": [
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "author_name": [
+    "J. R. R. Tolkien"
+   ], 
+   "key": "OL16290352W", 
+   "author_key": [
+    "OL26320A"
+   ]
+  }, 
+  {
+   "title_suggest": "Lord of the Rings Boxed Set U/P", 
+   "publisher": [
+    "Grafton"
+   ], 
+   "isbn": [
+    "0048232009", 
+    "9780048232007"
+   ], 
+   "has_fulltext": false, 
+   "id_librarything": [
+    "1386651"
+   ], 
+   "edition_count": 2, 
+   "edition_key": [
+    "OL9228715M", 
+    "OL7274006M"
+   ], 
+   "text": [
+    "OL27447W", 
+    "Lord of the Rings Boxed Set U/P", 
+    "OL9228715M", 
+    "OL7274006M", 
+    "Grafton", 
+    "237889032", 
+    "0048232009", 
+    "9780048232007", 
+    "OL26320A", 
+    "J. R. R. Tolkien", 
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "title": "Lord of the Rings Boxed Set U/P", 
+   "author_alternative_name": [
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "publish_year": [
+    1981
+   ], 
+   "first_publish_year": 1981, 
+   "author_name": [
+    "J. R. R. Tolkien"
+   ], 
+   "key": "OL27447W", 
+   "publish_date": [
+    "September 14, 1981"
+   ], 
+   "author_key": [
+    "OL26320A"
+   ], 
+   "id_goodreads": [
+    "15366"
+   ], 
+   "oclc": [
+    "237889032"
+   ]
+  }, 
+  {
+   "title_suggest": "The \"Return of the King\" Photo Guide (\"Lord of the Rings\")", 
+   "publisher": [
+    "Collins"
+   ], 
+   "cover_i": 11901, 
+   "isbn": [
+    "0007170564", 
+    "9780007170562"
+   ], 
+   "has_fulltext": false, 
+   "author_name": [
+    "J. R. R. Tolkien"
+   ], 
+   "edition_count": 2, 
+   "edition_key": [
+    "OL9217766M", 
+    "OL7263051M"
+   ], 
+   "text": [
+    "OL264839W", 
+    "The \"Return of the King\" Photo Guide (\"Lord of the Rings\")", 
+    "OL9217766M", 
+    "OL7263051M", 
+    "Sauron's plans for the conquest of Middle-earth are nearing completion.", 
+    "Collins", 
+    "0007170564", 
+    "9780007170562", 
+    "OL26320A", 
+    "J. R. R. Tolkien", 
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "title": "The \"Return of the King\" Photo Guide (\"Lord of the Rings\")", 
+   "author_alternative_name": [
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "cover_edition_key": "OL9217766M", 
+   "first_sentence": [
+    "Sauron's plans for the conquest of Middle-earth are nearing completion."
+   ], 
+   "language": [
+    "eng"
+   ], 
+   "publish_year": [
+    2003
+   ], 
+   "first_publish_year": 2003, 
+   "id_librarything": [
+    "313188"
+   ], 
+   "key": "OL264839W", 
+   "publish_date": [
+    "November 6, 2003"
+   ], 
+   "author_key": [
+    "OL26320A"
+   ], 
+   "id_goodreads": [
+    "15327"
+   ]
+  }, 
+  {
+   "title_suggest": "FELLOWSHIP OF RING (Eflkien, J. R. R. Lord of the Rings, Pt. 1.)", 
+   "publisher": [
+    "Ballantine Books"
+   ], 
+   "id_librarything": [
+    "3203347"
+   ], 
+   "has_fulltext": false, 
+   "author_name": [
+    "J. R. R. Tolkien"
+   ], 
+   "edition_count": 1, 
+   "edition_key": [
+    "OL10684788M"
+   ], 
+   "text": [
+    "OL14925995W", 
+    "FELLOWSHIP OF RING (Eflkien, J. R. R. Lord of the Rings, Pt. 1.)", 
+    "OL10684788M", 
+    "Ballantine Books", 
+    "26074760", 
+    "9780345332080", 
+    "0345332083", 
+    "OL26320A", 
+    "J. R. R. Tolkien", 
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "title": "FELLOWSHIP OF RING (Eflkien, J. R. R. Lord of the Rings, Pt. 1.)", 
+   "isbn": [
+    "9780345332080", 
+    "0345332083"
+   ], 
+   "author_alternative_name": [
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "language": [
+    "eng"
+   ], 
+   "publish_year": [
+    1985
+   ], 
+   "first_publish_year": 1985, 
+   "oclc": [
+    "26074760"
+   ], 
+   "key": "OL14925995W", 
+   "publish_date": [
+    "October 12, 1985"
+   ], 
+   "author_key": [
+    "OL26320A"
+   ], 
+   "id_goodreads": [
+    "580675"
+   ]
+  }, 
+  {
+   "title_suggest": "Comunidad del Anillo (Fellowship of the Ring) (Lord of the Rings (Spanish))", 
+   "publisher": [
+    "Turtleback Books Distributed by Demco Media"
+   ], 
+   "cover_i": 4992254, 
+   "isbn": [
+    "9780606244237", 
+    "0606244239"
+   ], 
+   "has_fulltext": false, 
+   "language": [
+    "spa"
+   ], 
+   "edition_count": 1, 
+   "edition_key": [
+    "OL9595965M"
+   ], 
+   "text": [
+    "OL14933324W", 
+    "Comunidad del Anillo (Fellowship of the Ring) (Lord of the Rings (Spanish))", 
+    "OL9595965M", 
+    "Turtleback Books Distributed by Demco Media", 
+    "9780606244237", 
+    "0606244239", 
+    "OL26320A", 
+    "J. R. R. Tolkien", 
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "title": "Comunidad del Anillo (Fellowship of the Ring) (Lord of the Rings (Spanish))", 
+   "author_alternative_name": [
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "cover_edition_key": "OL9595965M", 
+   "publish_year": [
+    2001
+   ], 
+   "first_publish_year": 2001, 
+   "author_name": [
+    "J. R. R. Tolkien"
+   ], 
+   "key": "OL14933324W", 
+   "publish_date": [
+    "November 2001"
+   ], 
+   "author_key": [
+    "OL26320A"
+   ], 
+   "id_goodreads": [
+    "470272"
+   ]
+  }, 
+  {
+   "title_suggest": "Les Deux Tours II (Lord of the Rings (French))", 
+   "publisher": [
+    "Pocket (FR)"
+   ], 
+   "cover_i": 980300, 
+   "isbn": [
+    "2266118013", 
+    "9782266118019"
+   ], 
+   "has_fulltext": false, 
+   "id_librarything": [
+    "3203350"
+   ], 
+   "edition_count": 1, 
+   "edition_key": [
+    "OL8890372M"
+   ], 
+   "text": [
+    "OL14933424W", 
+    "Les Deux Tours II (Lord of the Rings (French))", 
+    "OL8890372M", 
+    "Pocket (FR)", 
+    "2266118013", 
+    "9782266118019", 
+    "OL26320A", 
+    "J. R. R. Tolkien", 
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "title": "Les Deux Tours II (Lord of the Rings (French))", 
+   "author_alternative_name": [
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "cover_edition_key": "OL8890372M", 
+   "language": [
+    "fre"
+   ], 
+   "publish_year": [
+    2001
+   ], 
+   "first_publish_year": 2001, 
+   "author_name": [
+    "J. R. R. Tolkien"
+   ], 
+   "key": "OL14933424W", 
+   "publish_date": [
+    "October 2001"
+   ], 
+   "author_key": [
+    "OL26320A"
+   ], 
+   "id_goodreads": [
+    "15361"
+   ]
+  }, 
+  {
+   "title_suggest": "The Treason of Isengard.  Being the Third Book of The Lord of the Rings", 
+   "publisher": [
+    "Houghton Mifflin and Co."
+   ], 
+   "isbn": [
+    "9780618042227", 
+    "0618042229"
+   ], 
+   "has_fulltext": false, 
+   "id_librarything": [
+    "3207166"
+   ], 
+   "edition_count": 1, 
+   "edition_key": [
+    "OL7603337M"
+   ], 
+   "text": [
+    "OL14926103W", 
+    "The Treason of Isengard.  Being the Third Book of The Lord of the Rings", 
+    "OL7603337M", 
+    "Houghton Mifflin and Co.", 
+    "9780618042227", 
+    "0618042229", 
+    "OL26320A", 
+    "J. R. R. Tolkien", 
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "title": "The Treason of Isengard.  Being the Third Book of The Lord of the Rings", 
+   "author_alternative_name": [
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "publish_year": [
+    1994
+   ], 
+   "first_publish_year": 1994, 
+   "author_name": [
+    "J. R. R. Tolkien"
+   ], 
+   "key": "OL14926103W", 
+   "publish_date": [
+    "1994"
+   ], 
+   "author_key": [
+    "OL26320A"
+   ], 
+   "id_goodreads": [
+    "215343"
+   ]
+  }, 
+  {
+   "title_suggest": "Bilbo, Le Hobbit (Lord of the Rings (French))", 
+   "publisher": [
+    "Hachette"
+   ], 
+   "cover_i": 4854676, 
+   "isbn": [
+    "2010199073", 
+    "9782010199073"
+   ], 
+   "has_fulltext": false, 
+   "id_librarything": [
+    "3206242"
+   ], 
+   "edition_count": 1, 
+   "edition_key": [
+    "OL8833408M"
+   ], 
+   "text": [
+    "OL8967674W", 
+    "Bilbo, Le Hobbit (Lord of the Rings (French))", 
+    "OL8833408M", 
+    "Hachette", 
+    "2010199073", 
+    "9782010199073", 
+    "OL26320A", 
+    "J. R. R. Tolkien", 
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "title": "Bilbo, Le Hobbit (Lord of the Rings (French))", 
+   "author_alternative_name": [
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "cover_edition_key": "OL8833408M", 
+   "language": [
+    "fre"
+   ], 
+   "publish_year": [
+    2000
+   ], 
+   "first_publish_year": 2000, 
+   "author_name": [
+    "J. R. R. Tolkien"
+   ], 
+   "key": "OL8967674W", 
+   "publish_date": [
+    "June 2000"
+   ], 
+   "author_key": [
+    "OL26320A"
+   ], 
+   "id_goodreads": [
+    "598930"
+   ]
+  }, 
+  {
+   "title_suggest": "The Lord of the Rings Book and Bookend Gift Set", 
+   "publisher": [
+    "Houghton Mifflin"
+   ], 
+   "cover_i": 394413, 
+   "isbn": [
+    "0618401210", 
+    "9780618401215"
+   ], 
+   "has_fulltext": false, 
+   "id_librarything": [
+    "1386651"
+   ], 
+   "edition_count": 1, 
+   "edition_key": [
+    "OL7605129M"
+   ], 
+   "text": [
+    "OL14926057W", 
+    "The Lord of the Rings Book and Bookend Gift Set", 
+    "OL7605129M", 
+    "Houghton Mifflin", 
+    "0618401210", 
+    "9780618401215", 
+    "OL26320A", 
+    "J. R. R. Tolkien", 
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "title": "The Lord of the Rings Book and Bookend Gift Set", 
+   "author_alternative_name": [
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "cover_edition_key": "OL7605129M", 
+   "language": [
+    "eng"
+   ], 
+   "publish_year": [
+    2003
+   ], 
+   "first_publish_year": 2003, 
+   "author_name": [
+    "J. R. R. Tolkien"
+   ], 
+   "key": "OL14926057W", 
+   "publish_date": [
+    "November 19, 2003"
+   ], 
+   "author_key": [
+    "OL26320A"
+   ], 
+   "id_goodreads": [
+    "15243"
+   ]
+  }, 
+  {
+   "title_suggest": "The Lord of the Rings. Mit Interpretation. Diverse Umschlagfarben, unsortiert", 
+   "publisher": [
+    "Langenscheidt Fachv., M."
+   ], 
+   "id_librarything": [
+    "1386651"
+   ], 
+   "has_fulltext": false, 
+   "author_name": [
+    "J. R. R. Tolkien"
+   ], 
+   "edition_count": 1, 
+   "edition_key": [
+    "OL9065625M"
+   ], 
+   "text": [
+    "OL15331188W", 
+    "The Lord of the Rings. Mit Interpretation. Diverse Umschlagfarben, unsortiert", 
+    "The Lord of the Rings. Mit Interpretation. Diverse Umschlagfarben, unsortiert.", 
+    "OL9065625M", 
+    "Langenscheidt Fachv., M.", 
+    "50458859", 
+    "9783580634315", 
+    "3580634313", 
+    "OL26320A", 
+    "J. R. R. Tolkien", 
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "title": "The Lord of the Rings. Mit Interpretation. Diverse Umschlagfarben, unsortiert", 
+   "isbn": [
+    "9783580634315", 
+    "3580634313"
+   ], 
+   "author_alternative_name": [
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "cover_edition_key": "OL9065625M", 
+   "language": [
+    "ger"
+   ], 
+   "publish_year": [
+    2002
+   ], 
+   "first_publish_year": 2002, 
+   "oclc": [
+    "50458859"
+   ], 
+   "key": "OL15331188W", 
+   "publish_date": [
+    "February 1, 2002"
+   ], 
+   "author_key": [
+    "OL26320A"
+   ], 
+   "id_goodreads": [
+    "1030686"
+   ]
+  }, 
+  {
+   "title_suggest": "The Lord of the Rings 25th Anniversary Edition", 
+   "publisher": [
+    "Houghton Mifflin"
+   ], 
+   "id_librarything": [
+    "1386651"
+   ], 
+   "has_fulltext": false, 
+   "author_name": [
+    "J. R. R. Tolkien"
+   ], 
+   "edition_count": 1, 
+   "edition_key": [
+    "OL10162287M"
+   ], 
+   "last_modified_i": 1274396160, 
+   "title": "The Lord of the Rings 25th Anniversary Edition", 
+   "isbn": [
+    "0395308550", 
+    "9780395308554"
+   ], 
+   "author_alternative_name": [
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "language": [
+    "eng"
+   ], 
+   "publish_year": [
+    1981
+   ], 
+   "first_publish_year": 1981, 
+   "oclc": [
+    "232126584"
+   ], 
+   "key": "OL14926054W", 
+   "text": [
+    "OL14926054W", 
+    "The Lord of the Rings 25th Anniversary Edition", 
+    "OL10162287M", 
+    "Houghton Mifflin", 
+    "232126584", 
+    "0395308550", 
+    "9780395308554", 
+    "OL26320A", 
+    "J. R. R. Tolkien", 
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "publish_date": [
+    "May 19, 1981"
+   ], 
+   "author_key": [
+    "OL26320A"
+   ], 
+   "id_goodreads": [
+    "2693340"
+   ], 
+   "ebook_count_i": 0
+  }, 
+  {
+   "title_suggest": "The authorized edition of the famous fantasy trilogy of The lord of the rings", 
+   "edition_key": [
+    "OL24200787M"
+   ], 
+   "has_fulltext": true, 
+   "text": [
+    "OL24200787M", 
+    "J. R. R. Tolkien", 
+    "31385967", 
+    "authorizededitio00tolk", 
+    "OL26320A", 
+    "English Fantasy fiction", 
+    "Accessible book", 
+    "In library", 
+    "Protected DAISY", 
+    "The authorized edition of the famous fantasy trilogy of The lord of the rings", 
+    "OL15133456W", 
+    "Tolkien.", 
+    "Ballantine Books", 
+    "Lord of the rings.", 
+    "Return of the king.", 
+    "Fellowship of the ring.", 
+    "Two towers.", 
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "author_name": [
+    "J. R. R. Tolkien"
+   ], 
+   "oclc": [
+    "31385967"
+   ], 
+   "ia": [
+    "authorizededitio00tolk"
+   ], 
+   "author_key": [
+    "OL26320A"
+   ], 
+   "subject": [
+    "English Fantasy fiction", 
+    "Accessible book", 
+    "In library", 
+    "Protected DAISY"
+   ], 
+   "title": "The authorized edition of the famous fantasy trilogy of The lord of the rings", 
+   "ia_collection_s": "printdisabled;browserlending;americana;internetarchivebooks;alibris;inlibrary", 
+   "printdisabled_s": "OL24200787M", 
+   "ebook_count_i": 1, 
+   "publish_place": [
+    "New York"
+   ], 
+   "ia_box_id": [
+    "IA105904"
+   ], 
+   "edition_count": 1, 
+   "first_publish_year": 1965, 
+   "key": "OL15133456W", 
+   "public_scan_b": false, 
+   "publisher": [
+    "Ballantine Books"
+   ], 
+   "last_modified_i": 1320437594, 
+   "lending_edition_s": "OL24200787M", 
+   "author_alternative_name": [
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "cover_edition_key": "OL24200787M", 
+   "publish_year": [
+    1965
+   ], 
+   "publish_date": [
+    "1965"
+   ]
+  }, 
+  {
+   "title_suggest": "Der Herr Der Ringe (Lord of the Rings in German) vol.1 Die Gefahrten (Fellowship of the Rings)", 
+   "publisher": [
+    "French & European Pubns"
+   ], 
+   "isbn": [
+    "0828865655", 
+    "9780828865654"
+   ], 
+   "has_fulltext": false, 
+   "id_librarything": [
+    "3203347"
+   ], 
+   "edition_count": 1, 
+   "edition_key": [
+    "OL8171979M"
+   ], 
+   "text": [
+    "OL8586739W", 
+    "Der Herr Der Ringe (Lord of the Rings in German) vol.1 Die Gefahrten (Fellowship of the Rings)", 
+    "OL8171979M", 
+    "French & European Pubns", 
+    "0828865655", 
+    "9780828865654", 
+    "OL26320A", 
+    "J. R. R. Tolkien", 
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "title": "Der Herr Der Ringe (Lord of the Rings in German) vol.1 Die Gefahrten (Fellowship of the Rings)", 
+   "author_alternative_name": [
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "publish_year": [
+    2000
+   ], 
+   "first_publish_year": 2000, 
+   "author_name": [
+    "J. R. R. Tolkien"
+   ], 
+   "key": "OL8586739W", 
+   "publish_date": [
+    "2000"
+   ], 
+   "author_key": [
+    "OL26320A"
+   ], 
+   "id_goodreads": [
+    "15282"
+   ]
+  }, 
+  {
+   "title_suggest": "The Lord of the Rings Official Movie Guide", 
+   "edition_key": [
+    "OL7604001M", 
+    "OL7604002M"
+   ], 
+   "cover_i": 393570, 
+   "isbn": [
+    "0618154027", 
+    "9780618154036", 
+    "9780618154029", 
+    "0618154035"
+   ], 
+   "has_fulltext": true, 
+   "text": [
+    "OL14926125W", 
+    "The Lord of the Rings Official Movie Guide", 
+    "OL7604001M", 
+    "OL7604002M", 
+    "It would be tempting to liken Peter Jackson to a powerful wizard, conjuring up movie magic, if his build was not more suggestive of a hobbit.", 
+    "Houghton Mifflin", 
+    "47650739", 
+    "0618154027", 
+    "9780618154036", 
+    "9780618154029", 
+    "0618154035", 
+    "lordofringsoffic00sibl", 
+    "OL26320A", 
+    "OL475982A", 
+    "J. R. R. Tolkien", 
+    "Brian Sibley", 
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein", 
+    "Accessible book", 
+    "Protected DAISY", 
+    "Lord of the rings, the fellowship of the ring (Motion picture)"
+   ], 
+   "author_name": [
+    "J. R. R. Tolkien", 
+    "Brian Sibley"
+   ], 
+   "ia_loaded_id": [
+    "lordofringsoffic00sibl"
+   ], 
+   "author_alternative_name": [
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "ia": [
+    "lordofringsoffic00sibl"
+   ], 
+   "author_key": [
+    "OL26320A", 
+    "OL475982A"
+   ], 
+   "subject": [
+    "Accessible book", 
+    "Protected DAISY", 
+    "Lord of the rings, the fellowship of the ring (Motion picture)"
+   ], 
+   "title": "The Lord of the Rings Official Movie Guide", 
+   "ia_collection_s": "printdisabled;internetarchivebooks;shenzhen;americana;alibris", 
+   "first_publish_year": 2001, 
+   "printdisabled_s": "OL7604001M", 
+   "ia_box_id": [
+    "IA125123"
+   ], 
+   "edition_count": 2, 
+   "key": "OL14926125W", 
+   "id_goodreads": [
+    "15239", 
+    "222911"
+   ], 
+   "public_scan_b": false, 
+   "publisher": [
+    "Houghton Mifflin"
+   ], 
+   "language": [
+    "eng"
+   ], 
+   "id_librarything": [
+    "2489144"
+   ], 
+   "cover_edition_key": "OL7604001M", 
+   "first_sentence": [
+    "It would be tempting to liken Peter Jackson to a powerful wizard, conjuring up movie magic, if his build was not more suggestive of a hobbit."
+   ], 
+   "publish_year": [
+    2001
+   ], 
+   "publish_date": [
+    "November 6, 2001"
+   ], 
+   "oclc": [
+    "47650739"
+   ]
+  }, 
+  {
+   "title_suggest": "Le Retour Du Roi III (Lord of the Rings (French))", 
+   "publisher": [
+    "Distribooks", 
+    "Pocket (FR)"
+   ], 
+   "cover_i": 980301, 
+   "isbn": [
+    "2266127918", 
+    "9782266127912", 
+    "9782266118026", 
+    "2266118021"
+   ], 
+   "has_fulltext": false, 
+   "id_librarything": [
+    "3203356"
+   ], 
+   "edition_count": 2, 
+   "edition_key": [
+    "OL8890484M", 
+    "OL8890373M"
+   ], 
+   "text": [
+    "OL27445W", 
+    "Le Retour Du Roi III (Lord of the Rings (French))", 
+    "OL8890484M", 
+    "OL8890373M", 
+    "Distribooks", 
+    "Pocket (FR)", 
+    "2266127918", 
+    "9782266127912", 
+    "9782266118026", 
+    "2266118021", 
+    "OL26320A", 
+    "J. R. R. Tolkien", 
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "title": "Le Retour Du Roi III (Lord of the Rings (French))", 
+   "author_alternative_name": [
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "cover_edition_key": "OL8890373M", 
+   "language": [
+    "fre"
+   ], 
+   "publish_year": [
+    2001, 
+    1973
+   ], 
+   "first_publish_year": 1973, 
+   "author_name": [
+    "J. R. R. Tolkien"
+   ], 
+   "key": "OL27445W", 
+   "publish_date": [
+    "January 1973", 
+    "October 2001"
+   ], 
+   "author_key": [
+    "OL26320A"
+   ], 
+   "id_goodreads": [
+    "877755", 
+    "2136731"
+   ]
+  }, 
+  {
+   "title_suggest": "Lord of Rings 1 Vol Pa 12c 2001 Mti", 
+   "publisher": [
+    "Houghton Mifflin Company"
+   ], 
+   "isbn": [
+    "0618134697", 
+    "9780618134694"
+   ], 
+   "has_fulltext": false, 
+   "id_librarything": [
+    "1386651"
+   ], 
+   "edition_count": 1, 
+   "edition_key": [
+    "OL7603917M"
+   ], 
+   "text": [
+    "OL14933431W", 
+    "Lord of Rings 1 Vol Pa 12c 2001 Mti", 
+    "OL7603917M", 
+    "Houghton Mifflin Company", 
+    "0618134697", 
+    "9780618134694", 
+    "OL26320A", 
+    "J. R. R. Tolkien", 
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "title": "Lord of Rings 1 Vol Pa 12c 2001 Mti", 
+   "author_alternative_name": [
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "language": [
+    "eng"
+   ], 
+   "publish_year": [
+    2001
+   ], 
+   "first_publish_year": 2001, 
+   "author_name": [
+    "J. R. R. Tolkien"
+   ], 
+   "key": "OL14933431W", 
+   "publish_date": [
+    "May 2001"
+   ], 
+   "author_key": [
+    "OL26320A"
+   ], 
+   "id_goodreads": [
+    "2693339"
+   ]
+  }, 
+  {
+   "title_suggest": "J. R. R. Tolkien's Lord of the Rings (Modern Critical Interpretations)", 
+   "publisher": [
+    "Chelsea House Publications"
+   ], 
+   "cover_i": 555542, 
+   "isbn": [
+    "0791056651", 
+    "9780791056653"
+   ], 
+   "has_fulltext": false, 
+   "id_librarything": [
+    "5578"
+   ], 
+   "edition_count": 1, 
+   "edition_key": [
+    "OL8159083M"
+   ], 
+   "text": [
+    "OL14933408W", 
+    "J. R. R. Tolkien's Lord of the Rings (Modern Critical Interpretations)", 
+    "OL8159083M", 
+    "Chelsea House Publications", 
+    "0791056651", 
+    "9780791056653", 
+    "OL26320A", 
+    "J. R. R. Tolkien", 
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "title": "J. R. R. Tolkien's Lord of the Rings (Modern Critical Interpretations)", 
+   "author_alternative_name": [
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "cover_edition_key": "OL8159083M", 
+   "language": [
+    "eng"
+   ], 
+   "publish_year": [
+    2000
+   ], 
+   "first_publish_year": 2000, 
+   "author_name": [
+    "J. R. R. Tolkien"
+   ], 
+   "key": "OL14933408W", 
+   "publish_date": [
+    "April 2000"
+   ], 
+   "author_key": [
+    "OL26320A"
+   ], 
+   "id_goodreads": [
+    "15363"
+   ]
+  }, 
+  {
+   "title_suggest": "The End of the Third Age. Being the Sixth Book of the Lord of the Rings", 
+   "publisher": [
+    "Houghton Mifflin and Co."
+   ], 
+   "isbn": [
+    "9780618042258", 
+    "0618042253"
+   ], 
+   "has_fulltext": false, 
+   "id_librarything": [
+    "3213528"
+   ], 
+   "edition_count": 1, 
+   "edition_key": [
+    "OL7603340M"
+   ], 
+   "text": [
+    "OL14925991W", 
+    "The End of the Third Age. Being the Sixth Book of the Lord of the Rings", 
+    "OL7603340M", 
+    "Houghton Mifflin and Co.", 
+    "9780618042258", 
+    "0618042253", 
+    "OL26320A", 
+    "J. R. R. Tolkien", 
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "title": "The End of the Third Age. Being the Sixth Book of the Lord of the Rings", 
+   "author_alternative_name": [
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "publish_year": [
+    1994
+   ], 
+   "first_publish_year": 1994, 
+   "author_name": [
+    "J. R. R. Tolkien"
+   ], 
+   "key": "OL14925991W", 
+   "publish_date": [
+    "1994"
+   ], 
+   "author_key": [
+    "OL26320A"
+   ], 
+   "id_goodreads": [
+    "2298536"
+   ]
+  }, 
+  {
+   "title_suggest": "La Communaute de L'Anneaux (Lord of the Rings (French))", 
+   "publisher": [
+    "Pocket (FR)"
+   ], 
+   "cover_i": 980270, 
+   "isbn": [
+    "2266115618", 
+    "9782266115612"
+   ], 
+   "has_fulltext": false, 
+   "id_librarything": [
+    "3203347"
+   ], 
+   "edition_count": 1, 
+   "edition_key": [
+    "OL8890347M"
+   ], 
+   "text": [
+    "OL14933411W", 
+    "La Communaute de L'Anneaux (Lord of the Rings (French))", 
+    "OL8890347M", 
+    "Pocket (FR)", 
+    "2266115618", 
+    "9782266115612", 
+    "OL26320A", 
+    "J. R. R. Tolkien", 
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "title": "La Communaute de L'Anneaux (Lord of the Rings (French))", 
+   "author_alternative_name": [
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "cover_edition_key": "OL8890347M", 
+   "language": [
+    "fre"
+   ], 
+   "publish_year": [
+    2001
+   ], 
+   "first_publish_year": 2001, 
+   "author_name": [
+    "J. R. R. Tolkien"
+   ], 
+   "key": "OL14933411W", 
+   "publish_date": [
+    "October 2001"
+   ], 
+   "author_key": [
+    "OL26320A"
+   ], 
+   "id_goodreads": [
+    "580010"
+   ]
+  }, 
+  {
+   "title_suggest": "The Lord of the Rings (Box Set) (J.R.R. Tolkien)", 
+   "publisher": [
+    "Random House Audio"
+   ], 
+   "cover_i": 370529, 
+   "isbn": [
+    "0553472283", 
+    "9780553472288"
+   ], 
+   "has_fulltext": false, 
+   "author_name": [
+    "J. R. R. Tolkien"
+   ], 
+   "edition_count": 1, 
+   "edition_key": [
+    "OL7827653M"
+   ], 
+   "text": [
+    "OL14933433W", 
+    "The Lord of the Rings (Box Set) (J.R.R. Tolkien)", 
+    "OL7827653M", 
+    "Random House Audio", 
+    "Brian Sibley (Narrator)", 
+    "0553472283", 
+    "9780553472288", 
+    "OL26320A", 
+    "J. R. R. Tolkien", 
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "title": "The Lord of the Rings (Box Set) (J.R.R. Tolkien)", 
+   "author_alternative_name": [
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "cover_edition_key": "OL7827653M", 
+   "language": [
+    "eng"
+   ], 
+   "publish_year": [
+    1993
+   ], 
+   "first_publish_year": 1993, 
+   "id_librarything": [
+    "636553"
+   ], 
+   "key": "OL14933433W", 
+   "contributor": [
+    "Brian Sibley (Narrator)"
+   ], 
+   "publish_date": [
+    "September 1, 1993"
+   ], 
+   "author_key": [
+    "OL26320A"
+   ], 
+   "id_goodreads": [
+    "325147"
+   ]
+  }, 
+  {
+   "title_suggest": "Le Seigneur des Anneaux (French Edition of The Lord of the Rings)", 
+   "publisher": [
+    "French & European Pubns"
+   ], 
+   "isbn": [
+    "9780785918691", 
+    "0785918698"
+   ], 
+   "has_fulltext": false, 
+   "id_librarything": [
+    "1386651"
+   ], 
+   "edition_count": 1, 
+   "edition_key": [
+    "OL9854773M"
+   ], 
+   "text": [
+    "OL14926034W", 
+    "Le Seigneur des Anneaux (French Edition of The Lord of the Rings)", 
+    "OL9854773M", 
+    "French & European Pubns", 
+    "9780785918691", 
+    "0785918698", 
+    "OL26320A", 
+    "J. R. R. Tolkien", 
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "title": "Le Seigneur des Anneaux (French Edition of The Lord of the Rings)", 
+   "author_alternative_name": [
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "publish_year": [
+    2000
+   ], 
+   "first_publish_year": 2000, 
+   "author_name": [
+    "J. R. R. Tolkien"
+   ], 
+   "key": "OL14926034W", 
+   "publish_date": [
+    "2000"
+   ], 
+   "author_key": [
+    "OL26320A"
+   ], 
+   "id_goodreads": [
+    "6582377"
+   ]
+  }, 
+  {
+   "title_suggest": "Il Signore degli Anelli : Trilogia / Italian edition of The Lord of the Rings", 
+   "publisher": [
+    "French & European Pubns"
+   ], 
+   "subtitle": "Trilogy", 
+   "has_fulltext": false, 
+   "id_librarything": [
+    "1386651"
+   ], 
+   "edition_count": 1, 
+   "edition_key": [
+    "OL8171984M"
+   ], 
+   "text": [
+    "OL14933398W", 
+    "Il Signore degli Anelli : Trilogia / Italian edition of The Lord of the Rings", 
+    "Trilogy", 
+    "Il Signore degli Anelli : Trilogia / Italian edition of The Lord of the Rings ", 
+    "OL8171984M", 
+    "French & European Pubns", 
+    "0828867666", 
+    "9780828867665", 
+    "OL26320A", 
+    "J. R. R. Tolkien", 
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "title": "Il Signore degli Anelli : Trilogia / Italian edition of The Lord of the Rings", 
+   "isbn": [
+    "0828867666", 
+    "9780828867665"
+   ], 
+   "author_alternative_name": [
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "publish_year": [
+    2004
+   ], 
+   "first_publish_year": 2004, 
+   "author_name": [
+    "J. R. R. Tolkien"
+   ], 
+   "key": "OL14933398W", 
+   "publish_date": [
+    "January 1, 2004"
+   ], 
+   "author_key": [
+    "OL26320A"
+   ], 
+   "id_goodreads": [
+    "286410"
+   ]
+  }, 
+  {
+   "title_suggest": "The Hobbit, 1937. The Lord of the Rings, 1937!!!. The Silmarillion, 1977 (IN RUSSIAN LANGUAGE)  (  )", 
+   "publisher": [
+    "ACT"
+   ], 
+   "isbn": [
+    "9785170097463", 
+    "5170097468"
+   ], 
+   "has_fulltext": false, 
+   "language": [
+    "rus"
+   ], 
+   "edition_count": 1, 
+   "edition_key": [
+    "OL12537898M"
+   ], 
+   "text": [
+    "OL14933367W", 
+    "The Hobbit, 1937. The Lord of the Rings, 1937!!!. The Silmarillion, 1977 (IN RUSSIAN LANGUAGE)  (  )", 
+    "OL12537898M", 
+    "ACT", 
+    "9785170097463", 
+    "5170097468", 
+    "OL26320A", 
+    "J. R. R. Tolkien", 
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "title": "The Hobbit, 1937. The Lord of the Rings, 1937!!!. The Silmarillion, 1977 (IN RUSSIAN LANGUAGE)  (  )", 
+   "author_alternative_name": [
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "publish_year": [
+    2004
+   ], 
+   "first_publish_year": 2004, 
+   "author_name": [
+    "J. R. R. Tolkien"
+   ], 
+   "key": "OL14933367W", 
+   "publish_date": [
+    "2004"
+   ], 
+   "author_key": [
+    "OL26320A"
+   ], 
+   "id_goodreads": [
+    "1531810"
+   ]
+  }, 
+  {
+   "title_suggest": "The Lord Of The Rings (Boxed Set) The Fellowship Of The Ring, The Two Towers, The Return Of The King And The Hobbit", 
+   "publisher": [
+    "Harper Collins Publishers  Stock Account"
+   ], 
+   "isbn": [
+    "9780586218693", 
+    "0586218696"
+   ], 
+   "has_fulltext": false, 
+   "id_librarything": [
+    "4881"
+   ], 
+   "edition_count": 1, 
+   "edition_key": [
+    "OL7883890M"
+   ], 
+   "text": [
+    "OL14933432W", 
+    "The Lord Of The Rings (Boxed Set) The Fellowship Of The Ring, The Two Towers, The Return Of The King And The Hobbit", 
+    "OL7883890M", 
+    "Harper Collins Publishers  Stock Account", 
+    "221689614", 
+    "9780586218693", 
+    "0586218696", 
+    "OL26320A", 
+    "J. R. R. Tolkien", 
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "title": "The Lord Of The Rings (Boxed Set) The Fellowship Of The Ring, The Two Towers, The Return Of The King And The Hobbit", 
+   "author_alternative_name": [
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "author_name": [
+    "J. R. R. Tolkien"
+   ], 
+   "key": "OL14933432W", 
+   "author_key": [
+    "OL26320A"
+   ], 
+   "id_goodreads": [
+    "222954"
+   ], 
+   "oclc": [
+    "221689614"
+   ]
+  }, 
+  {
+   "title_suggest": "Der Herr Der Ringe (Lord of the Rings in German) vol.2 Die Zwei Turme (The Two Towers)", 
+   "publisher": [
+    "French & European Pubns"
+   ], 
+   "isbn": [
+    "0828808880", 
+    "9780828808880"
+   ], 
+   "has_fulltext": false, 
+   "id_librarything": [
+    "3203350"
+   ], 
+   "edition_count": 1, 
+   "edition_key": [
+    "OL8171836M"
+   ], 
+   "text": [
+    "OL3810841W", 
+    "Der Herr Der Ringe (Lord of the Rings in German) vol.2 Die Zwei Turme (The Two Towers)", 
+    "OL8171836M", 
+    "French & European Pubns", 
+    "0828808880", 
+    "9780828808880", 
+    "OL26320A", 
+    "J. R. R. Tolkien", 
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "title": "Der Herr Der Ringe (Lord of the Rings in German) vol.2 Die Zwei Turme (The Two Towers)", 
+   "author_alternative_name": [
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "publish_year": [
+    2002
+   ], 
+   "first_publish_year": 2002, 
+   "author_name": [
+    "J. R. R. Tolkien"
+   ], 
+   "key": "OL3810841W", 
+   "publish_date": [
+    "January 2002"
+   ], 
+   "author_key": [
+    "OL26320A"
+   ], 
+   "id_goodreads": [
+    "136780"
+   ]
+  }, 
+  {
+   "title_suggest": "Il Signore degli Anelli : Le Due Torri / Italian edition of Lord of the Rings", 
+   "publisher": [
+    "French & European Pubns", 
+    "Bompiani"
+   ], 
+   "subtitle": "The Two Towers", 
+   "has_fulltext": false, 
+   "id_librarything": [
+    "1386651"
+   ], 
+   "edition_count": 2, 
+   "edition_key": [
+    "OL24591556M", 
+    "OL11462327M"
+   ], 
+   "text": [
+    "OL8967677W", 
+    "Il Signore degli Anelli : Le Due Torri / Italian edition of Lord of the Rings", 
+    "The Two Towers", 
+    "Il Signore degli Anelli : Le Due Torri / Italian edition of Lord of the Rings ", 
+    "Le due Torri", 
+    "OL24591556M", 
+    "OL11462327M", 
+    "French & European Pubns", 
+    "Bompiani", 
+    "9780828879767", 
+    "0828879761", 
+    "8845290425", 
+    "OL26320A", 
+    "J. R. R. Tolkien", 
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "title": "Il Signore degli Anelli : Le Due Torri / Italian edition of Lord of the Rings", 
+   "isbn": [
+    "9780828879767", 
+    "0828879761", 
+    "8845290425"
+   ], 
+   "author_alternative_name": [
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "publish_year": [
+    2002, 
+    2000
+   ], 
+   "first_publish_year": 2000, 
+   "author_name": [
+    "J. R. R. Tolkien"
+   ], 
+   "key": "OL8967677W", 
+   "publish_date": [
+    "novembre 2000", 
+    "January 1, 2002"
+   ], 
+   "author_key": [
+    "OL26320A"
+   ], 
+   "id_goodreads": [
+    "225395"
+   ]
+  }, 
+  {
+   "title_suggest": "Il Signore degli Anelli: 1: La Compagnia dell'anello / Italian edition of The Lord of the Rings : 1", 
+   "publish_place": [
+    "Milano, Italia"
+   ], 
+   "subtitle": "Fellowship of the Rings", 
+   "has_fulltext": false, 
+   "author_name": [
+    "J. R. R. Tolkien"
+   ], 
+   "edition_count": 2, 
+   "edition_key": [
+    "OL24591555M", 
+    "OL8171920M"
+   ], 
+   "text": [
+    "OL14926015W", 
+    "Il Signore degli Anelli: 1: La Compagnia dell'anello / Italian edition of The Lord of the Rings : 1", 
+    "Fellowship of the Rings", 
+    "La Compagnia dell'Anello", 
+    "OL24591555M", 
+    "OL8171920M", 
+    "French & European Pubns", 
+    "Bompiani", 
+    "0828839816", 
+    "9788845290404", 
+    "8845290409", 
+    "9780828839815", 
+    "OL26320A", 
+    "J. R. R. Tolkien", 
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "title": "Il Signore degli Anelli: 1: La Compagnia dell'anello / Italian edition of The Lord of the Rings : 1", 
+   "publisher": [
+    "French & European Pubns", 
+    "Bompiani"
+   ], 
+   "isbn": [
+    "0828839816", 
+    "9788845290404", 
+    "8845290409", 
+    "9780828839815"
+   ], 
+   "author_alternative_name": [
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "language": [
+    "ita"
+   ], 
+   "publish_year": [
+    2002, 
+    2000
+   ], 
+   "first_publish_year": 2000, 
+   "id_librarything": [
+    "3203347"
+   ], 
+   "key": "OL14926015W", 
+   "publish_date": [
+    "novembre 2000", 
+    "January 1, 2002"
+   ], 
+   "author_key": [
+    "OL26320A"
+   ], 
+   "id_goodreads": [
+    "317017"
+   ]
+  }, 
+  {
+   "title_suggest": "Mo jie shou bu qu: mo jie xian shen ('The Lord of the Rings: Fellowship of the Ring' in Traditional Chinese Characters)", 
+   "edition_key": [
+    "OL9149754M"
+   ], 
+   "cover_i": 7094307, 
+   "isbn": [
+    "9789570823363", 
+    "9570823364"
+   ], 
+   "has_fulltext": true, 
+   "text": [
+    "OL14933456W", 
+    "Mo jie shou bu qu: mo jie xian shen ('The Lord of the Rings: Fellowship of the Ring' in Traditional Chinese Characters)", 
+    "OL9149754M", 
+    "Tsai Fong Books, Inc", 
+    "9789570823363", 
+    "9570823364", 
+    "mojieshoubuqumoj00tolk", 
+    "OL26320A", 
+    "J. R. R. Tolkien", 
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein", 
+    "Accessible book", 
+    "Protected DAISY"
+   ], 
+   "author_name": [
+    "J. R. R. Tolkien"
+   ], 
+   "ia_loaded_id": [
+    "mojieshoubuqumoj00tolk"
+   ], 
+   "id_librarything": [
+    "3203347"
+   ], 
+   "ia": [
+    "mojieshoubuqumoj00tolk"
+   ], 
+   "author_key": [
+    "OL26320A"
+   ], 
+   "subject": [
+    "Accessible book", 
+    "Protected DAISY"
+   ], 
+   "title": "Mo jie shou bu qu: mo jie xian shen ('The Lord of the Rings: Fellowship of the Ring' in Traditional Chinese Characters)", 
+   "ia_collection_s": "printdisabled;bostonpubliclibrary;china;americana;internetarchivebooks", 
+   "first_publish_year": 2001, 
+   "printdisabled_s": "OL9149754M", 
+   "ia_box_id": [
+    "IA176501"
+   ], 
+   "edition_count": 1, 
+   "key": "OL14933456W", 
+   "id_goodreads": [
+    "15294"
+   ], 
+   "public_scan_b": false, 
+   "publisher": [
+    "Tsai Fong Books, Inc"
+   ], 
+   "author_alternative_name": [
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "cover_edition_key": "OL9149754M", 
+   "publish_year": [
+    2001
+   ], 
+   "publish_date": [
+    "December 2001"
+   ]
+  }, 
+  {
+   "title_suggest": "Il Signore degli Anelli : Il Ritorno del Re / Italian edition of The Lord of the Rings", 
+   "publisher": [
+    "French & European Pubns"
+   ], 
+   "subtitle": "Return of the KIng", 
+   "has_fulltext": false, 
+   "id_librarything": [
+    "1386651"
+   ], 
+   "edition_count": 1, 
+   "edition_key": [
+    "OL11038174M"
+   ], 
+   "text": [
+    "OL8967676W", 
+    "Il Signore degli Anelli : Il Ritorno del Re / Italian edition of The Lord of the Rings", 
+    "Return of the KIng", 
+    "Il Signore degli Anelli : Il Ritorno del Re / Italian edition of The Lord of the Rings ", 
+    "OL11038174M", 
+    "French & European Pubns", 
+    "9780785913986", 
+    "078591398X", 
+    "OL26320A", 
+    "J. R. R. Tolkien", 
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "title": "Il Signore degli Anelli : Il Ritorno del Re / Italian edition of The Lord of the Rings", 
+   "isbn": [
+    "9780785913986", 
+    "078591398X"
+   ], 
+   "author_alternative_name": [
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "publish_year": [
+    2003
+   ], 
+   "first_publish_year": 2003, 
+   "author_name": [
+    "J. R. R. Tolkien"
+   ], 
+   "key": "OL8967676W", 
+   "publish_date": [
+    "January 1, 2003"
+   ], 
+   "author_key": [
+    "OL26320A"
+   ], 
+   "id_goodreads": [
+    "726786"
+   ]
+  }, 
+  {
+   "title_suggest": "Il Signore degli Anelli : 2 : Le Due Torri / Italian edition of The Lord of the Rings : 2", 
+   "publisher": [
+    "French & European Pubns"
+   ], 
+   "subtitle": "The Two Towers", 
+   "has_fulltext": false, 
+   "edition_count": 1, 
+   "edition_key": [
+    "OL11461669M"
+   ], 
+   "text": [
+    "OL14926016W", 
+    "Il Signore degli Anelli : 2 : Le Due Torri / Italian edition of The Lord of the Rings : 2", 
+    "The Two Towers", 
+    "OL11461669M", 
+    "French & European Pubns", 
+    "0828866058", 
+    "9780828866057", 
+    "OL26320A", 
+    "J. R. R. Tolkien", 
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "title": "Il Signore degli Anelli : 2 : Le Due Torri / Italian edition of The Lord of the Rings : 2", 
+   "isbn": [
+    "0828866058", 
+    "9780828866057"
+   ], 
+   "author_alternative_name": [
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "publish_year": [
+    2002
+   ], 
+   "first_publish_year": 2002, 
+   "author_name": [
+    "J. R. R. Tolkien"
+   ], 
+   "key": "OL14926016W", 
+   "publish_date": [
+    "January 1, 2002"
+   ], 
+   "author_key": [
+    "OL26320A"
+   ], 
+   "id_goodreads": [
+    "626105"
+   ]
+  }, 
+  {
+   "title_suggest": "Il Signore degli Anelli: 3: Il Retorno del Re / Italian edition of The Lord of the Rings : 3", 
+   "publisher": [
+    "French & European Pubns"
+   ], 
+   "subtitle": "The Return of the King", 
+   "has_fulltext": false, 
+   "id_librarything": [
+    "3203356"
+   ], 
+   "edition_count": 1, 
+   "edition_key": [
+    "OL11461793M"
+   ], 
+   "text": [
+    "OL14926017W", 
+    "Il Signore degli Anelli: 3: Il Retorno del Re / Italian edition of The Lord of the Rings : 3", 
+    "The Return of the King", 
+    "OL11461793M", 
+    "French & European Pubns", 
+    "9780828868297", 
+    "0828868298", 
+    "OL26320A", 
+    "J. R. R. Tolkien", 
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "title": "Il Signore degli Anelli: 3: Il Retorno del Re / Italian edition of The Lord of the Rings : 3", 
+   "isbn": [
+    "9780828868297", 
+    "0828868298"
+   ], 
+   "author_alternative_name": [
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "publish_year": [
+    2000
+   ], 
+   "first_publish_year": 2000, 
+   "author_name": [
+    "J. R. R. Tolkien"
+   ], 
+   "key": "OL14926017W", 
+   "publish_date": [
+    "January 1, 2000"
+   ], 
+   "author_key": [
+    "OL26320A"
+   ], 
+   "id_goodreads": [
+    "479958"
+   ]
+  }, 
+  {
+   "title_suggest": "J.R.R. Tolkien Boxed Set (The Hobbit and The Lord of the Rings)", 
+   "publisher": [
+    "Del Rey"
+   ], 
+   "cover_i": 207364, 
+   "isbn": [
+    "0345340426", 
+    "9780345340429"
+   ], 
+   "has_fulltext": false, 
+   "id_librarything": [
+    "4881"
+   ], 
+   "edition_count": 1, 
+   "edition_key": [
+    "OL9619792M"
+   ], 
+   "text": [
+    "OL14926019W", 
+    "J.R.R. Tolkien Boxed Set (The Hobbit and The Lord of the Rings)", 
+    "OL9619792M", 
+    "Del Rey", 
+    "0345340426", 
+    "9780345340429", 
+    "OL26320A", 
+    "J. R. R. Tolkien", 
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "title": "J.R.R. Tolkien Boxed Set (The Hobbit and The Lord of the Rings)", 
+   "author_alternative_name": [
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "cover_edition_key": "OL9619792M", 
+   "language": [
+    "eng"
+   ], 
+   "publish_year": [
+    1986
+   ], 
+   "first_publish_year": 1986, 
+   "author_name": [
+    "J. R. R. Tolkien"
+   ], 
+   "key": "OL14926019W", 
+   "publish_date": [
+    "September 12, 1986"
+   ], 
+   "author_key": [
+    "OL26320A"
+   ], 
+   "id_goodreads": [
+    "30"
+   ]
+  }, 
+  {
+   "title_suggest": "Le Seigneur des Anneaux, 3 Volume Boxed Set Containing\" La Communeaute de l'Anneau; Les Deux Tours; Le retour du Roi: French Edition of Lord of the Rings, Containing", 
+   "publisher": [
+    "French & European Pubns"
+   ], 
+   "subtitle": "The Fellowship of the Ring; The Two Towers; Return of the King", 
+   "has_fulltext": false, 
+   "id_librarything": [
+    "1386651"
+   ], 
+   "edition_count": 1, 
+   "edition_key": [
+    "OL8171857M"
+   ], 
+   "last_modified_i": 1274396160, 
+   "title": "Le Seigneur des Anneaux, 3 Volume Boxed Set Containing\" La Communeaute de l'Anneau; Les Deux Tours; Le retour du Roi: French Edition of Lord of the Rings, Containing", 
+   "isbn": [
+    "0828818126", 
+    "9780828818124"
+   ], 
+   "author_alternative_name": [
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "publish_year": [
+    2000
+   ], 
+   "first_publish_year": 2000, 
+   "author_name": [
+    "J. R. R. Tolkien"
+   ], 
+   "key": "OL14926030W", 
+   "text": [
+    "OL14926030W", 
+    "Le Seigneur des Anneaux, 3 Volume Boxed Set Containing\" La Communeaute de l'Anneau; Les Deux Tours; Le retour du Roi: French Edition of Lord of the Rings, Containing", 
+    "The Fellowship of the Ring; The Two Towers; Return of the King", 
+    "OL8171857M", 
+    "French & European Pubns", 
+    "0828818126", 
+    "9780828818124", 
+    "OL26320A", 
+    "J. R. R. Tolkien", 
+    "J. R. R. Tolkein", 
+    "John Ronald Reuel Tolkien", 
+    "J.R.R. Tolkein"
+   ], 
+   "publish_date": [
+    "September 2000"
+   ], 
+   "author_key": [
+    "OL26320A"
+   ], 
+   "id_goodreads": [
+    "227234"
+   ], 
+   "ebook_count_i": 0
+  }
+ ]
+}

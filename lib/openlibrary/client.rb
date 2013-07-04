@@ -4,6 +4,7 @@ require 'openlibrary/client/authors'
 require 'openlibrary/client/history'
 require 'openlibrary/client/recent'
 require 'openlibrary/client/editions'
+require 'openlibrary/client/search'
 require 'openlibrary/client/login'
 require 'openlibrary/client/save'
 
@@ -15,6 +16,7 @@ module Openlibrary
     include Openlibrary::History
     include Openlibrary::Recent
     include Openlibrary::Editions
+    include Openlibrary::Search
     include Openlibrary::Login
     include Openlibrary::Save
 
