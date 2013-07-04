@@ -1,12 +1,12 @@
-require 'openlibrary/request'
-require 'openlibrary/client/books'
-require 'openlibrary/client/authors'
-require 'openlibrary/client/history'
-require 'openlibrary/client/recent'
-require 'openlibrary/client/editions'
-require 'openlibrary/client/search'
-require 'openlibrary/client/login'
-require 'openlibrary/client/save'
+require_relative 'request'
+require_relative 'client/books'
+require_relative 'client/authors'
+require_relative 'client/history'
+require_relative 'client/recent'
+require_relative 'client/editions'
+require_relative 'client/search'
+require_relative 'client/login'
+require_relative 'client/save'
 
 module Openlibrary
   class Client
