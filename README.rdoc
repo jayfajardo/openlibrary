@@ -1,4 +1,4 @@
-== Openlibrary 2.0.0
+== Openlibrary 2.0.1
 
 The openlibrary gem provides Ruby clients for the {Open Library REST API}[http://openlibrary.org/dev/docs/restful_api] and {Books API}[http://openlibrary.org/dev/docs/api/books].
 
@@ -186,3 +186,7 @@ Other built-in finder methods:
 * Eric Larson https://github.com/ewlarson
 * Charles Horn https://github.com/hornc
 * Alex Grant https://github.com/grantovich
+
+== LICENSE
+
+This code is released under the {CC0 License}[http://creativecommons.org/publicdomain/zero/1.0/], and may be used for any purpose without restrictions.
