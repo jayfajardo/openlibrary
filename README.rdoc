@@ -96,6 +96,20 @@ Find an author by their OLID:
   author.revision             # number of current revision
   author.key!                 # author key, in the format '/authors/{OLID}
 
+=== Search
+
+Find books through the Open Library free text search:
+
+  results = client.search("A Tale of Two Cities")
+
+Search by book attributes:
+
+  results = client.search({author: "Doctorow", title: "Little Brother"})
+
+Results are arrays of books
+
+  results[0].title            # the title of the first result
+
 === Revision History
 
 Get the revision history of any Open Library object:
@@ -187,3 +201,4 @@ Other built-in finder methods:
 * Charles Horn https://github.com/hornc
 * Alex Grant https://github.com/grantovich
 * Bryan L. Fordham https://github.com/bfordham
+* Kyle Corbitt https://github.com/kcorbitt
