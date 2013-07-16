@@ -1,4 +1,4 @@
-== Openlibrary 2.0.2
+== Openlibrary 2.1.0
 
 The openlibrary gem provides Ruby clients for the {Open Library REST API}[http://openlibrary.org/dev/docs/restful_api] and {Books API}[http://openlibrary.org/dev/docs/api/books].
 
@@ -7,7 +7,7 @@ For more information about Open Library development, visit the {Open Library Dev
 
 == Installation
 
-The gem is tested against Ruby 1.9.2 and runs smoothly with Rails 3.
+The gem is tested against Ruby 2.0.0 and runs smoothly with Rails 4.
 
   gem install openlibrary 
 

@@ -1,9 +1,9 @@
-require 'openlibrary/version'
-require 'openlibrary/data'
-require 'openlibrary/view'
-require 'openlibrary/client'
-require 'openlibrary/errors'
-require 'openlibrary/request'
+require_relative 'openlibrary/version'
+require_relative 'openlibrary/data'
+require_relative 'openlibrary/view'
+require_relative 'openlibrary/client'
+require_relative 'openlibrary/errors'
+require_relative 'openlibrary/request'
 
 module Openlibrary
   # Create a new Openlibrary::Client instance
