@@ -192,9 +192,34 @@ describe 'Client' do
     end
   end
 
+  describe '#search' do
+    before do
+      stub_get("/search.json?author=tolkien&title=lord%20of%20the%20rings", 'search.json')
+      stub_get("/search.json?q=capitalism%20and%20freedom", 'free_search.json')
+    end
+
+    it 'returns book search results' do
+      search = {title: "lord of the rings", author: "tolkien"}
+      expect {client.search(search)}.not_to raise_error
+
+      search = client.search(search, 5, 10)
+
+      search.size.should eq         5
+      search[0].key!.should eq   'OL14926051W'
+      search[0].title.should eq  'The Lord of Rings'
+
+      expect {client.search("capitalism and freedom")}.not_to raise_error
+      free_search = client.search("capitalism and freedom")
+
+      free_search.size.should eq                10
+      free_search[0].key!.should eq             'OL2747782W'
+      free_search[0].author_name[0].should eq   'Milton Friedman'
+    end
+  end
+
   describe '#login' do
     before do
-      stub_http_request(:post, "www.openlibrary.org/account/login").
+      stub_http_request(:post, "openlibrary.org/account/login").
         with( body: "{\"username\":\"username\",\"password\":\"password\"}" ).
         to_return( status: 200, headers: {'Set-Cookie' => 'session=cookie'} )
     end
