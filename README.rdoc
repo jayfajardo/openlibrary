@@ -200,5 +200,12 @@ Other built-in finder methods:
 * Eric Larson https://github.com/ewlarson
 * Charles Horn https://github.com/hornc
 * Alex Grant https://github.com/grantovich
+<<<<<<< HEAD
 * Bryan L. Fordham https://github.com/bfordham
 * Kyle Corbitt https://github.com/kcorbitt
+=======
+
+== LICENSE
+
+This code is released under the {CC0 License}[http://creativecommons.org/publicdomain/zero/1.0/], and may be used for any purpose without restrictions.
+>>>>>>> 3e3db18144f8faad94b5c0353424e4207a795c88
