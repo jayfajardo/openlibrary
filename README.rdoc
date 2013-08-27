@@ -1,4 +1,6 @@
-== Openlibrary 2.1.0
+== Openlibrary
+
+{<img src="https://badge.fury.io/rb/openlibrary.png" alt="Gem Version" />}[http://badge.fury.io/rb/openlibrary]
 
 The openlibrary gem provides Ruby clients for the {Open Library REST API}[http://openlibrary.org/dev/docs/restful_api] and {Books API}[http://openlibrary.org/dev/docs/api/books].
 
@@ -9,7 +11,7 @@ For more information about Open Library development, visit the {Open Library Dev
 
 The gem is tested against Ruby 2.0.0 and runs smoothly with Rails 4.
 
-  gem install openlibrary 
+  gem install openlibrary
 
 or in your Gemfile:
 
@@ -22,15 +24,15 @@ You can use the Books client to retrieve a book's Open Library listing informati
   # just require
   require 'openlibrary'
 
-== REST Client 
+== REST Client
 
-You can use the REST client to look up books, authors, the revision history of any Open Library object, and recent changes to Open Library. 
+You can use the REST client to look up books, authors, the revision history of any Open Library object, and recent changes to Open Library.
 
 You can also use the REST client to log in and save changes to Open Library, after you register your profile (or your bot's profile) with the {API Usergroup}[http://openlibrary.org/usergroup/api]. Send a message to the {ol-tech mailing list}[http://mail.archive.org/cgi-bin/mailman/listinfo/ol-tech] to learn how!
 
 === Getting Started
 
-Before anything else, create a new client: 
+Before anything else, create a new client:
 
   client = Openlibrary::Client.new
 
@@ -41,7 +43,7 @@ Since Open Library has varying amounts of information about the books in its dat
 Find a book by its OLID:
 
   book = client.book('olid')
-  
+
   book.contributors     # array of book contributors
   book.covers           # array of book cover ids
   book.works            # array of works associated with the book
@@ -135,7 +137,7 @@ Set the other parameters for the object you want to change:
   key     = '/type/OLID'              # e.g., '/books/OL9220552M'
   update  = full_object_with_changes  # must be JSON format
   comment = 'changed X, Y, and Z'
-  
+
 Save your changes and receive the updated object as a response:
 
   object = client.save(key, cookie, update, comment)
@@ -159,11 +161,11 @@ Look up a book by its ISBN-10 or ISBN-13:
   book.info_url      # book's URL on Open Library
   book.preview       # book's preview state, either 'noview' or 'full'
   book.thumbnail_url # url of thumbnail cover of the book, if available
-  
-  book.preview_url 
-  # Links to an archive.org page with a readable version of the book, 
-  # if one is available. If not, links to the book's Open Library 
-  # page. `book.preview` should be used first to test if a readable 
+
+  book.preview_url
+  # Links to an archive.org page with a readable version of the book,
+  # if one is available. If not, links to the book's Open Library
+  # page. `book.preview` should be used first to test if a readable
   # preview of the book exists.
 
 Other built-in finder methods:
@@ -182,7 +184,7 @@ Instantiate the class:
 Look up a book by its ISBN-10 or ISBN-13:
 
   book_details = data.find_by_isbn("0451526538")
-  
+
   book_details.title    # book's title
   book_details.authors  # array of authors
 
@@ -200,12 +202,9 @@ Other built-in finder methods:
 * Eric Larson https://github.com/ewlarson
 * Charles Horn https://github.com/hornc
 * Alex Grant https://github.com/grantovich
-<<<<<<< HEAD
 * Bryan L. Fordham https://github.com/bfordham
 * Kyle Corbitt https://github.com/kcorbitt
-=======
 
 == LICENSE
 
 This code is released under the {CC0 License}[http://creativecommons.org/publicdomain/zero/1.0/], and may be used for any purpose without restrictions.
->>>>>>> 3e3db18144f8faad94b5c0353424e4207a795c88
