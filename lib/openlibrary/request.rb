@@ -6,51 +6,40 @@ require 'hashie'
 
 module Openlibrary
   module Request
-    API_URL    = 'http://openlibrary.org'
+    API_URL    = 'https://openlibrary.org'
 
     protected
+
+    HANDLE_REST_CLIENT_RESPONSE = lambda do |response, request, result, &block|
+      case response.code
+      when 200
+        response.return!(request, result, &block)
+      when 401
+        raise Openlibrary::Unauthorized
+      when 404
+        raise Openlibrary::NotFound
+      when 302
+        raise Openlibrary::Redirect
+      end
+    end
 
     # Perform a GET request
     #
     # path   - Request path
     #
     def request(path, params={})
-      params.merge!(accept: :json)
-      url = "#{API_URL}#{path}"
-
-      resp = RestClient.get(url, params) do |response, request, result, &block|
-        case response.code
-        when 200
-          response.return!(request, result, &block)
-        when 401
-          raise Openlibrary::Unauthorized
-        when 404
-          raise Openlibrary::NotFound
-        end
-      end
-      parse(resp)
+      request_url = "#{API_URL}#{path}"
+      perform_get_request(request_url, params)
     end
 
 
     # Get the history of an object in Open Library
-    # 
+    #
     # object   - Object key, e.g., '/books/OL1M'
     #
     def history(object, params={})
-      params.merge!(accept: :json)
-      url = "#{API_URL}#{object}.json?m=history"
-
-      resp = RestClient.get(url, params) do |response, request, result, &block|
-        case response.code
-        when 200
-          response.return!(request, result, &block)
-        when 401
-          raise Openlibrary::Unauthorized
-        when 404
-          raise Openlibrary::NotFound
-        end
-      end
-      parse(resp)
+      history_url = "#{API_URL}#{object}.json?m=history"
+      perform_get_request(history_url, params)
     end
 
     # Perform a query using the Query API
@@ -58,24 +47,13 @@ module Openlibrary
     # query - Query path, e.g. "type=/type/edition&isbn_10=XXXXXXXXXX"
     #
     def query(query, params={})
-      params.merge!(accept: :json)
-      url = "#{API_URL}/query.json?#{query}"
-      resp = RestClient.get(url, params) do |response, request, result, &block|
-        case response.code
-        when 200
-          response.return!(request, result, &block)
-        when 401
-          raise Openlibrary::Unauthorized
-        when 404
-          raise Openlibrary::NotFound
-        end
-      end
-      parse(resp)
+      query_url = "#{API_URL}/query.json?#{query}"
+      perform_get_request(query_url, params)
     end
 
     def protected_login(username, password, params={})
       params.merge!(content_type: :json, accept: :json)
-      url = "#{API_URL}/account/login"
+      url   = "#{API_URL}/account/login"
       login = { 'username' => username, 'password' => password }.to_json
 
       resp = RestClient.post(url, login, params) do |response|
@@ -87,11 +65,13 @@ module Openlibrary
           raise Openlibrary::Unauthorized
         when 404
           raise Openlibrary::NotFound
+        when 302
+          raise Openlibrary::Redirect
         end
       end
     end
 
-    # Update an Open Library object 
+    # Update an Open Library object
     #
     # key     - Object key the Open Library resource
     # cookie  - Cookie retrieved by the login method
@@ -100,31 +80,29 @@ module Openlibrary
     #
     def update(key, cookie, update, comment, params={})
       cookie_header = { 'Cookie' => cookie }
-      comment_header = { 
+      comment_header = {
         'Opt' => '"http://openlibrary.org/dev/docs/api"; ns=42',
-        '42-comment' => comment 
+        '42-comment' => comment
       }
       params.merge!(cookie_header)
       params.merge!(comment_header)
       params.merge!(content_type: :json, accept: :json)
-      url = "#{API_URL}#{key}"
+      update_url = "#{API_URL}#{key}"
 
-      resp = RestClient.put(url, update, params) do |response, request, result, &block|
-        case response.code
-        when 200
-          response.return!(request, result, &block)
-        when 401
-          raise Openlibrary::Unauthorized
-        when 404
-          raise Openlibrary::NotFound
-        end
-      end
-      parse(resp)
+      response = RestClient.put(update_url, update, params, &HANDLE_REST_CLIENT_RESPONSE)
+      parse(response)
     end
 
-    def parse(resp)
-      object = JSON.parse(resp.body)
-      object
+    def parse(response)
+      JSON.parse(response.body)
     end
+    private :parse
+
+    def perform_get_request(url, params)
+      params.merge!(accept: :json)
+      response = RestClient.get(url, params, &HANDLE_REST_CLIENT_RESPONSE)
+      parse(response)
+    end
+    private :perform_get_request
   end
 end
