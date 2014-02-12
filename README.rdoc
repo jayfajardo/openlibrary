@@ -146,7 +146,7 @@ NOTICE: Before you can actually save changes to Open Library, you need to regist
 
 == Books Client
 
-There are two classes in the openlibrary gem you can use to access the {Books API}[http://openlibrary.org/dev/docs/api/books]. Use Openlibrary::View to look up Open Library listing information, and Openlibrary::Data to get a book's full metadata details.
+There are three classes in the openlibrary gem you can use to access the {Books API}[http://openlibrary.org/dev/docs/api/books]. Use Openlibrary::View to look up Open Library listing information, Openlibrary::Data to get a book's full metadata details, and Openlibrary::Details to get book details in addition to what the Openlibrary::View class provides.
 
 === Openlibrary::View
 
@@ -183,16 +183,35 @@ Instantiate the class:
 
 Look up a book by its ISBN-10 or ISBN-13:
 
-  book_details = data.find_by_isbn("0451526538")
+  book_data = data.find_by_isbn("0451526538")
 
-  book_details.title    # book's title
-  book_details.authors  # array of authors
+  book_data.title    # book's title
+  book_data.authors  # array of authors
 
 Other built-in finder methods:
 
-  view.find_by_lccn   # Library of Congress catalog number
-  view.find_by_oclc   # Worldcat Control Number
-  view.find_by_olid   # Open Library ID
+  data.find_by_lccn   # Library of Congress catalog number
+  data.find_by_oclc   # Worldcat Control Number
+  data.find_by_olid   # Open Library ID
+
+=== Openlibrary::Details
+
+Instantiate the class:
+  
+  details = Openlibrary::Details
+
+Look up a book by its ISBN-10 or ISBN-13:
+
+  book_details = details.find_by_isbn("0451526538")
+
+  book_details.info_url    # book's URL on Open Library
+  book_details.details     # additional details, such as description
+
+Other built-in finder methods:
+
+  details.find_by_lccn   # Library of Congress catalog number
+  details.find_by_oclc   # Worldcat Control Number
+  details.find_by_olid   # Open Library ID
 
 == CONTRIBUTORS
 
