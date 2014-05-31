@@ -224,6 +224,7 @@ Other built-in finder methods:
 * Bryan L. Fordham https://github.com/bfordham
 * Kyle Corbitt https://github.com/kcorbitt
 * Matt Dressel https://github.com/dresselm
+* Scott Lesser https://github.com/okcscott
 
 == LICENSE
 
