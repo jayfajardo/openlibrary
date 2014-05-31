@@ -4,6 +4,7 @@ require_relative 'openlibrary/view'
 require_relative 'openlibrary/client'
 require_relative 'openlibrary/errors'
 require_relative 'openlibrary/request'
+require_relative 'openlibrary/details'
 
 module Openlibrary
   # Create a new Openlibrary::Client instance
