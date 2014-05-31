@@ -51,3 +51,19 @@ describe 'Openlibrary::Data' do
 	it { should respond_to(:pages) }
 	it { should respond_to(:weight) }
 end
+
+describe 'Openlibrary::Details' do
+	before do
+		@book_details = Openlibrary::Details.new
+	end
+
+	subject { @book_details }
+	
+	it { should_not respond_to(:some_random_thing) }
+
+	it { should respond_to(:info_url) }
+	it { should respond_to(:bib_key) }
+	it { should respond_to(:preview_url) }
+	it { should respond_to(:thumbnail_url) }
+	it { should respond_to(:details) }
+end
