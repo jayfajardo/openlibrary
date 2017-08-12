@@ -7,7 +7,7 @@ require 'webmock'
 require 'webmock/rspec'
 
 RSpec.configure do |config|
-  config.color_enabled = true
+  config.color = true
   config.formatter     = 'documentation'
 end
 
@@ -17,8 +17,8 @@ def stub_get(path, fixture_name)
       'Accept'=>'application/json'
     }).
     to_return(
-      status:  200, 
-      body:    fixture(fixture_name), 
+      status:  200,
+      body:    fixture(fixture_name),
       headers: {}
     )
 end

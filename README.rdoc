@@ -9,7 +9,7 @@ For more information about Open Library development, visit the {Open Library Dev
 
 == Installation
 
-The gem is tested against Ruby 2.0.0 and runs smoothly with Rails 4.
+The gem is tested against Rubies 2.2.2, and current latest 2.2.x, 2.3.x, and 2.4.x (specifically 2.2.7, 2.3.4, 2.4.1) and runs smoothly with Rails 5.
 
   gem install openlibrary
 
