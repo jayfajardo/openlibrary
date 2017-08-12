@@ -25,30 +25,30 @@ describe 'Client' do
 
       book = client.book('OL23109860M')
 
-      book.should be_a Hashie::Mash
-      book.contributors.should be_a Array
-      book.covers.should be_a       Array
-      book.works.should be_a        Array
+      expect(book).to be_a Hashie::Mash
+      expect(book.contributors).to be_a Array
+      expect(book.covers).to be_a       Array
+      expect(book.works).to be_a        Array
 
-      book.title.should eq                    'The Great Gatsby'
-      book.by_statement.should eq             'F. Scott Fitzgerald.'
-      book.number_of_pages.should eq          180
-      book.contributors[0].name.should eq     'Francis Cugat'
-      book.contributors[0].role.should eq     'Cover Art'
-      book.copyright_date.should eq           '1925'
-      book.isbn_10[0].should eq               '0743273567'
-      book.identifiers.goodreads[0].should eq '4671'
-      book.identifiers.google[0].should eq    'iXn5U2IzVH0C'
-      book.physical_format.should eq          'Trade Paperback'
-      book.publishers[0].should eq            'Scribner'
-      book.subjects[1].should eq              'First loves -- Fiction'
-      book.subjects[0].should eq              'Traffic accidents -- Fiction'
+      expect(book.title).to eq                    'The Great Gatsby'
+      expect(book.by_statement).to eq             'F. Scott Fitzgerald.'
+      expect(book.number_of_pages).to eq          180
+      expect(book.contributors[0].name).to eq     'Francis Cugat'
+      expect(book.contributors[0].role).to eq     'Cover Art'
+      expect(book.copyright_date).to eq           '1925'
+      expect(book.isbn_10[0]).to eq               '0743273567'
+      expect(book.identifiers.goodreads[0]).to eq '4671'
+      expect(book.identifiers.google[0]).to eq    'iXn5U2IzVH0C'
+      expect(book.physical_format).to eq          'Trade Paperback'
+      expect(book.publishers[0]).to eq            'Scribner'
+      expect(book.subjects[1]).to eq              'First loves -- Fiction'
+      expect(book.subjects[0]).to eq              'Traffic accidents -- Fiction'
 
       # Because of a conflict with the internal `key?` method of
       # Hashie::Mash, any key actually named 'key' must be referenced
       # with a bang (!) to get the value.
-      book.key!.should eq                     '/books/OL23109860M'
-      book.languages[0].key!.should eq           '/languages/eng'
+      expect(book.key!).to eq                     '/books/OL23109860M'
+      expect(book.languages[0].key!).to eq           '/languages/eng'
     end
   end
 
@@ -66,10 +66,10 @@ describe 'Client' do
 
       books = client.book_by_isbn('046503912X')
 
-      books.should be_a Array
-      books[0].should be_a Hash
+      expect(books).to be_a Array
+      expect(books[0]).to be_a Hash
 
-      books[0]['key'].should eq '/books/OL6807502M'
+      expect(books[0]['key']).to eq '/books/OL6807502M'
     end
   end
 
@@ -85,8 +85,8 @@ describe 'Client' do
 
       books = client.book_by_lccn('00271772')
 
-      books.should be_a Array
-      books[0].should be_a Hash
+      expect(books).to be_a Array
+      expect(books[0]).to be_a Hash
     end
   end
 
@@ -102,8 +102,8 @@ describe 'Client' do
 
       books = client.book_by_oclc('42860053')
 
-      books.should be_a Array
-      books[0].should be_a Hash
+      expect(books).to be_a Array
+      expect(books[0]).to be_a Hash
     end
   end
 
@@ -118,20 +118,20 @@ describe 'Client' do
 
       author = client.author('OL1A')
 
-      author.should be_a Hashie::Mash
-      author.name.should eq                'Sachi Rautroy'
-      author.personal_name.should eq       'Sachi Rautroy'
-      author.death_date.should eq          '2004'
-      author.birth_date.should eq          '1916'
-      author.last_modified.type.should eq  '/type/datetime'
-      author.last_modified.value.should eq '2008-11-16T07:25:54.131674'
-      author.id.should eq                  97
-      author.revision.should eq            6
+      expect(author).to be_a Hashie::Mash
+      expect(author.name).to eq                'Sachi Rautroy'
+      expect(author.personal_name).to eq       'Sachi Rautroy'
+      expect(author.death_date).to eq          '2004'
+      expect(author.birth_date).to eq          '1916'
+      expect(author.last_modified.type).to eq  '/type/datetime'
+      expect(author.last_modified.value).to eq '2008-11-16T07:25:54.131674'
+      expect(author.id).to eq                  97
+      expect(author.revision).to eq            6
 
       # Because of a conflict with the internal `key?` method of
       # Hashie::Mash, any key actually named 'key' must be referenced
       # with a bang (!) to get the value.
-      author.key!.should eq                '/authors/OL1A'
+      expect(author.key!).to eq                '/authors/OL1A'
     end
   end
 
@@ -146,8 +146,8 @@ describe 'Client' do
 
       history = client.rev_history('/books/OL1M')
 
-      history.should be_a Array
-      history[0].should be_a Hash
+      expect(history).to be_a Array
+      expect(history[0]).to be_a Hash
     end
   end
 
@@ -161,8 +161,8 @@ describe 'Client' do
 
       changes = client.recent
 
-      changes.should be_a Array
-      changes[0].should be_a Hash
+      expect(changes).to be_a Array
+      expect(changes[0]).to be_a Hash
     end
   end
 
@@ -177,13 +177,13 @@ describe 'Client' do
 
       editions = client.editions('OL27258W', 10, 0)
 
-      editions.should be_a Hashie::Mash
-      editions.entries.should be_a Array
+      expect(editions).to be_a Hashie::Mash
+      expect(editions.entries).to be_a Array
 
-      editions.size!.should eq      19
-      editions.links.next.should eq '/works/OL27258W/editions.json?limit=10&offset=10'
-      editions.links.self.should eq '/works/OL27258W/editions.json?limit=10&offset=0'
-      editions.links.work.should eq '/works/OL27258W'
+      expect(editions.size!).to eq      19
+      expect(editions.links.next).to eq '/works/OL27258W/editions.json?limit=10&offset=10'
+      expect(editions.links.self).to eq '/works/OL27258W/editions.json?limit=10&offset=0'
+      expect(editions.links.work).to eq '/works/OL27258W'
 
       # Failing tests for iteration through entries
       #
@@ -204,16 +204,16 @@ describe 'Client' do
 
       search = client.search(search, 5, 10)
 
-      search.size.should eq         5
-      search[0].key!.should eq   'OL14926051W'
-      search[0].title.should eq  'The Lord of Rings'
+      expect(search.size).to eq         5
+      expect(search[0].key!).to eq   'OL14926051W'
+      expect(search[0].title).to eq  'The Lord of Rings'
 
       expect {client.search("capitalism and freedom")}.not_to raise_error
       free_search = client.search("capitalism and freedom")
 
-      free_search.size.should eq                10
-      free_search[0].key!.should eq             'OL2747782W'
-      free_search[0].author_name[0].should eq   'Milton Friedman'
+      expect(free_search.size).to eq                10
+      expect(free_search[0].key!).to eq             'OL2747782W'
+      expect(free_search[0].author_name[0]).to eq   'Milton Friedman'
     end
   end
 
@@ -228,7 +228,7 @@ describe 'Client' do
       expect { client.login('username', 'password') }.not_to raise_error
 
       cookie = client.login('username', 'password')
-      cookie.should eq "cookie"
+      expect(cookie).to eq "cookie"
     end
   end
 
@@ -249,8 +249,8 @@ describe 'Client' do
 
       object = client.save(key, cookie, update, comment)
 
-      object.weight.should eq '1.5 pounds'
-      object.number_of_pages.should eq 1103
+      expect(object.weight).to eq '1.5 pounds'
+      expect(object.number_of_pages).to eq 1103
     end
   end
 end
