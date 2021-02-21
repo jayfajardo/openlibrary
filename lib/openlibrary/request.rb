@@ -19,8 +19,8 @@ module Openlibrary
         raise Openlibrary::Unauthorized
       when 404
         raise Openlibrary::NotFound
-      when 302
-        raise Openlibrary::Redirect
+      else
+        response.return!(&block)
       end
     end
 
