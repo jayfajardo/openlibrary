@@ -14,13 +14,13 @@ module Openlibrary
     HANDLE_REST_CLIENT_RESPONSE = lambda do |response, request, result, &block|
       case response.code
       when 200
-        response.return!(request, result, &block)
+        response.return!(&block)
       when 401
         raise Openlibrary::Unauthorized
       when 404
         raise Openlibrary::NotFound
-      when 302
-        raise Openlibrary::Redirect
+      else
+        response.return!(&block)
       end
     end
 
