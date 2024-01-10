@@ -22,7 +22,7 @@ Gem::Specification.new do |s|
 
   s.add_runtime_dependency 'json',  '~> 2.5', '>= 2.5.1'
   s.add_runtime_dependency 'rest-client', '~> 2.0', '~> 2.0.1'
-  s.add_runtime_dependency 'hashie', '~> 2.0', '~> 2.0.2'
+  s.add_runtime_dependency 'hashie', '>= 3.5.0'
 
   s.add_runtime_dependency 'activesupport', '>= 6'
 end
