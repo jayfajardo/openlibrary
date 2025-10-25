@@ -13,6 +13,25 @@ describe 'Client' do
       expect { Openlibrary::Client.new('foo') }.
         to raise_error ArgumentError, "Options hash required."
     end
+
+    it 'sets custom User-Agent header via options' do
+      custom_user_agent = 'MyApp/1.0 (contact@example.com)'
+      client = Openlibrary::Client.new(headers: { 'User-Agent' => custom_user_agent })
+
+      olid = 'OL23109860M'
+      stub_request(:get, api_url("/books/#{olid}")).
+        with(headers: {
+          'Accept' => 'application/json',
+          'User-Agent' => custom_user_agent
+        }).
+        to_return(
+          status: 200,
+          body: fixture('book.json'),
+          headers: {}
+        )
+
+      expect { client.book(olid) }.not_to raise_error
+    end
   end
 
   describe '#book' do
