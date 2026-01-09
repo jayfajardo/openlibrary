@@ -53,6 +53,7 @@ module Openlibrary
     end
 
     def protected_login(username, password, params={})
+      params.merge!(custom_headers) if respond_to?(:custom_headers)
       params.merge!(content_type: :json, accept: :json)
       url   = "#{API_URL}/account/login"
       login = { 'username' => username, 'password' => password }.to_json
@@ -80,6 +81,7 @@ module Openlibrary
     # comment - Comment describing the change(s) to the object
     #
     def update(key, cookie, update, comment, params={})
+      params.merge!(custom_headers) if respond_to?(:custom_headers)
       cookie_header = { 'Cookie' => cookie }
       comment_header = {
         'Opt' => '"http://openlibrary.org/dev/docs/api"; ns=42',
@@ -100,6 +102,7 @@ module Openlibrary
     private :parse
 
     def perform_get_request(url, params)
+      params.merge!(custom_headers) if respond_to?(:custom_headers)
       params.merge!(accept: :json)
       response = RestClient.get(url, params, &HANDLE_REST_CLIENT_RESPONSE)
       parse(response)

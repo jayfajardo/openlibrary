@@ -20,12 +20,19 @@ module Openlibrary
     include Openlibrary::Login
     include Openlibrary::Save
 
+    attr_reader :custom_headers
+
     # Initialize an Openlibrary::Client instance
+    #
+    # options - Hash of options (optional)
+    #   :headers - Hash of custom headers to include in all requests
+    #              e.g., { 'User-Agent' => 'MyApp/1.0 (contact@example.com)' }
     #
     def initialize(options={})
       unless options.kind_of?(Hash)
         raise ArgumentError, "Options hash required."
       end
+      @custom_headers = options[:headers] || {}
     end
   end
 end
